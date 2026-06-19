@@ -1,0 +1,23 @@
+{
+  "name": "dac-san-viet-ecommerce",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --workspace server\" \"npm run dev --workspace client\"",
+    "build": "npm run build --workspace client",
+    "start": "npm run start --workspace server",
+    "db:migrate": "npm run db:migrate --workspace server",
+    "db:generate": "npm run db:generate --workspace server",
+    "import:wp": "npm run import:wp --workspace server",
+    "seed:admin": "npm run seed:admin --workspace server",
+    "test": "npm run test --workspace server"
+  },
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
