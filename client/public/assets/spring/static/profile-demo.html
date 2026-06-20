@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Demo - Đặc Sản Việt</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <style>
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 2rem 0;
+        }
+        
+        .demo-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 2rem;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+        }
+        
+        .profile-header {
+            text-align: center;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid #e9ecef;
+        }
+        
+        .profile-avatar {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin: 0 auto 1rem;
+        }
+        
+        .address-item {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            border: 1px solid #e9ecef;
+        }
+        
+        .address-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+        
+        .address-actions {
+            display: flex;
+            gap: 0.5rem;
+        }
+        
+        .demo-note {
+            background: #e3f2fd;
+            border: 1px solid #2196f3;
+            border-radius: 8px;
+            padding: 1rem;
+            margin-bottom: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="demo-container">
+        <div class="demo-note">
+            <h5><i class="bi bi-info-circle me-2"></i>Demo Profile Page</h5>
+            <p class="mb-0">Đây là trang demo cho tính năng Profile với quản lý địa chỉ. Trong ứng dụng thực tế, dữ liệu sẽ được load từ database.</p>
+        </div>
+        
+        <div class="profile-header">
+            <div class="profile-avatar">N</div>
+            <h2>Nguyễn Văn A</h2>
+            <span class="badge bg-success">USER</span>
+        </div>
+        
+        <div class="row mb-4">
+            <div class="col-md-6">
+                <strong>Email:</strong> nguyenvana@example.com
+            </div>
+            <div class="col-md-6">
+                <strong>Điện thoại:</strong> 0123456789
+            </div>
+        </div>
+        
+        <h4><i class="bi bi-geo-alt me-2"></i>Địa Chỉ Đã Lưu <span class="badge bg-primary">2</span></h4>
+        
+        <div class="address-list">
+            <div class="address-item">
+                <div class="address-header">
+                    <div>
+                        <strong>Nguyễn Văn A</strong>
+                        <span class="badge bg-success ms-2">Mặc định</span>
+                    </div>
+                    <div class="address-actions">
+                        <button class="btn btn-sm btn-outline-primary">
+                            <i class="bi bi-pencil"></i>
+                        </button>
+                    </div>
+                </div>
+                <div>
+                    <div><i class="bi bi-telephone me-1"></i> 0123456789</div>
+                    <div><i class="bi bi-geo-alt me-1"></i> 123 Đường ABC, Phường XYZ, Quận 1, TP.HCM 70000, Vietnam</div>
+                    <small class="text-muted">Thêm ngày: 15/12/2024 10:30</small>
+                </div>
+            </div>
+            
+            <div class="address-item">
+                <div class="address-header">
+                    <div>
+                        <strong>Nguyễn Văn A (Văn phòng)</strong>
+                    </div>
+                    <div class="address-actions">
+                        <button class="btn btn-sm btn-outline-primary">
+                            <i class="bi bi-pencil"></i>
+                        </button>
+                        <button class="btn btn-sm btn-outline-success" title="Đặt làm mặc định">
+                            <i class="bi bi-star"></i>
+                        </button>
+                        <button class="btn btn-sm btn-outline-danger">
+                            <i class="bi bi-trash"></i>
+                        </button>
+                    </div>
+                </div>
+                <div>
+                    <div><i class="bi bi-telephone me-1"></i> 0987654321</div>
+                    <div><i class="bi bi-geo-alt me-1"></i> 456 Đường DEF, Phường UVW, Quận 3, TP.HCM 70000, Vietnam</div>
+                    <small class="text-muted">Thêm ngày: 10/12/2024 14:20</small>
+                </div>
+            </div>
+        </div>
+        
+        <div class="text-center mt-3">
+            <button class="btn btn-outline-primary" onclick="showAddAddressDemo()">
+                <i class="bi bi-plus-circle me-1"></i>Thêm địa chỉ mới
+            </button>
+        </div>
+        
+        <div class="text-center mt-4">
+            <button class="btn btn-primary me-2">
+                <i class="bi bi-pencil me-1"></i>Chỉnh sửa thông tin
+            </button>
+            <button class="btn btn-outline-secondary">
+                <i class="bi bi-key me-1"></i>Đổi mật khẩu
+            </button>
+        </div>
+        
+        <div class="mt-4 pt-3 border-top">
+            <h6>Tính năng đã hoàn thành:</h6>
+            <ul class="list-unstyled">
+                <li><i class="bi bi-check-circle text-success me-2"></i>Hiển thị thông tin người dùng từ database</li>
+                <li><i class="bi bi-check-circle text-success me-2"></i>Load danh sách địa chỉ đã lưu</li>
+                <li><i class="bi bi-check-circle text-success me-2"></i>API CRUD cho địa chỉ</li>
+                <li><i class="bi bi-check-circle text-success me-2"></i>Quản lý địa chỉ mặc định</li>
+                <li><i class="bi bi-check-circle text-success me-2"></i>Giao diện responsive</li>
+                <li><i class="bi bi-check-circle text-success me-2"></i>Validation form địa chỉ</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function showAddAddressDemo() {
+            alert('Demo: Tính năng thêm địa chỉ mới đã được tích hợp vào trang profile thực tế!\n\nTruy cập /profile để test đầy đủ tính năng.');
+        }
+    </script>
+</body>
+</html>

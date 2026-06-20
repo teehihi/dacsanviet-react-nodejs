@@ -82,11 +82,8 @@
   .post-card h3, .post-card p, .post-card span { @apply m-4; }
   .post-card span { @apply block font-extrabold text-dsv-green; }
 
-  .promo-panel { @apply my-12 grid max-w-5xl grid-cols-[1fr_1.5fr_1.5fr] items-center overflow-hidden bg-[#5e9b3f] text-white shadow-lg; }
-  .promo-panel > img { @apply mx-auto max-h-28 object-contain p-4; }
-  .promo-photo img { @apply h-40 w-full object-cover; }
-  .promo-panel h2 { @apply text-2xl font-black; }
-  .promo-panel p { @apply text-sm; }
+  .promo-panel { @apply my-12 w-full overflow-hidden; }
+  .promo-panel > img { @apply h-auto w-full; }
   .news-contact { @apply grid grid-cols-[1fr_300px] gap-9; }
   .news-list { @apply grid gap-5; }
   .news-item { @apply grid grid-cols-[240px_1fr] gap-5; }
@@ -131,9 +128,10 @@
   .news-card-large strong { @apply text-sm text-[#62c8b7]; }
 
   .wp-news-page { @apply bg-white pb-14; }
-  .wp-news-hero { @apply grid min-h-[330px] place-items-center bg-cover bg-center px-4 text-center text-white; }
+  .wp-news-hero { @apply grid min-h-[330px] content-center justify-items-center bg-cover bg-center px-4 text-center text-white; }
+  .wp-news-hero-content { @apply grid justify-items-center gap-4; }
   .wp-news-hero h1 { @apply m-0 text-4xl font-black uppercase tracking-wide; }
-  .wp-news-hero p { @apply mt-4 max-w-3xl text-base font-semibold; }
+  .wp-news-hero p { @apply m-0 max-w-3xl text-base font-semibold; }
   .wp-news-section { @apply py-12; }
   .wp-news-heading { @apply relative mb-8 grid justify-items-center text-center; }
   .wp-news-heading::before { content: ""; @apply absolute left-0 right-0 top-1/2 h-px bg-[#8e8e8e]; }
@@ -155,10 +153,13 @@
   .wp-news-side-copy h2 { @apply mt-3 text-4xl font-black leading-tight text-[#4d3b32]; }
   .wp-news-side-copy p { @apply text-base leading-8 text-slate-600; }
   .wp-news-side-copy .btn { @apply mt-3 w-fit rounded-full; }
-  .wp-news-cta { @apply my-8 grid min-h-[230px] place-items-center bg-cover bg-center px-4 text-center text-white; }
+  .wp-news-cta { @apply relative my-8 grid min-h-[230px] place-items-center overflow-hidden px-4 text-center text-white; }
+  .wp-news-cta::before { content: ""; @apply absolute inset-0 bg-cover bg-center transition-transform duration-500 ease-out; background-image: linear-gradient(rgba(31,23,18,.36), rgba(31,23,18,.36)), var(--cta-bg); }
+  .wp-news-cta:hover::before { @apply scale-110; }
+  .wp-news-cta > div { @apply relative z-10 grid justify-items-center gap-2; }
   .wp-news-cta h2 { @apply m-0 text-2xl font-black uppercase; }
-  .wp-news-cta p { @apply mx-auto mt-3 max-w-4xl text-sm font-semibold; }
-  .wp-news-cta .btn { @apply mt-4 rounded-full px-5 py-2 text-xs; }
+  .wp-news-cta p { @apply m-0 max-w-4xl text-sm font-semibold; }
+  .wp-news-cta .btn { @apply mt-1 rounded-full px-5 py-2 text-xs; }
   .wp-news-listing { @apply grid grid-cols-2 gap-6 pt-8; }
   .wp-news-row { @apply grid grid-cols-[180px_1fr] overflow-hidden rounded-lg bg-white shadow-[0_4px_16px_rgba(0,0,0,.1)] transition hover:-translate-y-1; }
   .wp-news-row img { @apply h-full min-h-40 w-full object-cover; }
@@ -251,21 +252,65 @@
   .wp-contact-form input, .wp-contact-form textarea { @apply border-[#93d8cf] bg-[#ffffe8]; }
 
   .content-page { @apply max-w-4xl rounded-2xl bg-white px-8 shadow-sm; }
-  .content-page h1 { @apply text-4xl font-black text-[#4d3b32]; }
+  .content-kicker { @apply text-xs font-black uppercase tracking-[.18em] text-[#c9824e]; }
+  .content-page h1 { @apply mb-3 text-4xl font-black text-[#4d3b32]; }
+  .content-excerpt { @apply mb-5 text-lg font-semibold leading-8 text-slate-500; }
   .content-page img { @apply my-6 max-h-[520px] w-full rounded-xl object-cover; }
+  .content-page :where(h2, h3) { @apply mt-8 font-black text-[#4d3b32]; }
   .content-page :where(p, li) { @apply text-base leading-8 text-slate-600; }
   .content-page :where(svg) { @apply h-6 w-6; }
 
   .shop-header { @apply mb-7 flex justify-between gap-5; }
   .filters { @apply flex items-center gap-3; }
   .empty-state { @apply rounded-lg border border-dashed border-dsv-line bg-[#fbfcf8] p-8 text-center text-dsv-muted; }
-  .product-detail { @apply grid grid-cols-2 gap-10; }
-  .detail-gallery img { @apply aspect-square w-full rounded-lg bg-stone-100 object-cover; }
-  .detail-info h1 { @apply my-3 text-4xl font-black; }
-  .detail-info select { @apply my-5 w-full; }
+  .product-detail-page { @apply bg-white; }
+  .product-breadcrumb { @apply mb-5 flex flex-wrap items-center gap-2 text-sm text-slate-400; }
+  .product-breadcrumb a { @apply transition hover:text-[#c9824e]; }
+  .product-breadcrumb strong { @apply font-semibold text-slate-500; }
+  .product-detail { @apply grid grid-cols-[1.05fr_.95fr] gap-10; }
+  .detail-gallery { @apply grid content-start gap-4; }
+  .detail-main-image { @apply relative overflow-hidden rounded-lg border border-[#55ef75] bg-stone-100; }
+  .detail-main-image img { @apply aspect-square w-full object-cover; }
+  .detail-thumbs { @apply grid grid-cols-4 gap-3; }
+  .detail-thumbs button { @apply cursor-pointer overflow-hidden rounded-md border border-[#55ef75] bg-white p-0 opacity-55 transition hover:opacity-100; }
+  .detail-thumbs button.active { @apply opacity-100 ring-2 ring-[#62c8b7]; }
+  .detail-thumbs img { @apply aspect-square w-full object-cover; }
+  .detail-info { @apply pt-6; }
+  .detail-info h1 { @apply my-3 text-4xl font-black leading-tight text-[#62c8b7]; }
+  .detail-meta { @apply flex flex-wrap gap-x-5 gap-y-1 border-b border-dsv-line pb-3 text-sm text-slate-500; }
+  .detail-meta a { @apply text-[#c9824e]; }
+  .detail-price { @apply my-5 border-b border-[#4d3b32] pb-4 text-2xl font-black text-[#2f3d4f]; }
+  .detail-short :where(p, li) { @apply text-base leading-8 text-slate-600; }
+  .variant-picker { @apply mt-6 grid gap-2 text-sm font-black text-[#4d3b32]; }
+  .variant-picker select { @apply w-full; }
   .purchase-row { @apply mt-5 flex gap-3; }
   .purchase-row input { @apply w-24; }
-  .detail-description { @apply col-span-full border-t border-dsv-line pt-7; }
+  .detail-tabs { @apply mt-10 flex gap-9 border-b border-dsv-line text-sm font-black text-[#4d3b32]; }
+  .detail-tabs span { @apply border-b-2 border-transparent px-1 py-4; }
+  .detail-tabs span:first-child { @apply border-[#c9824e]; }
+  .detail-description { @apply pt-6; }
+  .detail-description :where(p, li) { @apply text-base leading-8 text-slate-600; }
+  .detail-description table { @apply mt-6 w-full border-collapse text-sm; }
+  .detail-description th, .detail-description td { @apply border border-dsv-line px-4 py-3 text-left; }
+  .detail-description th { @apply w-44 bg-[#fbfbf8] text-[#4d3b32]; }
+  .detail-section { @apply py-14; }
+  .detail-section h2, .customer-reviews h2, .why-dsv h2 { @apply text-center text-3xl font-black uppercase tracking-wide text-[#c9824e]; }
+  .related-grid { @apply mx-auto mt-8 grid max-w-3xl grid-cols-3 gap-4; }
+  .faq-grid { @apply grid grid-cols-2 gap-x-16 gap-y-3; }
+  .faq-grid h2 { @apply col-span-full; }
+  .faq-grid details { @apply border-b border-dsv-line py-4; }
+  .faq-grid summary { @apply cursor-pointer text-sm font-black text-[#2f3d4f]; }
+  .faq-grid p { @apply text-sm leading-6 text-slate-500; }
+  .customer-reviews { @apply bg-[#f5f7fb] px-8 py-14; }
+  .customer-reviews > div { @apply mt-8 grid grid-cols-3 gap-8; }
+  .customer-reviews article { @apply grid gap-4 text-sm leading-6 text-slate-600; }
+  .customer-reviews strong { @apply text-[#4d3b32]; }
+  .why-dsv { @apply py-14 text-center; }
+  .why-dsv > div { @apply mt-8 grid grid-cols-4 gap-7; }
+  .why-dsv article { @apply grid justify-items-center gap-3; }
+  .why-dsv svg { @apply h-9 w-9 text-[#62c8b7]; }
+  .why-dsv strong { @apply text-[#62c8b7]; }
+  .why-dsv span { @apply text-xs leading-5 text-slate-400; }
 
   .cart-layout, .checkout-layout { @apply grid grid-cols-[1fr_340px] items-start gap-7; }
   .cart-list { @apply grid gap-3; }
@@ -295,36 +340,131 @@
   .admin-login form { @apply grid w-[min(420px,100%)] gap-4 rounded-lg border border-dsv-line bg-white p-7; }
   .admin-login img { @apply mx-auto w-56; }
   .form-error { @apply font-bold text-dsv-red; }
-  .admin-shell { @apply grid min-h-screen grid-cols-[260px_1fr] bg-[#f7faf5]; }
-  .admin-shell aside { @apply grid content-start gap-3 bg-[#123821] p-6 text-white; }
-  .admin-shell aside img { @apply mb-3 rounded-md bg-white p-2; }
-  .admin-shell aside a, .admin-shell aside button { @apply cursor-pointer rounded-md border-0 bg-white/10 p-3 text-left text-white; }
-  .admin-shell aside a.active { @apply bg-dsv-green; }
-  .admin-page { @apply p-8; }
-  .metric-grid { @apply grid grid-cols-3 gap-5; }
-  .metric-grid div { @apply grid gap-2 rounded-lg border border-dsv-line bg-white p-6; }
-  .metric-grid strong { @apply text-3xl font-black text-dsv-green; }
-  .admin-form { @apply mb-6 grid grid-cols-4 gap-3 rounded-lg border border-dsv-line bg-white p-5; }
-  .admin-form textarea { @apply col-span-3; }
-  .admin-table { @apply grid gap-3; }
-  .admin-row, .admin-order { @apply grid items-center gap-3 rounded-lg border border-dsv-line bg-white p-3; }
-  .admin-row { @apply grid-cols-[64px_1.5fr_1fr_1fr_120px]; }
-  .admin-order { @apply grid-cols-[1fr_180px_180px]; }
-  .admin-row img { @apply h-16 w-16 rounded-md object-cover; }
+
+  .admin-shell { @apply grid min-h-screen grid-cols-[240px_1fr] bg-[#f6f7fb] text-[#2d3d4f]; }
+  .admin-sidebar { @apply sticky top-0 h-screen overflow-y-auto bg-[#263c4f] text-white shadow-lg; }
+  .admin-brand { @apply grid gap-3 border-b border-white/10 px-6 py-6 text-white/75; }
+  .admin-brand img { @apply w-28; }
+  .admin-brand span { @apply text-sm font-bold; }
+  .admin-nav { @apply grid gap-2 px-3 py-4; }
+  .admin-nav a, .admin-sidebar-bottom a, .admin-sidebar-bottom button { @apply flex items-center gap-3.5 rounded-lg px-4 py-2.5 text-sm font-black text-white/70 transition; }
+  .admin-nav a:hover, .admin-sidebar-bottom a:hover { @apply bg-white/10 text-white; }
+  .admin-nav a.active { @apply bg-[#f25e35] text-white shadow-lg shadow-[#f25e35]/25; }
+  .admin-sidebar-bottom { @apply mt-2 grid gap-1.5 border-t border-white/35 px-3 py-5; }
+  .admin-sidebar-bottom button { @apply border-0 bg-transparent text-[#ff635b]; }
+  .admin-main { @apply min-w-0; }
+  .admin-page { @apply mx-auto grid max-w-[1520px] gap-6 px-6 py-8; }
+  .admin-page-head { @apply flex items-center justify-between gap-6 border-b border-[#e5e9ef] pb-6; }
+  .admin-page-head h1 { @apply m-0 text-3xl font-black tracking-normal text-[#28394c]; }
+  .admin-page-head p { @apply mt-2 text-sm text-[#6b7280]; }
+  .admin-actions { @apply flex flex-wrap items-center justify-end gap-3; }
+  .admin-primary, .admin-select-btn, .admin-secondary, .admin-link-btn { @apply inline-flex cursor-pointer items-center justify-center gap-2 rounded-lg border px-4 py-2 text-xs font-black transition; }
+  .admin-primary { @apply border-[#ff6334] bg-[#ff6334] text-white shadow-lg shadow-[#ff6334]/20 hover:bg-[#e9542b]; }
+  .admin-secondary, .admin-select-btn, .admin-link-btn { @apply border-[#e5e9ef] bg-white text-[#314257] hover:border-[#cbd5e1]; }
+  .admin-section-title { @apply text-xl font-black text-[#28394c]; }
+
+  .admin-metric-grid { @apply grid grid-cols-4 gap-4; }
+  .admin-metric-card { @apply flex min-h-32 items-start justify-between rounded-xl border border-[#e5e9ef] bg-white p-5 shadow-md shadow-slate-900/5; }
+  .admin-metric-card span { @apply text-xs font-black uppercase tracking-wide text-[#7b8490]; }
+  .admin-metric-card strong { @apply mt-4 block text-2xl font-black text-[#26384b]; }
+  .admin-metric-card small { @apply mt-2 block text-xs font-bold text-[#64748b]; }
+  .metric-icon { @apply grid h-10 w-10 place-items-center rounded-lg; }
+  .metric-icon.green { @apply bg-green-100 text-green-600; }
+  .metric-icon.blue { @apply bg-sky-100 text-sky-600; }
+  .metric-icon.orange { @apply bg-orange-100 text-orange-500; }
+  .metric-icon.pink { @apply bg-fuchsia-100 text-fuchsia-500; }
+
+  .admin-dashboard-grid { @apply grid grid-cols-[2fr_1fr] gap-4; }
+  .admin-card { @apply overflow-hidden rounded-xl border border-[#e5e9ef] bg-white shadow-md shadow-slate-900/5; }
+  .admin-card.no-padding { @apply p-0; }
+  .admin-card-head { @apply flex items-center justify-between gap-4 border-b border-[#edf0f4] p-4; }
+  .admin-card-head.padded { @apply border-b border-[#edf0f4]; }
+  .admin-card-head h2 { @apply m-0 text-lg font-black text-[#2d3d4f]; }
+  .admin-card-head span { @apply text-xs font-bold text-[#7b8490]; }
+  .admin-segmented { @apply flex gap-3; }
+  .admin-segmented button { @apply rounded-lg border border-[#e5e9ef] bg-white px-3.5 py-1.5 text-xs font-black text-[#314257]; }
+  .admin-chart { @apply p-5; }
+  .admin-chart svg { @apply h-[280px] w-full; }
+  .admin-chart line { stroke: #e5e9ef; stroke-width: 1; }
+  .admin-chart path { fill: none; stroke: #d0844d; stroke-width: 3; }
+  .admin-chart circle { fill: #d0844d; stroke: white; stroke-width: 2; }
+  .admin-top-list { @apply grid p-4; }
+  .admin-top-list article { @apply grid grid-cols-[48px_1fr_auto] items-center gap-3 border-b border-[#edf0f4] py-3; }
+  .admin-top-list img { @apply h-11 w-11 rounded-lg object-cover; }
+  .admin-top-list strong { @apply block text-[#2d3d4f]; }
+  .admin-top-list span, .admin-top-list small { @apply text-xs text-[#7b8490]; }
+  .admin-top-list b { @apply text-[#f25e35]; }
+
+  .admin-filterbar { @apply flex flex-wrap items-center gap-4 rounded-xl border border-[#e5e9ef] bg-white p-4 shadow-sm; }
+  .admin-filterbar.attached { @apply rounded-none border-0 border-b border-[#edf0f4] shadow-none; }
+  .admin-filterbar label { @apply flex min-w-[240px] flex-1 items-center gap-3 rounded-lg border border-[#e5e9ef] bg-white px-3 py-2 text-[#64748b]; }
+  .admin-filterbar input, .admin-filterbar select, .admin-form-grid input, .admin-form-grid select, .admin-form-grid textarea { @apply w-full rounded-lg border border-[#e5e9ef] bg-white px-3.5 py-2.5 text-sm text-[#314257] outline-none focus:border-[#ff6334]; }
+  .admin-filterbar label input { @apply border-0 p-0 focus:border-0; }
+  .admin-filterbar select { @apply min-w-[180px] flex-none; }
+
+  .admin-data-table { @apply w-full overflow-x-auto; }
+  .admin-table-head, .admin-table-row { @apply grid min-w-[980px] items-center gap-4 border-b border-[#edf0f4] px-5; }
+  .admin-table-head { @apply bg-[#fafbfc] py-3.5 text-xs font-black uppercase tracking-wide text-[#7b8490]; }
+  .admin-table-row { @apply min-h-[72px] py-3 text-sm text-[#314257]; }
+  .admin-table-row span { @apply min-w-0; }
+  .admin-table-row small { @apply mt-1 block text-xs font-medium text-[#7b8490]; }
+  .admin-table-row strong, .admin-table-row b { @apply font-black text-[#2d3d4f]; }
+  .admin-table-head.six, .admin-table-row.six { @apply grid-cols-[1.15fr_1fr_1fr_.8fr_.9fr_.9fr]; }
+  .admin-table-head.product, .admin-table-row.product { @apply grid-cols-[36px_2fr_1.2fr_.8fr_.8fr_.9fr_110px]; }
+  .admin-table-head.order, .admin-table-row.order { @apply grid-cols-[1.2fr_1.35fr_1fr_.75fr_.85fr_.95fr_90px]; }
+  .admin-table-head.category, .admin-table-row.category { @apply grid-cols-[70px_1.25fr_2fr_1fr_1fr_1fr_120px]; }
+  .admin-table-head.customer, .admin-table-row.customer { @apply grid-cols-[1.5fr_1.7fr_.8fr_.9fr_.8fr_130px]; }
+  .admin-table-head.news, .admin-table-row.news { @apply grid-cols-[36px_82px_2fr_1fr_1fr_1fr_120px]; }
+  .admin-table-head.promotion, .admin-table-row.promotion { @apply grid-cols-[1.2fr_1.1fr_.8fr_1fr_.8fr_.9fr_110px]; }
+  .admin-product-cell, .admin-customer-cell { @apply flex min-w-0 items-center gap-4; }
+  .admin-product-cell img, .admin-table-row.news img { @apply h-12 w-12 rounded-lg object-cover; }
+  .admin-customer-cell i { @apply grid h-10 w-10 place-items-center rounded-full bg-[#ff6334] text-base font-black not-italic text-white; }
+  .admin-badge { @apply inline-flex w-fit items-center rounded-full px-3 py-1.5 text-xs font-black not-italic; }
+  .admin-badge.success { @apply bg-green-100 text-green-600; }
+  .admin-badge.warning { @apply bg-orange-100 text-orange-500; }
+  .admin-badge.info { @apply bg-sky-100 text-sky-600; }
+  .admin-badge.danger { @apply bg-red-100 text-red-600; }
+  .admin-badge.muted { @apply bg-slate-100 text-slate-600; }
+  .admin-row-actions { @apply flex items-center gap-2; }
+  .admin-row-actions button { @apply grid h-8 w-8 cursor-pointer place-items-center rounded-lg border border-[#e5e9ef] bg-white text-[#73808e] hover:border-[#ff6334] hover:text-[#ff6334]; }
+  .admin-table-foot { @apply flex justify-between border-t border-[#edf0f4] px-5 py-4 text-xs text-[#64748b]; }
+  .admin-empty { @apply p-6 text-center text-sm text-[#64748b]; }
+
+  .admin-modal-backdrop { @apply fixed inset-0 z-50 grid place-items-center overflow-y-auto bg-black/55 p-5; }
+  .admin-modal { @apply my-6 w-[min(880px,100%)] overflow-hidden rounded-xl bg-white shadow-2xl; }
+  .admin-modal.wide { @apply w-[min(1080px,100%)]; }
+  .admin-modal > header { @apply flex items-center justify-between bg-[#f25e35] px-6 py-4 text-white; }
+  .admin-modal > header h2 { @apply m-0 text-lg font-black; }
+  .admin-modal > header button { @apply grid h-8 w-8 cursor-pointer place-items-center rounded-full border-0 bg-white/15 text-xl text-white; }
+  .admin-modal > footer { @apply flex justify-end gap-3 border-t border-[#edf0f4] bg-[#fafbfc] px-6 py-4; }
+  .admin-form-grid { @apply grid grid-cols-2 gap-4 p-6; }
+  .admin-form-grid.one { @apply grid-cols-1; }
+  .admin-form-grid label { @apply grid gap-1.5 font-black text-sm text-[#314257]; }
+  .admin-form-grid .span-2 { @apply col-span-2; }
+  .admin-check { @apply flex flex-row items-center gap-3; }
+  .admin-check input { @apply w-auto; }
+  .admin-info-box { @apply m-6 mb-0 rounded-xl border border-[#e5e9ef] bg-white; }
+  .admin-info-box h3 { @apply border-b border-[#edf0f4] bg-[#fafbfc] px-5 py-3 text-sm font-black; }
+  .admin-info-box p { @apply m-0 flex justify-between gap-5 border-b border-[#edf0f4] px-5 py-3 text-sm text-[#64748b]; }
+  .admin-info-box b { @apply max-w-[60%] text-right text-[#2d3d4f]; }
+  .admin-placeholder-chart { @apply grid min-h-[280px] place-items-center p-6 text-center text-sm text-[#64748b]; }
+  .admin-donut { @apply grid place-items-center gap-5 p-6; }
+  .admin-donut i { @apply block h-48 w-48 rounded-full; background: conic-gradient(#3b82f6 0 42%, #22c55e 42% 60%, #f97316 60% 78%, #a855f7 78% 100%); }
+  .admin-donut ul { @apply grid grid-cols-2 gap-2 text-xs font-bold text-[#64748b]; }
 }
 
 @layer utilities {
   @media (max-width: 900px) {
     .header-inner { @apply h-auto flex-wrap py-3; }
     .main-nav { @apply order-3 w-full overflow-x-auto; }
-    .service-strip, .product-grid, .post-grid, .footer-grid, .metric-grid, .news-contact, .promo-panel, .about-hero, .about-story, .value-grid, .news-page-grid, .wp-news-grid, .wp-feature-news, .wp-news-listing, .contact-layout, .wp-about-intro, .wp-about-main, .wp-about-values, .wp-about-gallery, .wp-brand-story, .wp-about-bottom, .wp-contact-content { @apply grid-cols-2; }
-    .product-detail, .cart-layout, .checkout-layout, .admin-shell { @apply grid-cols-1; }
+    .service-strip, .product-grid, .post-grid, .footer-grid, .metric-grid, .news-contact, .about-hero, .about-story, .value-grid, .news-page-grid, .wp-news-grid, .wp-feature-news, .wp-news-listing, .contact-layout, .wp-about-intro, .wp-about-main, .wp-about-values, .wp-about-gallery, .wp-brand-story, .wp-about-bottom, .wp-contact-content { @apply grid-cols-2; }
+    .product-detail, .related-grid, .customer-reviews > div, .why-dsv > div, .cart-layout, .checkout-layout, .admin-shell { @apply grid-cols-1; }
     .news-item { @apply grid-cols-[180px_1fr]; }
     .admin-form, .admin-row, .admin-order { @apply grid-cols-1; }
   }
   @media (max-width: 560px) {
     .hero-slide { @apply min-h-[430px]; }
-    .service-strip, .product-grid, .post-grid, .footer-grid, .news-contact, .promo-panel, .about-hero, .about-story, .value-grid, .news-page-grid, .wp-news-grid, .wp-feature-news, .wp-news-listing, .contact-layout, .wp-about-intro, .wp-about-main, .wp-about-values, .wp-about-gallery, .wp-brand-story, .wp-about-icons, .wp-about-bottom, .wp-contact-content { @apply grid-cols-1; }
+    .service-strip, .product-grid, .post-grid, .footer-grid, .news-contact, .about-hero, .about-story, .value-grid, .news-page-grid, .wp-news-grid, .wp-feature-news, .wp-news-listing, .contact-layout, .wp-about-intro, .wp-about-main, .wp-about-values, .wp-about-gallery, .wp-brand-story, .wp-about-icons, .wp-about-bottom, .wp-contact-content { @apply grid-cols-1; }
     .wp-about-main > img { @apply h-72; }
     .wp-brand-story img { @apply h-72; }
     .wp-news-hero { @apply min-h-[260px]; }
@@ -332,6 +472,9 @@
     .wp-news-row { @apply grid-cols-1; }
     .wp-news-row img { @apply h-52; }
     .shop-header, .filters { @apply flex-col items-stretch; }
+    .detail-thumbs { @apply grid-cols-3; }
+    .detail-tabs { @apply gap-4 overflow-x-auto; }
+    .faq-grid { @apply grid-cols-1; }
     .news-item { @apply grid-cols-1; }
     .cart-item { @apply grid-cols-[72px_1fr]; }
     .cart-item img { @apply h-[72px] w-[72px]; }

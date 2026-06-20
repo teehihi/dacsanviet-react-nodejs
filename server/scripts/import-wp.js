@@ -23,13 +23,28 @@ function stripHtml(html = '') {
   return html.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
 }
 
-function normalizeAsset(urlOrPath) {
-  if (!urlOrPath) return '/assets/dacsanvietLogo.png';
+function normalizeAsset(urlOrPath, fallback = '/assets/dacsanvietLogo.png') {
+  if (!urlOrPath) return fallback;
   const value = String(urlOrPath);
   const marker = 'wp-content/uploads/';
   if (value.includes(marker)) return `/assets/uploads/${value.split(marker)[1]}`;
   if (value.startsWith('/assets/')) return value;
   return value;
+}
+
+function toNumber(value, fallback = 0) {
+  const parsed = Number(value);
+  return Number.isFinite(parsed) ? parsed : fallback;
+}
+
+function uniqueBy(items, keyFn) {
+  const seen = new Set();
+  return items.filter((item) => {
+    const key = keyFn(item);
+    if (!key || seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
 }
 
 function splitTuples(values) {
@@ -258,6 +273,40 @@ async function importFromSql(sql) {
   const attachments = new Map(posts.filter((post) => post.post_type === 'attachment').map((post) => [post.ID, post]));
   const termById = new Map(terms.map((term) => [term.term_id, term]));
   const taxById = new Map(termTaxonomy.map((tax) => [tax.term_taxonomy_id, tax]));
+  const relationshipsByObject = new Map();
+  for (const rel of relationships) {
+    if (!relationshipsByObject.has(rel.object_id)) relationshipsByObject.set(rel.object_id, []);
+    relationshipsByObject.get(rel.object_id).push(rel);
+  }
+  const termNameByTaxonomySlug = new Map();
+  for (const tax of termTaxonomy) {
+    const term = termById.get(tax.term_id);
+    if (term) termNameByTaxonomySlug.set(`${tax.taxonomy}:${term.slug}`, term.name);
+  }
+  const variationsByParent = new Map();
+  for (const variation of posts.filter((item) => item.post_type === 'product_variation' && item.post_status !== 'trash')) {
+    if (!variationsByParent.has(variation.post_parent)) variationsByParent.set(variation.post_parent, []);
+    variationsByParent.get(variation.post_parent).push(variation);
+  }
+
+  function getTermsForPost(postId, predicate) {
+    return (relationshipsByObject.get(postId) || [])
+      .map((rel) => taxById.get(rel.term_taxonomy_id))
+      .filter((tax) => tax && predicate(tax))
+      .map((tax) => ({ tax, term: termById.get(tax.term_id) }))
+      .filter((item) => item.term);
+  }
+
+  function getVariationAttributes(meta) {
+    const attributes = {};
+    for (const [key, value] of Object.entries(meta)) {
+      if (!key.startsWith('attribute_') || !value) continue;
+      const taxonomy = key.replace(/^attribute_/, '');
+      const cleanLabel = taxonomy.replace(/^pa_/, '').replace(/_/g, ' ');
+      attributes[cleanLabel] = termNameByTaxonomySlug.get(`${taxonomy}:${value}`) || value;
+    }
+    return attributes;
+  }
 
   const categoryByTermTax = new Map();
   for (const tax of termTaxonomy.filter((item) => item.taxonomy === 'product_cat')) {
@@ -276,42 +325,75 @@ async function importFromSql(sql) {
   console.log(`Found ${productPosts.length} WooCommerce products.`);
   for (const post of productPosts) {
     const meta = metaByPost.get(post.ID) || {};
-    const rel = relationships.find((item) => item.object_id === post.ID && categoryByTermTax.has(item.term_taxonomy_id));
+    const rel = (relationshipsByObject.get(post.ID) || []).find((item) => categoryByTermTax.has(item.term_taxonomy_id));
     const category = rel ? categoryByTermTax.get(rel.term_taxonomy_id) : null;
+    const productTerms = getTermsForPost(post.ID, (tax) => tax.taxonomy === 'product_tag' || tax.taxonomy.startsWith('pa_'));
     const thumbnail = attachments.get(meta._thumbnail_id);
     const galleryIds = String(meta._product_image_gallery || '').split(',').filter(Boolean);
-    const images = [thumbnail, ...galleryIds.map((id) => attachments.get(id))]
+    const images = uniqueBy([thumbnail, ...galleryIds.map((id) => attachments.get(id))]
       .filter(Boolean)
-      .map((attachment, index) => ({ url: normalizeAsset(attachment.guid), alt: post.post_title, sortOrder: index }));
+      .map((attachment, index) => ({ url: normalizeAsset(attachment.guid), alt: post.post_title, sortOrder: index })), (image) => image.url);
+    const tagText = productTerms
+      .filter(({ tax }) => tax.taxonomy === 'product_tag')
+      .map(({ term }) => term.name)
+      .join(', ');
+    const attributeText = productTerms
+      .filter(({ tax }) => tax.taxonomy.startsWith('pa_'))
+      .map(({ tax, term }) => `${tax.taxonomy.replace(/^pa_/, '').replace(/_/g, ' ')}: ${term.name}`)
+      .join('<br />');
+    const descriptionParts = [post.post_content];
+    if (attributeText) descriptionParts.push(`<h3>Thông tin bổ sung</h3><p>${attributeText}</p>`);
+    if (tagText) descriptionParts.push(`<p><strong>Tags:</strong> ${tagText}</p>`);
+    const description = descriptionParts.filter(Boolean).join('\n');
+    const regularPrice = toNumber(meta._regular_price || meta._price || 0);
+    const salePrice = meta._sale_price ? toNumber(meta._sale_price, null) : null;
 
     const product = await prisma.product.upsert({
       where: { slug: post.post_name || slugify(post.post_title, { lower: true, strict: true, locale: 'vi' }) },
       update: {
-        wpId: Number(post.ID),
+        wpId: toNumber(post.ID),
         name: post.post_title,
         shortDescription: post.post_excerpt || stripHtml(post.post_content).slice(0, 220),
-        description: post.post_content,
+        description,
         sku: meta._sku || null,
-        regularPrice: Number(meta._regular_price || meta._price || 0),
-        salePrice: meta._sale_price ? Number(meta._sale_price) : null,
-        stockQuantity: Number(meta._stock || 0),
+        regularPrice,
+        salePrice,
+        stockQuantity: toNumber(meta._stock || 0),
+        featured: meta._featured === 'yes',
         categoryId: category?.id,
       },
       create: {
-        wpId: Number(post.ID),
+        wpId: toNumber(post.ID),
         name: post.post_title,
         slug: post.post_name || slugify(post.post_title, { lower: true, strict: true, locale: 'vi' }),
         shortDescription: post.post_excerpt || stripHtml(post.post_content).slice(0, 220),
-        description: post.post_content,
+        description,
         sku: meta._sku || null,
-        regularPrice: Number(meta._regular_price || meta._price || 0),
-        salePrice: meta._sale_price ? Number(meta._sale_price) : null,
-        stockQuantity: Number(meta._stock || 0),
+        regularPrice,
+        salePrice,
+        stockQuantity: toNumber(meta._stock || 0),
+        featured: meta._featured === 'yes',
         categoryId: category?.id,
       },
     });
     await prisma.productImage.deleteMany({ where: { productId: product.id } });
     if (images.length) await prisma.productImage.createMany({ data: images.map((image) => ({ ...image, productId: product.id })) });
+    await prisma.productVariant.deleteMany({ where: { productId: product.id } });
+    const variants = (variationsByParent.get(post.ID) || []).map((variation) => {
+      const variantMeta = metaByPost.get(variation.ID) || {};
+      const attributes = getVariationAttributes(variantMeta);
+      const name = Object.values(attributes).join(', ') || variation.post_title || post.post_title;
+      return {
+        productId: product.id,
+        name,
+        sku: variantMeta._sku || null,
+        regularPrice: toNumber(variantMeta._regular_price || variantMeta._price || regularPrice),
+        salePrice: variantMeta._sale_price ? toNumber(variantMeta._sale_price, null) : null,
+        stockQuantity: toNumber(variantMeta._stock || meta._stock || 0),
+        attributes,
+      };
+    });
+    if (variants.length) await prisma.productVariant.createMany({ data: variants });
     imported += 1;
   }
   console.log(`Imported ${imported} products.`);
@@ -326,7 +408,7 @@ async function importFromSql(sql) {
         title: post.post_title,
         excerpt: post.post_excerpt || stripHtml(post.post_content).slice(0, 180),
         body: post.post_content,
-        imageUrl: normalizeAsset(image?.guid),
+        imageUrl: normalizeAsset(image?.guid, null),
       },
       create: {
         type: post.post_type,
@@ -334,7 +416,7 @@ async function importFromSql(sql) {
         slug: post.post_name || slugify(post.post_title, { lower: true, strict: true, locale: 'vi' }),
         excerpt: post.post_excerpt || stripHtml(post.post_content).slice(0, 180),
         body: post.post_content,
-        imageUrl: normalizeAsset(image?.guid),
+        imageUrl: normalizeAsset(image?.guid, null),
       },
     });
   }

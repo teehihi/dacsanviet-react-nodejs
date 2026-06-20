@@ -9,6 +9,7 @@
     "db:generate": "prisma generate",
     "db:migrate": "prisma migrate dev --name init",
     "import:wp": "node scripts/import-wp.js",
+    "import:spring": "node scripts/import-spring-sql.js",
     "seed:admin": "node scripts/seed-admin.js",
     "test": "node --test tests/*.test.js"
   },

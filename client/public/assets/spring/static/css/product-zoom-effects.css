@@ -1,0 +1,336 @@
+/**
+ * Product Image Zoom Effects - Magnifying Glass Style
+ * Enhanced zoom functionality with magnifying glass effect
+ */
+
+/* Base zoom container */
+.zoom-container {
+    position: relative;
+    overflow: hidden;
+    cursor: crosshair;
+    border-radius: 12px;
+}
+
+/* Magnifying glass lens */
+.zoom-lens {
+    position: absolute;
+    border: 3px solid rgba(255, 255, 255, 0.9);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    box-shadow: 
+        0 0 0 2px rgba(78, 194, 182, 0.8),
+        0 4px 20px rgba(0, 0, 0, 0.4),
+        inset 0 0 30px rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(1px);
+    z-index: 100;
+    transform: translate(-50%, -50%);
+}
+
+/* Zoom result window - shows magnified area */
+.zoom-result {
+    position: absolute;
+    top: 0;
+    right: -340px;
+    width: 320px;
+    height: 320px;
+    border: 2px solid #e9ecef;
+    border-radius: 16px;
+    background: white;
+    box-shadow: 
+        0 20px 60px rgba(0, 0, 0, 0.15),
+        0 8px 25px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 1000;
+    transform: translateY(-10px);
+}
+
+.zoom-container:hover .zoom-lens {
+    opacity: 1;
+}
+
+.zoom-container:hover .zoom-result {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.zoom-result::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: linear-gradient(45deg, #4ec2b6, #2e857c);
+    border-radius: 16px;
+    z-index: -1;
+}
+
+.zoom-result img {
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    object-fit: cover;
+    transition: transform 0.05s ease-out;
+}
+
+/* Magnifying glass effect directly on main image */
+.main-image-magnified {
+    position: relative;
+    overflow: hidden;
+    cursor: crosshair;
+}
+
+.main-image-magnified .main-image {
+    transition: transform 0.05s ease-out;
+    transform-origin: center center;
+}
+
+/* Smooth magnifying glass cursor effect */
+.zoom-container .main-image {
+    transition: transform 0.05s ease-out;
+    will-change: transform;
+}
+
+/* Enhanced lens with better visibility */
+.zoom-lens {
+    border: 3px solid rgba(255, 255, 255, 0.95);
+    box-shadow: 
+        0 0 0 2px rgba(78, 194, 182, 0.9),
+        0 4px 20px rgba(0, 0, 0, 0.4),
+        inset 0 0 30px rgba(255, 255, 255, 0.3),
+        inset 0 0 10px rgba(78, 194, 182, 0.2);
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(2px);
+}
+
+/* Improved zoom result positioning */
+.zoom-result {
+    right: -350px;
+    width: 330px;
+    height: 330px;
+}
+
+.zoom-result img {
+    width: 850px;
+    height: 850px;
+    transition: transform 0.02s ease-out;
+}
+
+/* Enhanced hover effects */
+.main-image-container {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.main-image-container:hover {
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}
+
+.main-image {
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    transform-origin: center center;
+}
+
+/* Simple zoom fallback */
+.main-image-container.simple-zoom:hover .main-image {
+    transform: scale(1.2);
+}
+
+/* Loading state */
+.zoom-loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+.zoom-loading::after {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #e9ecef;
+    border-top: 2px solid #4ec2b6;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-left: 8px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Thumbnail enhancements */
+.thumbnail-horizontal {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+}
+
+.thumbnail-horizontal::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, transparent, rgba(78, 194, 182, 0.1));
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.thumbnail-horizontal:hover::before,
+.thumbnail-horizontal.active::before {
+    opacity: 1;
+}
+
+.thumbnail-horizontal:hover {
+    transform: translateY(-2px) scale(1.05);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.thumbnail-horizontal.active {
+    border-color: #4ec2b6;
+    box-shadow: 0 0 0 2px rgba(78, 194, 182, 0.3);
+}
+
+/* Touch device optimizations */
+@media (hover: none) and (pointer: coarse) {
+    .zoom-lens,
+    .zoom-result {
+        display: none !important;
+    }
+    
+    .main-image-container {
+        cursor: zoom-in;
+    }
+    
+    .main-image-container.zoomed {
+        cursor: zoom-out;
+        overflow: visible;
+    }
+    
+    .main-image-container.zoomed .main-image {
+        transform: scale(2);
+        z-index: 1000;
+        position: relative;
+    }
+}
+
+/* High DPI displays */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .zoom-result {
+        border-width: 1px;
+    }
+    
+    .zoom-lens {
+        border-width: 2px;
+    }
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+    .main-image,
+    .zoom-lens,
+    .zoom-result,
+    .thumbnail-horizontal {
+        transition: none !important;
+    }
+    
+    .main-image-container:hover .main-image {
+        transform: scale(1.1);
+    }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+    .zoom-result {
+        background: #2c3e50;
+        border-color: #34495e;
+    }
+    
+    .zoom-lens {
+        border-color: rgba(255, 255, 255, 0.6);
+        box-shadow: 
+            0 0 0 2px rgba(78, 194, 182, 0.8),
+            0 4px 20px rgba(0, 0, 0, 0.5);
+    }
+}
+
+/* Focus states for accessibility */
+.main-image-container:focus-visible {
+    outline: 2px solid #4ec2b6;
+    outline-offset: 2px;
+}
+
+.thumbnail-horizontal:focus-visible {
+    outline: 2px solid #4ec2b6;
+    outline-offset: 2px;
+}
+
+/* Animation performance optimizations */
+.zoom-container,
+.zoom-lens,
+.zoom-result,
+.main-image,
+.thumbnail-horizontal {
+    will-change: transform, opacity;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1400px) {
+    .zoom-result {
+        right: -280px;
+        width: 260px;
+        height: 260px;
+    }
+    
+    .zoom-result img {
+        width: 520px;
+        height: 520px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .zoom-result {
+        display: none;
+    }
+    
+    .zoom-lens {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-image-container:hover .main-image {
+        transform: scale(1.15);
+    }
+    
+    .zoom-lens {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media (max-width: 576px) {
+    .zoom-lens {
+        display: none;
+    }
+    
+    .main-image-container:hover .main-image {
+        transform: scale(1.1);
+    }
+}

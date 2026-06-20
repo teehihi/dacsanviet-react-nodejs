@@ -84,13 +84,8 @@ export default function HomePage() {
         <ProductGrid products={(featuredProducts.length ? featuredProducts : products).slice(0, 6)} />
       </section>
 
-      <section className="container promo-panel">
-        <img src="/assets/dacsanvietLogo.png" alt="Đặc Sản Việt" />
-        <div className="promo-photo"><img src="/assets/uploads/2025/09/sellingpoint.jpg" alt="Tinh hoa đặc sản Việt" /></div>
-        <div>
-          <h2>Tinh hoa đặc sản Việt</h2>
-          <p>Gửi trọn hương vị quê hương đến mọi nhà</p>
-        </div>
+      <section className="promo-panel">
+        <img src="/assets/uploads/2025/09/banner-e1758789083415-1536x344.png" alt="Tinh hoa đặc sản Việt" />
       </section>
 
       <section className="container section news-contact">

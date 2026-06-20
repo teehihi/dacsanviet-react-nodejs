@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Admin Orders - Debug</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .test-section {
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        .test-section h3 {
+            margin-top: 0;
+            color: #333;
+        }
+        button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+        .result {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+            white-space: pre-wrap;
+            font-family: monospace;
+        }
+        .success { border-color: #28a745; background: #d4edda; }
+        .error { border-color: #dc3545; background: #f8d7da; }
+        input, select {
+            padding: 8px;
+            margin: 5px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🔧 Test Admin Orders - Debug Email Notifications</h1>
+    
+    <div class="test-section">
+        <h3>1. Test Email Service (Independent)</h3>
+        <p>Test if the email service is working independently of admin panel:</p>
+        <input type="email" id="testEmail" placeholder="Enter test email" value="test@example.com">
+        <select id="emailType">
+            <option value="payment">Payment Confirmation</option>
+            <option value="shipping">Shipping Notification</option>
+            <option value="completion">Order Completion</option>
+            <option value="failure">Payment Failure</option>
+        </select>
+        <button onclick="testEmailService()">Send Test Email</button>
+        <button onclick="testAllEmails()">Send All Email Types</button>
+        <div id="emailResult" class="result" style="display: none;"></div>
+    </div>
+
+    <div class="test-section">
+        <h3>2. Test Admin API Endpoint</h3>
+        <p>Test if the admin API endpoint is reachable and working:</p>
+        <input type="number" id="orderId" placeholder="Order ID" value="1">
+        <select id="newStatus">
+            <option value="PENDING">Chờ Xác Nhận</option>
+            <option value="CONFIRMED">Đã Xác Nhận</option>
+            <option value="PROCESSING">Đang Xử Lý</option>
+            <option value="SHIPPED">Đang Giao</option>
+            <option value="DELIVERED">Đã Giao</option>
+            <option value="CANCELLED">Đã Hủy</option>
+        </select>
+        <select id="newPaymentStatus">
+            <option value="PENDING">Chờ Thanh Toán</option>
+            <option value="COMPLETED">Đã Thanh Toán</option>
+            <option value="FAILED">Thanh Toán Thất Bại</option>
+        </select>
+        <button onclick="testAdminAPI()">Update Order Status</button>
+        <div id="apiResult" class="result" style="display: none;"></div>
+    </div>
+
+    <div class="test-section">
+        <h3>3. Debug Console Logs</h3>
+        <p>Check browser console for detailed logs. Open Developer Tools (F12) → Console tab</p>
+        <button onclick="showDebugInfo()">Show Debug Info</button>
+        <div id="debugResult" class="result" style="display: none;"></div>
+    </div>
+
+    <script>
+        console.log('🔍 [DEBUG] Test page loaded');
+
+        async function testEmailService() {
+            const email = document.getElementById('testEmail').value;
+            const type = document.getElementById('emailType').value;
+            const resultDiv = document.getElementById('emailResult');
+            
+            console.log('🔍 [DEBUG] Testing email service:', { email, type });
+            
+            try {
+                const response = await fetch(`/api/test/email?email=${encodeURIComponent(email)}&type=${type}`);
+                const result = await response.json();
+                
+                console.log('📧 [EMAIL TEST] Response:', result);
+                
+                resultDiv.style.display = 'block';
+                resultDiv.className = 'result ' + (result.success ? 'success' : 'error');
+                resultDiv.textContent = JSON.stringify(result, null, 2);
+                
+            } catch (error) {
+                console.error('❌ [EMAIL TEST ERROR]:', error);
+                resultDiv.style.display = 'block';
+                resultDiv.className = 'result error';
+                resultDiv.textContent = 'Error: ' + error.message;
+            }
+        }
+
+        async function testAllEmails() {
+            const email = document.getElementById('testEmail').value;
+            const resultDiv = document.getElementById('emailResult');
+            
+            console.log('🔍 [DEBUG] Testing all email types for:', email);
+            
+            try {
+                const response = await fetch(`/api/test/email/all?email=${encodeURIComponent(email)}`);
+                const result = await response.json();
+                
+                console.log('📧 [ALL EMAILS TEST] Response:', result);
+                
+                resultDiv.style.display = 'block';
+                resultDiv.className = 'result ' + (result.success ? 'success' : 'error');
+                resultDiv.textContent = JSON.stringify(result, null, 2);
+                
+            } catch (error) {
+                console.error('❌ [ALL EMAILS TEST ERROR]:', error);
+                resultDiv.style.display = 'block';
+                resultDiv.className = 'result error';
+                resultDiv.textContent = 'Error: ' + error.message;
+            }
+        }
+
+        async function testAdminAPI() {
+            const orderId = document.getElementById('orderId').value;
+            const status = document.getElementById('newStatus').value;
+            const paymentStatus = document.getElementById('newPaymentStatus').value;
+            const resultDiv = document.getElementById('apiResult');
+            
+            console.log('🔍 [DEBUG] Testing admin API:', { orderId, status, paymentStatus });
+            
+            try {
+                const requestData = {
+                    status: status,
+                    paymentStatus: paymentStatus,
+                    shippingCarrier: 'GHN',
+                    trackingNumber: 'TEST123456',
+                    notes: 'Test update from debug page'
+                };
+                
+                console.log('🔍 [DEBUG] Sending request to:', `/api/admin/orders/${orderId}`);
+                console.log('🔍 [DEBUG] Request data:', requestData);
+                
+                const response = await fetch(`/api/admin/orders/${orderId}`, {
+                    method: 'PUT',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(requestData)
+                });
+                
+                console.log('🔍 [DEBUG] Response status:', response.status);
+                console.log('🔍 [DEBUG] Response ok:', response.ok);
+                
+                const result = await response.json();
+                console.log('🔧 [ADMIN API TEST] Response:', result);
+                
+                resultDiv.style.display = 'block';
+                resultDiv.className = 'result ' + (response.ok ? 'success' : 'error');
+                resultDiv.textContent = JSON.stringify(result, null, 2);
+                
+            } catch (error) {
+                console.error('❌ [ADMIN API TEST ERROR]:', error);
+                resultDiv.style.display = 'block';
+                resultDiv.className = 'result error';
+                resultDiv.textContent = 'Error: ' + error.message;
+            }
+        }
+
+        function showDebugInfo() {
+            const resultDiv = document.getElementById('debugResult');
+            
+            const debugInfo = {
+                userAgent: navigator.userAgent,
+                currentUrl: window.location.href,
+                timestamp: new Date().toISOString(),
+                consoleInstructions: 'Open Developer Tools (F12) → Console tab to see detailed logs'
+            };
+            
+            console.log('🔍 [DEBUG INFO]:', debugInfo);
+            
+            resultDiv.style.display = 'block';
+            resultDiv.className = 'result';
+            resultDiv.textContent = JSON.stringify(debugInfo, null, 2);
+        }
+
+        // Auto-show debug info on page load
+        window.addEventListener('load', function() {
+            console.log('🔍 [DEBUG] Test page fully loaded');
+            showDebugInfo();
+        });
+    </script>
+</body>
+</html>

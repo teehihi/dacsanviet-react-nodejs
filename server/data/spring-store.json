@@ -1,0 +1,5946 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Đặc Sản Miền Bắc",
+      "slug": "dac-san-mien-bac",
+      "description": "Các sản phẩm đặc sản từ miền Bắc Việt Nam",
+      "parentId": null,
+      "children": [
+        {
+          "id": 4,
+          "name": "Bánh Kẹo",
+          "slug": "banh-keo",
+          "description": "Các loại bánh kẹo truyền thống",
+          "parentId": 1,
+          "children": [],
+          "_count": {
+            "products": 1
+          }
+        },
+        {
+          "id": 9,
+          "name": "Hà Nội",
+          "slug": "ha-noi",
+          "description": "Đặc sản từ thủ đô Hà Nội - Bánh chưng, bánh giầy, chả cá Lã Vọng",
+          "parentId": 1,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 10,
+          "name": "Hải Phòng",
+          "slug": "hai-phong",
+          "description": "Đặc sản từ thành phố cảng Hải Phòng - Bánh đa cua, nem cua bể",
+          "parentId": 1,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 11,
+          "name": "Quảng Ninh",
+          "slug": "quang-ninh",
+          "description": "Đặc sản từ Quảng Ninh - Ngọc trai, hải sản tươi sống",
+          "parentId": 1,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 12,
+          "name": "Lạng Sơn",
+          "slug": "lang-son",
+          "description": "Đặc sản từ Lạng Sơn - Bánh cuốn Lạng Sơn, măng khô",
+          "parentId": 1,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 13,
+          "name": "Cao Bằng",
+          "slug": "cao-bang",
+          "description": "Đặc sản từ Cao Bằng - Bánh khảo, thịt trâu gác bếp",
+          "parentId": 1,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 14,
+          "name": "Bắc Kạn",
+          "slug": "bac-kan",
+          "description": "Đặc sản từ Bắc Kạn - Cá suối, măng rừng",
+          "parentId": 1,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 15,
+          "name": "Thái Nguyên",
+          "slug": "thai-nguyen",
+          "description": "Đặc sản từ Thái Nguyên - Chè Thái Nguyên, cốm xanh",
+          "parentId": 1,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 16,
+          "name": "Lào Cai",
+          "slug": "lao-cai",
+          "description": "Đặc sản từ Lào Cai - Thịt trâu gác bếp, rượu cần",
+          "parentId": 1,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 17,
+          "name": "Yên Bái",
+          "slug": "yen-bai",
+          "description": "Đặc sản từ Yên Bái - Hồng không hạt, bánh chưng gù",
+          "parentId": 1,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 18,
+          "name": "Sơn La",
+          "slug": "son-la",
+          "description": "Đặc sản từ Sơn La - Mận Sơn La, cá suối nướng",
+          "parentId": 1,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 19,
+          "name": "Điện Biên",
+          "slug": "dien-bien",
+          "description": "Đặc sản từ Điện Biên - Thịt trâu gác bếp, rượu cần",
+          "parentId": 1,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 20,
+          "name": "Lai Châu",
+          "slug": "lai-chau",
+          "description": "Đặc sản từ Lai Châu - Chè Shan Tuyết, mật ong rừng",
+          "parentId": 1,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 21,
+          "name": "Hà Giang",
+          "slug": "ha-giang",
+          "description": "Đặc sản từ Hà Giang - Thịt trâu gác bếp, mật ong đá",
+          "parentId": 1,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 22,
+          "name": "Tuyên Quang",
+          "slug": "tuyen-quang",
+          "description": "Đặc sản từ Tuyên Quang - Bánh coóng phù, chè Tân Cương",
+          "parentId": 1,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 23,
+          "name": "Phú Thọ",
+          "slug": "phu-tho",
+          "description": "Đặc sản từ Phú Thọ - Bánh chưng Phú Thọ, chè Phú Thọ",
+          "parentId": 1,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 24,
+          "name": "Vĩnh Phúc",
+          "slug": "vinh-phuc",
+          "description": "Đặc sản từ Vĩnh Phúc - Bánh cuốn Thanh Trì, chả cá",
+          "parentId": 1,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 25,
+          "name": "Bắc Giang",
+          "slug": "bac-giang",
+          "description": "Đặc sản từ Bắc Giang - Vải thiều Lục Ngạn, bánh đậu xanh",
+          "parentId": 1,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 26,
+          "name": "Bắc Ninh",
+          "slug": "bac-ninh",
+          "description": "Đặc sản từ Bắc Ninh - Bánh phu thê, chả cá Bắc Ninh",
+          "parentId": 1,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 27,
+          "name": "Hải Dương",
+          "slug": "hai-duong",
+          "description": "Đặc sản từ Hải Dương - Bánh đậu xanh, nem Thanh Hà",
+          "parentId": 1,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 28,
+          "name": "Hưng Yên",
+          "slug": "hung-yen",
+          "description": "Đặc sản từ Hưng Yên - Longan Hưng Yên, bánh đậu xanh",
+          "parentId": 1,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 29,
+          "name": "Thái Bình",
+          "slug": "thai-binh",
+          "description": "Đặc sản từ Thái Bình - Bánh ít lá gai, nem chua",
+          "parentId": 1,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 30,
+          "name": "Hà Nam",
+          "slug": "ha-nam",
+          "description": "Đặc sản từ Hà Nam - Bánh cuốn Phủ Lý, chả cá",
+          "parentId": 1,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 31,
+          "name": "Nam Định",
+          "slug": "nam-dinh",
+          "description": "Đặc sản từ Nam Định - Bánh gai, nem Yên Mạc",
+          "parentId": 1,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 32,
+          "name": "Ninh Bình",
+          "slug": "ninh-binh",
+          "description": "Đặc sản từ Ninh Bình - Cơm cháy, thịt dê núi",
+          "parentId": 1,
+          "children": [],
+          "_count": {
+            "products": 1
+          }
+        }
+      ],
+      "_count": {
+        "products": 2
+      }
+    },
+    {
+      "id": 2,
+      "name": "Đặc Sản Miền Trung",
+      "slug": "dac-san-mien-trung",
+      "description": "Các sản phẩm đặc sản từ miền Trung Việt Nam",
+      "parentId": null,
+      "children": [
+        {
+          "id": 5,
+          "name": "Nem Chua",
+          "slug": "nem-chua",
+          "description": "Các loại nem chua đặc sản",
+          "parentId": 2,
+          "children": [],
+          "_count": {
+            "products": 1
+          }
+        },
+        {
+          "id": 33,
+          "name": "Thanh Hóa",
+          "slug": "thanh-hoa",
+          "description": "Đặc sản từ Thanh Hóa - Nem chua Thanh Hóa, bánh trôi tàu",
+          "parentId": 2,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 34,
+          "name": "Nghệ An",
+          "slug": "nghe-an",
+          "description": "Đặc sản từ Nghệ An - Bánh mướt, nem chua Yên Thành",
+          "parentId": 2,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 35,
+          "name": "Hà Tĩnh",
+          "slug": "ha-tinh",
+          "description": "Đặc sản từ Hà Tĩnh - Bánh khoái, nem nướng",
+          "parentId": 2,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 36,
+          "name": "Quảng Bình",
+          "slug": "quang-binh",
+          "description": "Đặc sản từ Quảng Bình - Bánh ướt thịt nướng, tôm he",
+          "parentId": 2,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 37,
+          "name": "Quảng Trị",
+          "slug": "quang-tri",
+          "description": "Đặc sản từ Quảng Trị - Bánh bèo, bánh nậm",
+          "parentId": 2,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 38,
+          "name": "Thừa Thiên Huế",
+          "slug": "thua-thien-hue",
+          "description": "Đặc sản từ Huế - Bún bò Huế, bánh khoái, chè Huế",
+          "parentId": 2,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 39,
+          "name": "Đà Nẵng",
+          "slug": "da-nang",
+          "description": "Đặc sản từ Đà Nẵng - Mì Quảng, bánh tráng cuốn thịt heo",
+          "parentId": 2,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 40,
+          "name": "Quảng Nam",
+          "slug": "quang-nam",
+          "description": "Đặc sản từ Quảng Nam - Mì Quảng, bánh xèo, cao lầu",
+          "parentId": 2,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 41,
+          "name": "Quảng Ngãi",
+          "slug": "quang-ngai",
+          "description": "Đặc sản từ Quảng Ngãi - Bánh xèo, bánh căn",
+          "parentId": 2,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 42,
+          "name": "Bình Định",
+          "slug": "binh-dinh",
+          "description": "Đặc sản từ Bình Định - Bánh hỏi, bánh ít lá gai",
+          "parentId": 2,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 43,
+          "name": "Phú Yên",
+          "slug": "phu-yen",
+          "description": "Đặc sản từ Phú Yên - Bánh căn, ốc hến",
+          "parentId": 2,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 44,
+          "name": "Khánh Hòa",
+          "slug": "khanh-hoa",
+          "description": "Đặc sản từ Khánh Hòa - Bánh căn, nem nướng Nha Trang",
+          "parentId": 2,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 45,
+          "name": "Ninh Thuận",
+          "slug": "ninh-thuan",
+          "description": "Đặc sản từ Ninh Thuận - Bánh căn, nho Ninh Thuận",
+          "parentId": 2,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 46,
+          "name": "Bình Thuận",
+          "slug": "binh-thuan",
+          "description": "Đặc sản từ Bình Thuận - Bánh căn, nước mắm Phan Thiết",
+          "parentId": 2,
+          "children": [],
+          "_count": {
+            "products": 1
+          }
+        },
+        {
+          "id": 47,
+          "name": "Kon Tum",
+          "slug": "kon-tum",
+          "description": "Đặc sản từ Kon Tum - Rượu cần, thịt nướng lá chuối",
+          "parentId": 2,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 48,
+          "name": "Gia Lai",
+          "slug": "gia-lai",
+          "description": "Đặc sản từ Gia Lai - Rượu cần, bánh tráng nướng",
+          "parentId": 2,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 49,
+          "name": "Đắk Lắk",
+          "slug": "dak-lak",
+          "description": "Đặc sản từ Đắk Lắk - Cà phê Buôn Ma Thuột, bánh tráng nướng",
+          "parentId": 2,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 50,
+          "name": "Đắk Nông",
+          "slug": "dak-nong",
+          "description": "Đặc sản từ Đắk Nông - Cà phê, hạt điều",
+          "parentId": 2,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 51,
+          "name": "Lâm Đồng",
+          "slug": "lam-dong",
+          "description": "Đặc sản từ Lâm Đồng - Rau củ Đà Lạt, bánh tráng nướng",
+          "parentId": 2,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        }
+      ],
+      "_count": {
+        "products": 3
+      }
+    },
+    {
+      "id": 3,
+      "name": "Đặc Sản Miền Nam",
+      "slug": "dac-san-mien-nam",
+      "description": "Các sản phẩm đặc sản từ miền Nam Việt Nam",
+      "parentId": null,
+      "children": [
+        {
+          "id": 6,
+          "name": "Các Loại Mắm",
+          "slug": "cac-loai-mam",
+          "description": "Các loại mắm đặc sản miền Tây vô cùng thơm ngon",
+          "parentId": 3,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 7,
+          "name": "Bến Tre",
+          "slug": "ben-tre",
+          "description": "Tỉnh Miền Tây",
+          "parentId": 3,
+          "children": [
+            {
+              "id": 8,
+              "name": "Kẹo dừa",
+              "slug": "keo-dua",
+              "description": null,
+              "parentId": 7,
+              "children": [],
+              "_count": {
+                "products": 0
+              }
+            }
+          ],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 52,
+          "name": "TP. Hồ Chí Minh",
+          "slug": "tp-ho-chi-minh",
+          "description": "Đặc sản từ TP.HCM - Bánh mì, hủ tiếu, bánh xèo",
+          "parentId": 3,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 53,
+          "name": "Bà Rịa - Vũng Tàu",
+          "slug": "ba-ria-vung-tau",
+          "description": "Đặc sản từ Vũng Tàu - Bánh khọt, hải sản tươi sống",
+          "parentId": 3,
+          "children": [],
+          "_count": {
+            "products": 1
+          }
+        },
+        {
+          "id": 54,
+          "name": "Bình Dương",
+          "slug": "binh-duong",
+          "description": "Đặc sản từ Bình Dương - Bánh tráng nướng, chả cá",
+          "parentId": 3,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 55,
+          "name": "Bình Phước",
+          "slug": "binh-phuoc",
+          "description": "Đặc sản từ Bình Phước - Hạt điều, bánh tráng",
+          "parentId": 3,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 56,
+          "name": "Tây Ninh",
+          "slug": "tay-ninh",
+          "description": "Đặc sản từ Tây Ninh - Bánh tráng nướng, bánh căn",
+          "parentId": 3,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 57,
+          "name": "Đồng Nai",
+          "slug": "dong-nai",
+          "description": "Đặc sản từ Đồng Nai - Bánh tráng, nem nướng",
+          "parentId": 3,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 58,
+          "name": "Long An",
+          "slug": "long-an",
+          "description": "Đặc sản từ Long An - Bánh tráng, dưa hấu",
+          "parentId": 3,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 59,
+          "name": "Tiền Giang",
+          "slug": "tien-giang",
+          "description": "Đặc sản từ Tiền Giang - Bánh tráng, kẹo dừa",
+          "parentId": 3,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 60,
+          "name": "Trà Vinh",
+          "slug": "tra-vinh",
+          "description": "Đặc sản từ Trà Vinh - Bánh tét, bánh ít lá gai",
+          "parentId": 3,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 61,
+          "name": "Vĩnh Long",
+          "slug": "vinh-long",
+          "description": "Đặc sản từ Vĩnh Long - Bánh khọt, hủ tiếu",
+          "parentId": 3,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 62,
+          "name": "Đồng Tháp",
+          "slug": "dong-thap",
+          "description": "Đặc sản từ Đồng Tháp - Bánh xèo, cá linh",
+          "parentId": 3,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 63,
+          "name": "An Giang",
+          "slug": "an-giang",
+          "description": "Đặc sản từ An Giang - Bánh pía, bánh tét",
+          "parentId": 3,
+          "children": [],
+          "_count": {
+            "products": 1
+          }
+        },
+        {
+          "id": 64,
+          "name": "Kiên Giang",
+          "slug": "kien-giang",
+          "description": "Đặc sản từ Kiên Giang - Bánh tét, hải sản Phú Quốc",
+          "parentId": 3,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 65,
+          "name": "Cần Thơ",
+          "slug": "can-tho",
+          "description": "Đặc sản từ Cần Thơ - Bánh cống, bánh xèo",
+          "parentId": 3,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 66,
+          "name": "Hậu Giang",
+          "slug": "hau-giang",
+          "description": "Đặc sản từ Hậu Giang - Bánh tét, bánh ít",
+          "parentId": 3,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 67,
+          "name": "Sóc Trăng",
+          "slug": "soc-trang",
+          "description": "Đặc sản từ Sóc Trăng - Bánh pía, bánh tét",
+          "parentId": 3,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 68,
+          "name": "Bạc Liêu",
+          "slug": "bac-lieu",
+          "description": "Đặc sản từ Bạc Liêu - Bánh tét, tôm khô",
+          "parentId": 3,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        },
+        {
+          "id": 69,
+          "name": "Cà Mau",
+          "slug": "ca-mau",
+          "description": "Đặc sản từ Cà Mau - U tôm, bánh tét",
+          "parentId": 3,
+          "children": [],
+          "_count": {
+            "products": 1
+          }
+        }
+      ],
+      "_count": {
+        "products": 1
+      }
+    },
+    {
+      "id": 4,
+      "name": "Bánh Kẹo",
+      "slug": "banh-keo",
+      "description": "Các loại bánh kẹo truyền thống",
+      "parentId": 1,
+      "children": [],
+      "_count": {
+        "products": 1
+      }
+    },
+    {
+      "id": 5,
+      "name": "Nem Chua",
+      "slug": "nem-chua",
+      "description": "Các loại nem chua đặc sản",
+      "parentId": 2,
+      "children": [],
+      "_count": {
+        "products": 1
+      }
+    },
+    {
+      "id": 6,
+      "name": "Các Loại Mắm",
+      "slug": "cac-loai-mam",
+      "description": "Các loại mắm đặc sản miền Tây vô cùng thơm ngon",
+      "parentId": 3,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 7,
+      "name": "Bến Tre",
+      "slug": "ben-tre",
+      "description": "Tỉnh Miền Tây",
+      "parentId": 3,
+      "children": [
+        {
+          "id": 8,
+          "name": "Kẹo dừa",
+          "slug": "keo-dua",
+          "description": null,
+          "parentId": 7,
+          "children": [],
+          "_count": {
+            "products": 0
+          }
+        }
+      ],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 8,
+      "name": "Kẹo dừa",
+      "slug": "keo-dua",
+      "description": null,
+      "parentId": 7,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 9,
+      "name": "Hà Nội",
+      "slug": "ha-noi",
+      "description": "Đặc sản từ thủ đô Hà Nội - Bánh chưng, bánh giầy, chả cá Lã Vọng",
+      "parentId": 1,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 10,
+      "name": "Hải Phòng",
+      "slug": "hai-phong",
+      "description": "Đặc sản từ thành phố cảng Hải Phòng - Bánh đa cua, nem cua bể",
+      "parentId": 1,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 11,
+      "name": "Quảng Ninh",
+      "slug": "quang-ninh",
+      "description": "Đặc sản từ Quảng Ninh - Ngọc trai, hải sản tươi sống",
+      "parentId": 1,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 12,
+      "name": "Lạng Sơn",
+      "slug": "lang-son",
+      "description": "Đặc sản từ Lạng Sơn - Bánh cuốn Lạng Sơn, măng khô",
+      "parentId": 1,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 13,
+      "name": "Cao Bằng",
+      "slug": "cao-bang",
+      "description": "Đặc sản từ Cao Bằng - Bánh khảo, thịt trâu gác bếp",
+      "parentId": 1,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 14,
+      "name": "Bắc Kạn",
+      "slug": "bac-kan",
+      "description": "Đặc sản từ Bắc Kạn - Cá suối, măng rừng",
+      "parentId": 1,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 15,
+      "name": "Thái Nguyên",
+      "slug": "thai-nguyen",
+      "description": "Đặc sản từ Thái Nguyên - Chè Thái Nguyên, cốm xanh",
+      "parentId": 1,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 16,
+      "name": "Lào Cai",
+      "slug": "lao-cai",
+      "description": "Đặc sản từ Lào Cai - Thịt trâu gác bếp, rượu cần",
+      "parentId": 1,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 17,
+      "name": "Yên Bái",
+      "slug": "yen-bai",
+      "description": "Đặc sản từ Yên Bái - Hồng không hạt, bánh chưng gù",
+      "parentId": 1,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 18,
+      "name": "Sơn La",
+      "slug": "son-la",
+      "description": "Đặc sản từ Sơn La - Mận Sơn La, cá suối nướng",
+      "parentId": 1,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 19,
+      "name": "Điện Biên",
+      "slug": "dien-bien",
+      "description": "Đặc sản từ Điện Biên - Thịt trâu gác bếp, rượu cần",
+      "parentId": 1,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 20,
+      "name": "Lai Châu",
+      "slug": "lai-chau",
+      "description": "Đặc sản từ Lai Châu - Chè Shan Tuyết, mật ong rừng",
+      "parentId": 1,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 21,
+      "name": "Hà Giang",
+      "slug": "ha-giang",
+      "description": "Đặc sản từ Hà Giang - Thịt trâu gác bếp, mật ong đá",
+      "parentId": 1,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 22,
+      "name": "Tuyên Quang",
+      "slug": "tuyen-quang",
+      "description": "Đặc sản từ Tuyên Quang - Bánh coóng phù, chè Tân Cương",
+      "parentId": 1,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 23,
+      "name": "Phú Thọ",
+      "slug": "phu-tho",
+      "description": "Đặc sản từ Phú Thọ - Bánh chưng Phú Thọ, chè Phú Thọ",
+      "parentId": 1,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 24,
+      "name": "Vĩnh Phúc",
+      "slug": "vinh-phuc",
+      "description": "Đặc sản từ Vĩnh Phúc - Bánh cuốn Thanh Trì, chả cá",
+      "parentId": 1,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 25,
+      "name": "Bắc Giang",
+      "slug": "bac-giang",
+      "description": "Đặc sản từ Bắc Giang - Vải thiều Lục Ngạn, bánh đậu xanh",
+      "parentId": 1,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 26,
+      "name": "Bắc Ninh",
+      "slug": "bac-ninh",
+      "description": "Đặc sản từ Bắc Ninh - Bánh phu thê, chả cá Bắc Ninh",
+      "parentId": 1,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 27,
+      "name": "Hải Dương",
+      "slug": "hai-duong",
+      "description": "Đặc sản từ Hải Dương - Bánh đậu xanh, nem Thanh Hà",
+      "parentId": 1,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 28,
+      "name": "Hưng Yên",
+      "slug": "hung-yen",
+      "description": "Đặc sản từ Hưng Yên - Longan Hưng Yên, bánh đậu xanh",
+      "parentId": 1,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 29,
+      "name": "Thái Bình",
+      "slug": "thai-binh",
+      "description": "Đặc sản từ Thái Bình - Bánh ít lá gai, nem chua",
+      "parentId": 1,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 30,
+      "name": "Hà Nam",
+      "slug": "ha-nam",
+      "description": "Đặc sản từ Hà Nam - Bánh cuốn Phủ Lý, chả cá",
+      "parentId": 1,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 31,
+      "name": "Nam Định",
+      "slug": "nam-dinh",
+      "description": "Đặc sản từ Nam Định - Bánh gai, nem Yên Mạc",
+      "parentId": 1,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 32,
+      "name": "Ninh Bình",
+      "slug": "ninh-binh",
+      "description": "Đặc sản từ Ninh Bình - Cơm cháy, thịt dê núi",
+      "parentId": 1,
+      "children": [],
+      "_count": {
+        "products": 1
+      }
+    },
+    {
+      "id": 33,
+      "name": "Thanh Hóa",
+      "slug": "thanh-hoa",
+      "description": "Đặc sản từ Thanh Hóa - Nem chua Thanh Hóa, bánh trôi tàu",
+      "parentId": 2,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 34,
+      "name": "Nghệ An",
+      "slug": "nghe-an",
+      "description": "Đặc sản từ Nghệ An - Bánh mướt, nem chua Yên Thành",
+      "parentId": 2,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 35,
+      "name": "Hà Tĩnh",
+      "slug": "ha-tinh",
+      "description": "Đặc sản từ Hà Tĩnh - Bánh khoái, nem nướng",
+      "parentId": 2,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 36,
+      "name": "Quảng Bình",
+      "slug": "quang-binh",
+      "description": "Đặc sản từ Quảng Bình - Bánh ướt thịt nướng, tôm he",
+      "parentId": 2,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 37,
+      "name": "Quảng Trị",
+      "slug": "quang-tri",
+      "description": "Đặc sản từ Quảng Trị - Bánh bèo, bánh nậm",
+      "parentId": 2,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 38,
+      "name": "Thừa Thiên Huế",
+      "slug": "thua-thien-hue",
+      "description": "Đặc sản từ Huế - Bún bò Huế, bánh khoái, chè Huế",
+      "parentId": 2,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 39,
+      "name": "Đà Nẵng",
+      "slug": "da-nang",
+      "description": "Đặc sản từ Đà Nẵng - Mì Quảng, bánh tráng cuốn thịt heo",
+      "parentId": 2,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 40,
+      "name": "Quảng Nam",
+      "slug": "quang-nam",
+      "description": "Đặc sản từ Quảng Nam - Mì Quảng, bánh xèo, cao lầu",
+      "parentId": 2,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 41,
+      "name": "Quảng Ngãi",
+      "slug": "quang-ngai",
+      "description": "Đặc sản từ Quảng Ngãi - Bánh xèo, bánh căn",
+      "parentId": 2,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 42,
+      "name": "Bình Định",
+      "slug": "binh-dinh",
+      "description": "Đặc sản từ Bình Định - Bánh hỏi, bánh ít lá gai",
+      "parentId": 2,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 43,
+      "name": "Phú Yên",
+      "slug": "phu-yen",
+      "description": "Đặc sản từ Phú Yên - Bánh căn, ốc hến",
+      "parentId": 2,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 44,
+      "name": "Khánh Hòa",
+      "slug": "khanh-hoa",
+      "description": "Đặc sản từ Khánh Hòa - Bánh căn, nem nướng Nha Trang",
+      "parentId": 2,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 45,
+      "name": "Ninh Thuận",
+      "slug": "ninh-thuan",
+      "description": "Đặc sản từ Ninh Thuận - Bánh căn, nho Ninh Thuận",
+      "parentId": 2,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 46,
+      "name": "Bình Thuận",
+      "slug": "binh-thuan",
+      "description": "Đặc sản từ Bình Thuận - Bánh căn, nước mắm Phan Thiết",
+      "parentId": 2,
+      "children": [],
+      "_count": {
+        "products": 1
+      }
+    },
+    {
+      "id": 47,
+      "name": "Kon Tum",
+      "slug": "kon-tum",
+      "description": "Đặc sản từ Kon Tum - Rượu cần, thịt nướng lá chuối",
+      "parentId": 2,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 48,
+      "name": "Gia Lai",
+      "slug": "gia-lai",
+      "description": "Đặc sản từ Gia Lai - Rượu cần, bánh tráng nướng",
+      "parentId": 2,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 49,
+      "name": "Đắk Lắk",
+      "slug": "dak-lak",
+      "description": "Đặc sản từ Đắk Lắk - Cà phê Buôn Ma Thuột, bánh tráng nướng",
+      "parentId": 2,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 50,
+      "name": "Đắk Nông",
+      "slug": "dak-nong",
+      "description": "Đặc sản từ Đắk Nông - Cà phê, hạt điều",
+      "parentId": 2,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 51,
+      "name": "Lâm Đồng",
+      "slug": "lam-dong",
+      "description": "Đặc sản từ Lâm Đồng - Rau củ Đà Lạt, bánh tráng nướng",
+      "parentId": 2,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 52,
+      "name": "TP. Hồ Chí Minh",
+      "slug": "tp-ho-chi-minh",
+      "description": "Đặc sản từ TP.HCM - Bánh mì, hủ tiếu, bánh xèo",
+      "parentId": 3,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 53,
+      "name": "Bà Rịa - Vũng Tàu",
+      "slug": "ba-ria-vung-tau",
+      "description": "Đặc sản từ Vũng Tàu - Bánh khọt, hải sản tươi sống",
+      "parentId": 3,
+      "children": [],
+      "_count": {
+        "products": 1
+      }
+    },
+    {
+      "id": 54,
+      "name": "Bình Dương",
+      "slug": "binh-duong",
+      "description": "Đặc sản từ Bình Dương - Bánh tráng nướng, chả cá",
+      "parentId": 3,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 55,
+      "name": "Bình Phước",
+      "slug": "binh-phuoc",
+      "description": "Đặc sản từ Bình Phước - Hạt điều, bánh tráng",
+      "parentId": 3,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 56,
+      "name": "Tây Ninh",
+      "slug": "tay-ninh",
+      "description": "Đặc sản từ Tây Ninh - Bánh tráng nướng, bánh căn",
+      "parentId": 3,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 57,
+      "name": "Đồng Nai",
+      "slug": "dong-nai",
+      "description": "Đặc sản từ Đồng Nai - Bánh tráng, nem nướng",
+      "parentId": 3,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 58,
+      "name": "Long An",
+      "slug": "long-an",
+      "description": "Đặc sản từ Long An - Bánh tráng, dưa hấu",
+      "parentId": 3,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 59,
+      "name": "Tiền Giang",
+      "slug": "tien-giang",
+      "description": "Đặc sản từ Tiền Giang - Bánh tráng, kẹo dừa",
+      "parentId": 3,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 60,
+      "name": "Trà Vinh",
+      "slug": "tra-vinh",
+      "description": "Đặc sản từ Trà Vinh - Bánh tét, bánh ít lá gai",
+      "parentId": 3,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 61,
+      "name": "Vĩnh Long",
+      "slug": "vinh-long",
+      "description": "Đặc sản từ Vĩnh Long - Bánh khọt, hủ tiếu",
+      "parentId": 3,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 62,
+      "name": "Đồng Tháp",
+      "slug": "dong-thap",
+      "description": "Đặc sản từ Đồng Tháp - Bánh xèo, cá linh",
+      "parentId": 3,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 63,
+      "name": "An Giang",
+      "slug": "an-giang",
+      "description": "Đặc sản từ An Giang - Bánh pía, bánh tét",
+      "parentId": 3,
+      "children": [],
+      "_count": {
+        "products": 1
+      }
+    },
+    {
+      "id": 64,
+      "name": "Kiên Giang",
+      "slug": "kien-giang",
+      "description": "Đặc sản từ Kiên Giang - Bánh tét, hải sản Phú Quốc",
+      "parentId": 3,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 65,
+      "name": "Cần Thơ",
+      "slug": "can-tho",
+      "description": "Đặc sản từ Cần Thơ - Bánh cống, bánh xèo",
+      "parentId": 3,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 66,
+      "name": "Hậu Giang",
+      "slug": "hau-giang",
+      "description": "Đặc sản từ Hậu Giang - Bánh tét, bánh ít",
+      "parentId": 3,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 67,
+      "name": "Sóc Trăng",
+      "slug": "soc-trang",
+      "description": "Đặc sản từ Sóc Trăng - Bánh pía, bánh tét",
+      "parentId": 3,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 68,
+      "name": "Bạc Liêu",
+      "slug": "bac-lieu",
+      "description": "Đặc sản từ Bạc Liêu - Bánh tét, tôm khô",
+      "parentId": 3,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    },
+    {
+      "id": 69,
+      "name": "Cà Mau",
+      "slug": "ca-mau",
+      "description": "Đặc sản từ Cà Mau - U tôm, bánh tét",
+      "parentId": 3,
+      "children": [],
+      "_count": {
+        "products": 1
+      }
+    },
+    {
+      "id": 72,
+      "name": "Test cấe",
+      "slug": "test-cae",
+      "description": "hihi",
+      "parentId": null,
+      "children": [],
+      "_count": {
+        "products": 0
+      }
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Bánh Chưng Truyền Thống Đốc",
+      "slug": "banh-chung-truyen-thong-doc",
+      "shortDescription": "Bánh chưng làm từ gạo nếp, đậu xanh và thịt heo, gói lá dong",
+      "description": "<p>Bánh chưng làm từ gạo nếp, đậu xanh và thịt heo, gói lá dong</p>\n<p><strong>Xuất xứ:</strong> Hà Nội<br /><strong>Khối lượng:</strong> 500g</p>\n<h3>Hỏi đáp sản phẩm</h3><ul><li><strong>Sản phẩm còn hàng không</strong></li><li><strong>Sản phẩm có ăn chay được không</strong></li></ul>",
+      "sku": null,
+      "regularPrice": 150000,
+      "salePrice": null,
+      "stockQuantity": 48,
+      "featured": false,
+      "status": "ACTIVE",
+      "categoryId": 1,
+      "category": {
+        "id": 1,
+        "name": "Đặc Sản Miền Bắc",
+        "slug": "dac-san-mien-bac",
+        "description": "Các sản phẩm đặc sản từ miền Bắc Việt Nam",
+        "parentId": null,
+        "children": [
+          {
+            "id": 4,
+            "name": "Bánh Kẹo",
+            "slug": "banh-keo",
+            "description": "Các loại bánh kẹo truyền thống",
+            "parentId": 1,
+            "children": [],
+            "_count": {
+              "products": 1
+            }
+          },
+          {
+            "id": 9,
+            "name": "Hà Nội",
+            "slug": "ha-noi",
+            "description": "Đặc sản từ thủ đô Hà Nội - Bánh chưng, bánh giầy, chả cá Lã Vọng",
+            "parentId": 1,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 10,
+            "name": "Hải Phòng",
+            "slug": "hai-phong",
+            "description": "Đặc sản từ thành phố cảng Hải Phòng - Bánh đa cua, nem cua bể",
+            "parentId": 1,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 11,
+            "name": "Quảng Ninh",
+            "slug": "quang-ninh",
+            "description": "Đặc sản từ Quảng Ninh - Ngọc trai, hải sản tươi sống",
+            "parentId": 1,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 12,
+            "name": "Lạng Sơn",
+            "slug": "lang-son",
+            "description": "Đặc sản từ Lạng Sơn - Bánh cuốn Lạng Sơn, măng khô",
+            "parentId": 1,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 13,
+            "name": "Cao Bằng",
+            "slug": "cao-bang",
+            "description": "Đặc sản từ Cao Bằng - Bánh khảo, thịt trâu gác bếp",
+            "parentId": 1,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 14,
+            "name": "Bắc Kạn",
+            "slug": "bac-kan",
+            "description": "Đặc sản từ Bắc Kạn - Cá suối, măng rừng",
+            "parentId": 1,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 15,
+            "name": "Thái Nguyên",
+            "slug": "thai-nguyen",
+            "description": "Đặc sản từ Thái Nguyên - Chè Thái Nguyên, cốm xanh",
+            "parentId": 1,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 16,
+            "name": "Lào Cai",
+            "slug": "lao-cai",
+            "description": "Đặc sản từ Lào Cai - Thịt trâu gác bếp, rượu cần",
+            "parentId": 1,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 17,
+            "name": "Yên Bái",
+            "slug": "yen-bai",
+            "description": "Đặc sản từ Yên Bái - Hồng không hạt, bánh chưng gù",
+            "parentId": 1,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 18,
+            "name": "Sơn La",
+            "slug": "son-la",
+            "description": "Đặc sản từ Sơn La - Mận Sơn La, cá suối nướng",
+            "parentId": 1,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 19,
+            "name": "Điện Biên",
+            "slug": "dien-bien",
+            "description": "Đặc sản từ Điện Biên - Thịt trâu gác bếp, rượu cần",
+            "parentId": 1,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 20,
+            "name": "Lai Châu",
+            "slug": "lai-chau",
+            "description": "Đặc sản từ Lai Châu - Chè Shan Tuyết, mật ong rừng",
+            "parentId": 1,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 21,
+            "name": "Hà Giang",
+            "slug": "ha-giang",
+            "description": "Đặc sản từ Hà Giang - Thịt trâu gác bếp, mật ong đá",
+            "parentId": 1,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 22,
+            "name": "Tuyên Quang",
+            "slug": "tuyen-quang",
+            "description": "Đặc sản từ Tuyên Quang - Bánh coóng phù, chè Tân Cương",
+            "parentId": 1,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 23,
+            "name": "Phú Thọ",
+            "slug": "phu-tho",
+            "description": "Đặc sản từ Phú Thọ - Bánh chưng Phú Thọ, chè Phú Thọ",
+            "parentId": 1,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 24,
+            "name": "Vĩnh Phúc",
+            "slug": "vinh-phuc",
+            "description": "Đặc sản từ Vĩnh Phúc - Bánh cuốn Thanh Trì, chả cá",
+            "parentId": 1,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 25,
+            "name": "Bắc Giang",
+            "slug": "bac-giang",
+            "description": "Đặc sản từ Bắc Giang - Vải thiều Lục Ngạn, bánh đậu xanh",
+            "parentId": 1,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 26,
+            "name": "Bắc Ninh",
+            "slug": "bac-ninh",
+            "description": "Đặc sản từ Bắc Ninh - Bánh phu thê, chả cá Bắc Ninh",
+            "parentId": 1,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 27,
+            "name": "Hải Dương",
+            "slug": "hai-duong",
+            "description": "Đặc sản từ Hải Dương - Bánh đậu xanh, nem Thanh Hà",
+            "parentId": 1,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 28,
+            "name": "Hưng Yên",
+            "slug": "hung-yen",
+            "description": "Đặc sản từ Hưng Yên - Longan Hưng Yên, bánh đậu xanh",
+            "parentId": 1,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 29,
+            "name": "Thái Bình",
+            "slug": "thai-binh",
+            "description": "Đặc sản từ Thái Bình - Bánh ít lá gai, nem chua",
+            "parentId": 1,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 30,
+            "name": "Hà Nam",
+            "slug": "ha-nam",
+            "description": "Đặc sản từ Hà Nam - Bánh cuốn Phủ Lý, chả cá",
+            "parentId": 1,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 31,
+            "name": "Nam Định",
+            "slug": "nam-dinh",
+            "description": "Đặc sản từ Nam Định - Bánh gai, nem Yên Mạc",
+            "parentId": 1,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 32,
+            "name": "Ninh Bình",
+            "slug": "ninh-binh",
+            "description": "Đặc sản từ Ninh Bình - Cơm cháy, thịt dê núi",
+            "parentId": 1,
+            "children": [],
+            "_count": {
+              "products": 1
+            }
+          }
+        ],
+        "_count": {
+          "products": 2
+        }
+      },
+      "images": [
+        {
+          "url": "/assets/spring/uploads/products/5185ab6c-5761-4e43-a172-805c43eb0658.jpg",
+          "alt": "Bánh Chưng Truyền Thống Đốc",
+          "sortOrder": 0
+        },
+        {
+          "url": "/assets/spring/uploads/products/48caacf9-8669-408e-9687-347e6c38688c.jpg",
+          "alt": "Bánh Chưng Truyền Thống Đốc",
+          "sortOrder": 1
+        },
+        {
+          "url": "/assets/spring/uploads/products/784f4935-c89f-43c8-a526-f06ef5e76dad.jpg",
+          "alt": "Bánh Chưng Truyền Thống Đốc",
+          "sortOrder": 2
+        },
+        {
+          "url": "/assets/spring/uploads/products/5d4067d3-2216-41fd-a88c-3eea1cf6efcf.jpg",
+          "alt": "Bánh Chưng Truyền Thống Đốc",
+          "sortOrder": 3
+        }
+      ],
+      "variants": [],
+      "relatedProducts": [
+        {
+          "id": 5,
+          "name": "Chả Cá Lã Vọng",
+          "slug": "cha-ca-la-vong",
+          "shortDescription": "Chả cá truyền thống Hà Nội với hương vị đặc biệt",
+          "regularPrice": 200000,
+          "salePrice": null,
+          "featured": false,
+          "category": {
+            "id": 1,
+            "name": "Đặc Sản Miền Bắc",
+            "slug": "dac-san-mien-bac",
+            "description": "Các sản phẩm đặc sản từ miền Bắc Việt Nam",
+            "parentId": null,
+            "children": [
+              {
+                "id": 4,
+                "name": "Bánh Kẹo",
+                "slug": "banh-keo",
+                "description": "Các loại bánh kẹo truyền thống",
+                "parentId": 1,
+                "children": [],
+                "_count": {
+                  "products": 1
+                }
+              },
+              {
+                "id": 9,
+                "name": "Hà Nội",
+                "slug": "ha-noi",
+                "description": "Đặc sản từ thủ đô Hà Nội - Bánh chưng, bánh giầy, chả cá Lã Vọng",
+                "parentId": 1,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 10,
+                "name": "Hải Phòng",
+                "slug": "hai-phong",
+                "description": "Đặc sản từ thành phố cảng Hải Phòng - Bánh đa cua, nem cua bể",
+                "parentId": 1,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 11,
+                "name": "Quảng Ninh",
+                "slug": "quang-ninh",
+                "description": "Đặc sản từ Quảng Ninh - Ngọc trai, hải sản tươi sống",
+                "parentId": 1,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 12,
+                "name": "Lạng Sơn",
+                "slug": "lang-son",
+                "description": "Đặc sản từ Lạng Sơn - Bánh cuốn Lạng Sơn, măng khô",
+                "parentId": 1,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 13,
+                "name": "Cao Bằng",
+                "slug": "cao-bang",
+                "description": "Đặc sản từ Cao Bằng - Bánh khảo, thịt trâu gác bếp",
+                "parentId": 1,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 14,
+                "name": "Bắc Kạn",
+                "slug": "bac-kan",
+                "description": "Đặc sản từ Bắc Kạn - Cá suối, măng rừng",
+                "parentId": 1,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 15,
+                "name": "Thái Nguyên",
+                "slug": "thai-nguyen",
+                "description": "Đặc sản từ Thái Nguyên - Chè Thái Nguyên, cốm xanh",
+                "parentId": 1,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 16,
+                "name": "Lào Cai",
+                "slug": "lao-cai",
+                "description": "Đặc sản từ Lào Cai - Thịt trâu gác bếp, rượu cần",
+                "parentId": 1,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 17,
+                "name": "Yên Bái",
+                "slug": "yen-bai",
+                "description": "Đặc sản từ Yên Bái - Hồng không hạt, bánh chưng gù",
+                "parentId": 1,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 18,
+                "name": "Sơn La",
+                "slug": "son-la",
+                "description": "Đặc sản từ Sơn La - Mận Sơn La, cá suối nướng",
+                "parentId": 1,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 19,
+                "name": "Điện Biên",
+                "slug": "dien-bien",
+                "description": "Đặc sản từ Điện Biên - Thịt trâu gác bếp, rượu cần",
+                "parentId": 1,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 20,
+                "name": "Lai Châu",
+                "slug": "lai-chau",
+                "description": "Đặc sản từ Lai Châu - Chè Shan Tuyết, mật ong rừng",
+                "parentId": 1,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 21,
+                "name": "Hà Giang",
+                "slug": "ha-giang",
+                "description": "Đặc sản từ Hà Giang - Thịt trâu gác bếp, mật ong đá",
+                "parentId": 1,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 22,
+                "name": "Tuyên Quang",
+                "slug": "tuyen-quang",
+                "description": "Đặc sản từ Tuyên Quang - Bánh coóng phù, chè Tân Cương",
+                "parentId": 1,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 23,
+                "name": "Phú Thọ",
+                "slug": "phu-tho",
+                "description": "Đặc sản từ Phú Thọ - Bánh chưng Phú Thọ, chè Phú Thọ",
+                "parentId": 1,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 24,
+                "name": "Vĩnh Phúc",
+                "slug": "vinh-phuc",
+                "description": "Đặc sản từ Vĩnh Phúc - Bánh cuốn Thanh Trì, chả cá",
+                "parentId": 1,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 25,
+                "name": "Bắc Giang",
+                "slug": "bac-giang",
+                "description": "Đặc sản từ Bắc Giang - Vải thiều Lục Ngạn, bánh đậu xanh",
+                "parentId": 1,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 26,
+                "name": "Bắc Ninh",
+                "slug": "bac-ninh",
+                "description": "Đặc sản từ Bắc Ninh - Bánh phu thê, chả cá Bắc Ninh",
+                "parentId": 1,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 27,
+                "name": "Hải Dương",
+                "slug": "hai-duong",
+                "description": "Đặc sản từ Hải Dương - Bánh đậu xanh, nem Thanh Hà",
+                "parentId": 1,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 28,
+                "name": "Hưng Yên",
+                "slug": "hung-yen",
+                "description": "Đặc sản từ Hưng Yên - Longan Hưng Yên, bánh đậu xanh",
+                "parentId": 1,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 29,
+                "name": "Thái Bình",
+                "slug": "thai-binh",
+                "description": "Đặc sản từ Thái Bình - Bánh ít lá gai, nem chua",
+                "parentId": 1,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 30,
+                "name": "Hà Nam",
+                "slug": "ha-nam",
+                "description": "Đặc sản từ Hà Nam - Bánh cuốn Phủ Lý, chả cá",
+                "parentId": 1,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 31,
+                "name": "Nam Định",
+                "slug": "nam-dinh",
+                "description": "Đặc sản từ Nam Định - Bánh gai, nem Yên Mạc",
+                "parentId": 1,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 32,
+                "name": "Ninh Bình",
+                "slug": "ninh-binh",
+                "description": "Đặc sản từ Ninh Bình - Cơm cháy, thịt dê núi",
+                "parentId": 1,
+                "children": [],
+                "_count": {
+                  "products": 1
+                }
+              }
+            ],
+            "_count": {
+              "products": 2
+            }
+          },
+          "images": [
+            {
+              "url": "/assets/spring/uploads/products/3fbd6d5d-27a6-4ed9-9fb2-ba01e311bd28.jpg",
+              "alt": "Chả Cá Lã Vọng",
+              "sortOrder": 0
+            }
+          ],
+          "variants": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Nem Chua Thanh Hóa",
+      "slug": "nem-chua-thanh-hoa",
+      "shortDescription": "Nem chua truyền thống Thanh Hóa với hương vị đặc trưng",
+      "description": "<p>Nem chua truyền thống Thanh Hóa với hương vị đặc trưng</p>\n<p><strong>Xuất xứ:</strong> Thanh Hóa<br /><strong>Khối lượng:</strong> 200g</p>",
+      "sku": null,
+      "regularPrice": 80000,
+      "salePrice": null,
+      "stockQuantity": 99,
+      "featured": false,
+      "status": "ACTIVE",
+      "categoryId": 5,
+      "category": {
+        "id": 5,
+        "name": "Nem Chua",
+        "slug": "nem-chua",
+        "description": "Các loại nem chua đặc sản",
+        "parentId": 2,
+        "children": [],
+        "_count": {
+          "products": 1
+        }
+      },
+      "images": [
+        {
+          "url": "https://vifoodshop.com/wp-content/uploads/2019/07/nem-chua-chuan-thanh-hoa-247x296.jpg",
+          "alt": "Nem Chua Thanh Hóa",
+          "sortOrder": 0
+        },
+        {
+          "url": "/assets/spring/uploads/products/be05b3a8-1260-415c-9e66-4dce5b0c2e5c.jpg",
+          "alt": "Nem Chua Thanh Hóa",
+          "sortOrder": 1
+        },
+        {
+          "url": "/assets/spring/uploads/products/584ecef5-7974-4e43-a103-62fd4240167c.jpg",
+          "alt": "Nem Chua Thanh Hóa",
+          "sortOrder": 2
+        },
+        {
+          "url": "/assets/spring/uploads/products/a0c10857-9514-4b46-b19d-bbb0c0cd2e93.jpg",
+          "alt": "Nem Chua Thanh Hóa",
+          "sortOrder": 3
+        },
+        {
+          "url": "/assets/spring/uploads/products/621014b0-e11f-472c-8a9c-92397f5253da.jpg",
+          "alt": "Nem Chua Thanh Hóa",
+          "sortOrder": 4
+        },
+        {
+          "url": "/assets/spring/uploads/products/ded125df-49a6-408f-887f-5a3500544bc9.jpg",
+          "alt": "Nem Chua Thanh Hóa",
+          "sortOrder": 5
+        }
+      ],
+      "variants": [],
+      "relatedProducts": []
+    },
+    {
+      "id": 3,
+      "name": "Bánh Tráng Nướng Đà Lạt",
+      "slug": "banh-trang-nuong-da-lat",
+      "shortDescription": "Bánh tráng nướng giòn rụm với các loại topping đa dạng",
+      "description": "<p>Bánh tráng nướng giòn rụm với các loại topping đa dạng</p>\n<p><strong>Xuất xứ:</strong> Đà Lạt<br /><strong>Khối lượng:</strong> 100g</p>",
+      "sku": null,
+      "regularPrice": 45000,
+      "salePrice": null,
+      "stockQuantity": 200,
+      "featured": false,
+      "status": "ACTIVE",
+      "categoryId": 2,
+      "category": {
+        "id": 2,
+        "name": "Đặc Sản Miền Trung",
+        "slug": "dac-san-mien-trung",
+        "description": "Các sản phẩm đặc sản từ miền Trung Việt Nam",
+        "parentId": null,
+        "children": [
+          {
+            "id": 5,
+            "name": "Nem Chua",
+            "slug": "nem-chua",
+            "description": "Các loại nem chua đặc sản",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 1
+            }
+          },
+          {
+            "id": 33,
+            "name": "Thanh Hóa",
+            "slug": "thanh-hoa",
+            "description": "Đặc sản từ Thanh Hóa - Nem chua Thanh Hóa, bánh trôi tàu",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 34,
+            "name": "Nghệ An",
+            "slug": "nghe-an",
+            "description": "Đặc sản từ Nghệ An - Bánh mướt, nem chua Yên Thành",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 35,
+            "name": "Hà Tĩnh",
+            "slug": "ha-tinh",
+            "description": "Đặc sản từ Hà Tĩnh - Bánh khoái, nem nướng",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 36,
+            "name": "Quảng Bình",
+            "slug": "quang-binh",
+            "description": "Đặc sản từ Quảng Bình - Bánh ướt thịt nướng, tôm he",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 37,
+            "name": "Quảng Trị",
+            "slug": "quang-tri",
+            "description": "Đặc sản từ Quảng Trị - Bánh bèo, bánh nậm",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 38,
+            "name": "Thừa Thiên Huế",
+            "slug": "thua-thien-hue",
+            "description": "Đặc sản từ Huế - Bún bò Huế, bánh khoái, chè Huế",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 39,
+            "name": "Đà Nẵng",
+            "slug": "da-nang",
+            "description": "Đặc sản từ Đà Nẵng - Mì Quảng, bánh tráng cuốn thịt heo",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 40,
+            "name": "Quảng Nam",
+            "slug": "quang-nam",
+            "description": "Đặc sản từ Quảng Nam - Mì Quảng, bánh xèo, cao lầu",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 41,
+            "name": "Quảng Ngãi",
+            "slug": "quang-ngai",
+            "description": "Đặc sản từ Quảng Ngãi - Bánh xèo, bánh căn",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 42,
+            "name": "Bình Định",
+            "slug": "binh-dinh",
+            "description": "Đặc sản từ Bình Định - Bánh hỏi, bánh ít lá gai",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 43,
+            "name": "Phú Yên",
+            "slug": "phu-yen",
+            "description": "Đặc sản từ Phú Yên - Bánh căn, ốc hến",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 44,
+            "name": "Khánh Hòa",
+            "slug": "khanh-hoa",
+            "description": "Đặc sản từ Khánh Hòa - Bánh căn, nem nướng Nha Trang",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 45,
+            "name": "Ninh Thuận",
+            "slug": "ninh-thuan",
+            "description": "Đặc sản từ Ninh Thuận - Bánh căn, nho Ninh Thuận",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 46,
+            "name": "Bình Thuận",
+            "slug": "binh-thuan",
+            "description": "Đặc sản từ Bình Thuận - Bánh căn, nước mắm Phan Thiết",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 1
+            }
+          },
+          {
+            "id": 47,
+            "name": "Kon Tum",
+            "slug": "kon-tum",
+            "description": "Đặc sản từ Kon Tum - Rượu cần, thịt nướng lá chuối",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 48,
+            "name": "Gia Lai",
+            "slug": "gia-lai",
+            "description": "Đặc sản từ Gia Lai - Rượu cần, bánh tráng nướng",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 49,
+            "name": "Đắk Lắk",
+            "slug": "dak-lak",
+            "description": "Đặc sản từ Đắk Lắk - Cà phê Buôn Ma Thuột, bánh tráng nướng",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 50,
+            "name": "Đắk Nông",
+            "slug": "dak-nong",
+            "description": "Đặc sản từ Đắk Nông - Cà phê, hạt điều",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 51,
+            "name": "Lâm Đồng",
+            "slug": "lam-dong",
+            "description": "Đặc sản từ Lâm Đồng - Rau củ Đà Lạt, bánh tráng nướng",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          }
+        ],
+        "_count": {
+          "products": 3
+        }
+      },
+      "images": [
+        {
+          "url": "/assets/spring/uploads/products/73b72354-b7f0-40cb-b6ec-a94ccc466625.jpg",
+          "alt": "Bánh Tráng Nướng Đà Lạt",
+          "sortOrder": 0
+        },
+        {
+          "url": "/assets/spring/uploads/products/5df333d1-4889-429e-90d9-973b513629ab.jpg",
+          "alt": "Bánh Tráng Nướng Đà Lạt",
+          "sortOrder": 1
+        },
+        {
+          "url": "/assets/spring/uploads/products/abc70c35-3542-49eb-a220-d4aeb37dd3f5.jpeg",
+          "alt": "Bánh Tráng Nướng Đà Lạt",
+          "sortOrder": 2
+        },
+        {
+          "url": "/assets/spring/uploads/products/6e2b93ad-ad85-41b7-9b58-4487ba11d000.jpg",
+          "alt": "Bánh Tráng Nướng Đà Lạt",
+          "sortOrder": 3
+        },
+        {
+          "url": "/assets/spring/uploads/products/61ca661f-97e8-4b39-b301-0f42c467da50.jpg",
+          "alt": "Bánh Tráng Nướng Đà Lạt",
+          "sortOrder": 4
+        }
+      ],
+      "variants": [],
+      "relatedProducts": [
+        {
+          "id": 6,
+          "name": "Bánh Ít Lá Gai",
+          "slug": "banh-it-la-gai",
+          "shortDescription": "Bánh ít lá gai truyền thống miền Trung với nhân tôm thịt",
+          "regularPrice": 35000,
+          "salePrice": null,
+          "featured": true,
+          "category": {
+            "id": 2,
+            "name": "Đặc Sản Miền Trung",
+            "slug": "dac-san-mien-trung",
+            "description": "Các sản phẩm đặc sản từ miền Trung Việt Nam",
+            "parentId": null,
+            "children": [
+              {
+                "id": 5,
+                "name": "Nem Chua",
+                "slug": "nem-chua",
+                "description": "Các loại nem chua đặc sản",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 1
+                }
+              },
+              {
+                "id": 33,
+                "name": "Thanh Hóa",
+                "slug": "thanh-hoa",
+                "description": "Đặc sản từ Thanh Hóa - Nem chua Thanh Hóa, bánh trôi tàu",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 34,
+                "name": "Nghệ An",
+                "slug": "nghe-an",
+                "description": "Đặc sản từ Nghệ An - Bánh mướt, nem chua Yên Thành",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 35,
+                "name": "Hà Tĩnh",
+                "slug": "ha-tinh",
+                "description": "Đặc sản từ Hà Tĩnh - Bánh khoái, nem nướng",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 36,
+                "name": "Quảng Bình",
+                "slug": "quang-binh",
+                "description": "Đặc sản từ Quảng Bình - Bánh ướt thịt nướng, tôm he",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 37,
+                "name": "Quảng Trị",
+                "slug": "quang-tri",
+                "description": "Đặc sản từ Quảng Trị - Bánh bèo, bánh nậm",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 38,
+                "name": "Thừa Thiên Huế",
+                "slug": "thua-thien-hue",
+                "description": "Đặc sản từ Huế - Bún bò Huế, bánh khoái, chè Huế",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 39,
+                "name": "Đà Nẵng",
+                "slug": "da-nang",
+                "description": "Đặc sản từ Đà Nẵng - Mì Quảng, bánh tráng cuốn thịt heo",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 40,
+                "name": "Quảng Nam",
+                "slug": "quang-nam",
+                "description": "Đặc sản từ Quảng Nam - Mì Quảng, bánh xèo, cao lầu",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 41,
+                "name": "Quảng Ngãi",
+                "slug": "quang-ngai",
+                "description": "Đặc sản từ Quảng Ngãi - Bánh xèo, bánh căn",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 42,
+                "name": "Bình Định",
+                "slug": "binh-dinh",
+                "description": "Đặc sản từ Bình Định - Bánh hỏi, bánh ít lá gai",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 43,
+                "name": "Phú Yên",
+                "slug": "phu-yen",
+                "description": "Đặc sản từ Phú Yên - Bánh căn, ốc hến",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 44,
+                "name": "Khánh Hòa",
+                "slug": "khanh-hoa",
+                "description": "Đặc sản từ Khánh Hòa - Bánh căn, nem nướng Nha Trang",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 45,
+                "name": "Ninh Thuận",
+                "slug": "ninh-thuan",
+                "description": "Đặc sản từ Ninh Thuận - Bánh căn, nho Ninh Thuận",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 46,
+                "name": "Bình Thuận",
+                "slug": "binh-thuan",
+                "description": "Đặc sản từ Bình Thuận - Bánh căn, nước mắm Phan Thiết",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 1
+                }
+              },
+              {
+                "id": 47,
+                "name": "Kon Tum",
+                "slug": "kon-tum",
+                "description": "Đặc sản từ Kon Tum - Rượu cần, thịt nướng lá chuối",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 48,
+                "name": "Gia Lai",
+                "slug": "gia-lai",
+                "description": "Đặc sản từ Gia Lai - Rượu cần, bánh tráng nướng",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 49,
+                "name": "Đắk Lắk",
+                "slug": "dak-lak",
+                "description": "Đặc sản từ Đắk Lắk - Cà phê Buôn Ma Thuột, bánh tráng nướng",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 50,
+                "name": "Đắk Nông",
+                "slug": "dak-nong",
+                "description": "Đặc sản từ Đắk Nông - Cà phê, hạt điều",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 51,
+                "name": "Lâm Đồng",
+                "slug": "lam-dong",
+                "description": "Đặc sản từ Lâm Đồng - Rau củ Đà Lạt, bánh tráng nướng",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              }
+            ],
+            "_count": {
+              "products": 3
+            }
+          },
+          "images": [
+            {
+              "url": "/assets/spring/uploads/products/15e1ac5e-17db-43f8-9c7d-0227a82791a9.jpg",
+              "alt": "Bánh Ít Lá Gai",
+              "sortOrder": 0
+            },
+            {
+              "url": "/assets/spring/uploads/products/56bdf8f4-a4d3-4c32-b0f6-ec781dce777c.jpg",
+              "alt": "Bánh Ít Lá Gai",
+              "sortOrder": 1
+            },
+            {
+              "url": "/assets/spring/uploads/products/9c1d9314-4a93-4cd4-b12c-d75a7378cbce.jpg",
+              "alt": "Bánh Ít Lá Gai",
+              "sortOrder": 2
+            },
+            {
+              "url": "/assets/spring/uploads/products/024b228e-cf0c-4a1d-8a86-f6bba77fde37.jpg",
+              "alt": "Bánh Ít Lá Gai",
+              "sortOrder": 4
+            }
+          ],
+          "variants": []
+        },
+        {
+          "id": 7,
+          "name": "Mắm Ruốc Huế",
+          "slug": "mam-ruoc-hue",
+          "shortDescription": "Mắm ruốc đặc sản Huế với hương vị đậm đà",
+          "regularPrice": 120000,
+          "salePrice": null,
+          "featured": false,
+          "category": {
+            "id": 2,
+            "name": "Đặc Sản Miền Trung",
+            "slug": "dac-san-mien-trung",
+            "description": "Các sản phẩm đặc sản từ miền Trung Việt Nam",
+            "parentId": null,
+            "children": [
+              {
+                "id": 5,
+                "name": "Nem Chua",
+                "slug": "nem-chua",
+                "description": "Các loại nem chua đặc sản",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 1
+                }
+              },
+              {
+                "id": 33,
+                "name": "Thanh Hóa",
+                "slug": "thanh-hoa",
+                "description": "Đặc sản từ Thanh Hóa - Nem chua Thanh Hóa, bánh trôi tàu",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 34,
+                "name": "Nghệ An",
+                "slug": "nghe-an",
+                "description": "Đặc sản từ Nghệ An - Bánh mướt, nem chua Yên Thành",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 35,
+                "name": "Hà Tĩnh",
+                "slug": "ha-tinh",
+                "description": "Đặc sản từ Hà Tĩnh - Bánh khoái, nem nướng",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 36,
+                "name": "Quảng Bình",
+                "slug": "quang-binh",
+                "description": "Đặc sản từ Quảng Bình - Bánh ướt thịt nướng, tôm he",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 37,
+                "name": "Quảng Trị",
+                "slug": "quang-tri",
+                "description": "Đặc sản từ Quảng Trị - Bánh bèo, bánh nậm",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 38,
+                "name": "Thừa Thiên Huế",
+                "slug": "thua-thien-hue",
+                "description": "Đặc sản từ Huế - Bún bò Huế, bánh khoái, chè Huế",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 39,
+                "name": "Đà Nẵng",
+                "slug": "da-nang",
+                "description": "Đặc sản từ Đà Nẵng - Mì Quảng, bánh tráng cuốn thịt heo",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 40,
+                "name": "Quảng Nam",
+                "slug": "quang-nam",
+                "description": "Đặc sản từ Quảng Nam - Mì Quảng, bánh xèo, cao lầu",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 41,
+                "name": "Quảng Ngãi",
+                "slug": "quang-ngai",
+                "description": "Đặc sản từ Quảng Ngãi - Bánh xèo, bánh căn",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 42,
+                "name": "Bình Định",
+                "slug": "binh-dinh",
+                "description": "Đặc sản từ Bình Định - Bánh hỏi, bánh ít lá gai",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 43,
+                "name": "Phú Yên",
+                "slug": "phu-yen",
+                "description": "Đặc sản từ Phú Yên - Bánh căn, ốc hến",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 44,
+                "name": "Khánh Hòa",
+                "slug": "khanh-hoa",
+                "description": "Đặc sản từ Khánh Hòa - Bánh căn, nem nướng Nha Trang",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 45,
+                "name": "Ninh Thuận",
+                "slug": "ninh-thuan",
+                "description": "Đặc sản từ Ninh Thuận - Bánh căn, nho Ninh Thuận",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 46,
+                "name": "Bình Thuận",
+                "slug": "binh-thuan",
+                "description": "Đặc sản từ Bình Thuận - Bánh căn, nước mắm Phan Thiết",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 1
+                }
+              },
+              {
+                "id": 47,
+                "name": "Kon Tum",
+                "slug": "kon-tum",
+                "description": "Đặc sản từ Kon Tum - Rượu cần, thịt nướng lá chuối",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 48,
+                "name": "Gia Lai",
+                "slug": "gia-lai",
+                "description": "Đặc sản từ Gia Lai - Rượu cần, bánh tráng nướng",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 49,
+                "name": "Đắk Lắk",
+                "slug": "dak-lak",
+                "description": "Đặc sản từ Đắk Lắk - Cà phê Buôn Ma Thuột, bánh tráng nướng",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 50,
+                "name": "Đắk Nông",
+                "slug": "dak-nong",
+                "description": "Đặc sản từ Đắk Nông - Cà phê, hạt điều",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 51,
+                "name": "Lâm Đồng",
+                "slug": "lam-dong",
+                "description": "Đặc sản từ Lâm Đồng - Rau củ Đà Lạt, bánh tráng nướng",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              }
+            ],
+            "_count": {
+              "products": 3
+            }
+          },
+          "images": [
+            {
+              "url": "/assets/spring/uploads/products/product-1776953810557-909243859.jpg",
+              "alt": "Mắm Ruốc Huế",
+              "sortOrder": 0
+            },
+            {
+              "url": "/assets/spring/uploads/products/product-1776953810561-101638008.jpg",
+              "alt": "Mắm Ruốc Huế",
+              "sortOrder": 2
+            },
+            {
+              "url": "/assets/spring/uploads/products/product-1776953810565-524887378.jpg",
+              "alt": "Mắm Ruốc Huế",
+              "sortOrder": 3
+            },
+            {
+              "url": "/assets/spring/uploads/products/product-1776953810568-293002110.jpg",
+              "alt": "Mắm Ruốc Huế",
+              "sortOrder": 4
+            }
+          ],
+          "variants": []
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Kẹo Dừa Bến Tre",
+      "slug": "keo-dua-ben-tre",
+      "shortDescription": "Kẹo dừa thơm ngon làm từ dừa tươi Bến Tre",
+      "description": "<p>Kẹo dừa thơm ngon làm từ dừa tươi Bến Tre</p>\n<p><strong>Xuất xứ:</strong> Bến Tre<br /><strong>Khối lượng:</strong> 250g</p>\n<h3>Đánh giá từ khách hàng</h3><ul><li><strong>Nguyễn Nhật Thiên (5/5):</strong> Quá ngon haha</li><li><strong>Nguyễn Nhật Thiên (5/5):</strong> Quá ngon hihi 00:00</li></ul>",
+      "sku": null,
+      "regularPrice": 60000,
+      "salePrice": null,
+      "stockQuantity": 149,
+      "featured": false,
+      "status": "ACTIVE",
+      "categoryId": 4,
+      "category": {
+        "id": 4,
+        "name": "Bánh Kẹo",
+        "slug": "banh-keo",
+        "description": "Các loại bánh kẹo truyền thống",
+        "parentId": 1,
+        "children": [],
+        "_count": {
+          "products": 1
+        }
+      },
+      "images": [
+        {
+          "url": "/assets/spring/uploads/products/e8648088-122d-47f7-bd42-a1f1aeee3989.jpg",
+          "alt": "Kẹo Dừa Bến Tre",
+          "sortOrder": 0
+        },
+        {
+          "url": "/assets/spring/uploads/products/9a970f95-ce52-47ba-852d-e3ee3cd65766.jpg",
+          "alt": "Kẹo Dừa Bến Tre",
+          "sortOrder": 1
+        },
+        {
+          "url": "/assets/spring/uploads/products/e1764b21-dcf1-4cca-9a8c-28cf11c07b5a.jpg",
+          "alt": "Kẹo Dừa Bến Tre",
+          "sortOrder": 2
+        },
+        {
+          "url": "/assets/spring/uploads/products/960c164f-3a80-4680-b2c5-53cbbe2104a0.jpg",
+          "alt": "Kẹo Dừa Bến Tre",
+          "sortOrder": 3
+        },
+        {
+          "url": "/assets/spring/uploads/products/6b32e19b-1e34-4e73-8dfc-57ae8af1ce9a.png",
+          "alt": "Kẹo Dừa Bến Tre",
+          "sortOrder": 4
+        }
+      ],
+      "variants": [],
+      "relatedProducts": []
+    },
+    {
+      "id": 5,
+      "name": "Chả Cá Lã Vọng",
+      "slug": "cha-ca-la-vong",
+      "shortDescription": "Chả cá truyền thống Hà Nội với hương vị đặc biệt",
+      "description": "<p>Chả cá truyền thống Hà Nội với hương vị đặc biệt</p>\n<p><strong>Xuất xứ:</strong> Hà Nội<br /><strong>Khối lượng:</strong> 300g</p>",
+      "sku": null,
+      "regularPrice": 200000,
+      "salePrice": null,
+      "stockQuantity": 30,
+      "featured": false,
+      "status": "ACTIVE",
+      "categoryId": 1,
+      "category": {
+        "id": 1,
+        "name": "Đặc Sản Miền Bắc",
+        "slug": "dac-san-mien-bac",
+        "description": "Các sản phẩm đặc sản từ miền Bắc Việt Nam",
+        "parentId": null,
+        "children": [
+          {
+            "id": 4,
+            "name": "Bánh Kẹo",
+            "slug": "banh-keo",
+            "description": "Các loại bánh kẹo truyền thống",
+            "parentId": 1,
+            "children": [],
+            "_count": {
+              "products": 1
+            }
+          },
+          {
+            "id": 9,
+            "name": "Hà Nội",
+            "slug": "ha-noi",
+            "description": "Đặc sản từ thủ đô Hà Nội - Bánh chưng, bánh giầy, chả cá Lã Vọng",
+            "parentId": 1,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 10,
+            "name": "Hải Phòng",
+            "slug": "hai-phong",
+            "description": "Đặc sản từ thành phố cảng Hải Phòng - Bánh đa cua, nem cua bể",
+            "parentId": 1,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 11,
+            "name": "Quảng Ninh",
+            "slug": "quang-ninh",
+            "description": "Đặc sản từ Quảng Ninh - Ngọc trai, hải sản tươi sống",
+            "parentId": 1,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 12,
+            "name": "Lạng Sơn",
+            "slug": "lang-son",
+            "description": "Đặc sản từ Lạng Sơn - Bánh cuốn Lạng Sơn, măng khô",
+            "parentId": 1,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 13,
+            "name": "Cao Bằng",
+            "slug": "cao-bang",
+            "description": "Đặc sản từ Cao Bằng - Bánh khảo, thịt trâu gác bếp",
+            "parentId": 1,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 14,
+            "name": "Bắc Kạn",
+            "slug": "bac-kan",
+            "description": "Đặc sản từ Bắc Kạn - Cá suối, măng rừng",
+            "parentId": 1,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 15,
+            "name": "Thái Nguyên",
+            "slug": "thai-nguyen",
+            "description": "Đặc sản từ Thái Nguyên - Chè Thái Nguyên, cốm xanh",
+            "parentId": 1,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 16,
+            "name": "Lào Cai",
+            "slug": "lao-cai",
+            "description": "Đặc sản từ Lào Cai - Thịt trâu gác bếp, rượu cần",
+            "parentId": 1,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 17,
+            "name": "Yên Bái",
+            "slug": "yen-bai",
+            "description": "Đặc sản từ Yên Bái - Hồng không hạt, bánh chưng gù",
+            "parentId": 1,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 18,
+            "name": "Sơn La",
+            "slug": "son-la",
+            "description": "Đặc sản từ Sơn La - Mận Sơn La, cá suối nướng",
+            "parentId": 1,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 19,
+            "name": "Điện Biên",
+            "slug": "dien-bien",
+            "description": "Đặc sản từ Điện Biên - Thịt trâu gác bếp, rượu cần",
+            "parentId": 1,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 20,
+            "name": "Lai Châu",
+            "slug": "lai-chau",
+            "description": "Đặc sản từ Lai Châu - Chè Shan Tuyết, mật ong rừng",
+            "parentId": 1,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 21,
+            "name": "Hà Giang",
+            "slug": "ha-giang",
+            "description": "Đặc sản từ Hà Giang - Thịt trâu gác bếp, mật ong đá",
+            "parentId": 1,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 22,
+            "name": "Tuyên Quang",
+            "slug": "tuyen-quang",
+            "description": "Đặc sản từ Tuyên Quang - Bánh coóng phù, chè Tân Cương",
+            "parentId": 1,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 23,
+            "name": "Phú Thọ",
+            "slug": "phu-tho",
+            "description": "Đặc sản từ Phú Thọ - Bánh chưng Phú Thọ, chè Phú Thọ",
+            "parentId": 1,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 24,
+            "name": "Vĩnh Phúc",
+            "slug": "vinh-phuc",
+            "description": "Đặc sản từ Vĩnh Phúc - Bánh cuốn Thanh Trì, chả cá",
+            "parentId": 1,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 25,
+            "name": "Bắc Giang",
+            "slug": "bac-giang",
+            "description": "Đặc sản từ Bắc Giang - Vải thiều Lục Ngạn, bánh đậu xanh",
+            "parentId": 1,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 26,
+            "name": "Bắc Ninh",
+            "slug": "bac-ninh",
+            "description": "Đặc sản từ Bắc Ninh - Bánh phu thê, chả cá Bắc Ninh",
+            "parentId": 1,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 27,
+            "name": "Hải Dương",
+            "slug": "hai-duong",
+            "description": "Đặc sản từ Hải Dương - Bánh đậu xanh, nem Thanh Hà",
+            "parentId": 1,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 28,
+            "name": "Hưng Yên",
+            "slug": "hung-yen",
+            "description": "Đặc sản từ Hưng Yên - Longan Hưng Yên, bánh đậu xanh",
+            "parentId": 1,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 29,
+            "name": "Thái Bình",
+            "slug": "thai-binh",
+            "description": "Đặc sản từ Thái Bình - Bánh ít lá gai, nem chua",
+            "parentId": 1,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 30,
+            "name": "Hà Nam",
+            "slug": "ha-nam",
+            "description": "Đặc sản từ Hà Nam - Bánh cuốn Phủ Lý, chả cá",
+            "parentId": 1,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 31,
+            "name": "Nam Định",
+            "slug": "nam-dinh",
+            "description": "Đặc sản từ Nam Định - Bánh gai, nem Yên Mạc",
+            "parentId": 1,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 32,
+            "name": "Ninh Bình",
+            "slug": "ninh-binh",
+            "description": "Đặc sản từ Ninh Bình - Cơm cháy, thịt dê núi",
+            "parentId": 1,
+            "children": [],
+            "_count": {
+              "products": 1
+            }
+          }
+        ],
+        "_count": {
+          "products": 2
+        }
+      },
+      "images": [
+        {
+          "url": "/assets/spring/uploads/products/3fbd6d5d-27a6-4ed9-9fb2-ba01e311bd28.jpg",
+          "alt": "Chả Cá Lã Vọng",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [],
+      "relatedProducts": [
+        {
+          "id": 1,
+          "name": "Bánh Chưng Truyền Thống Đốc",
+          "slug": "banh-chung-truyen-thong-doc",
+          "shortDescription": "Bánh chưng làm từ gạo nếp, đậu xanh và thịt heo, gói lá dong",
+          "regularPrice": 150000,
+          "salePrice": null,
+          "featured": false,
+          "category": {
+            "id": 1,
+            "name": "Đặc Sản Miền Bắc",
+            "slug": "dac-san-mien-bac",
+            "description": "Các sản phẩm đặc sản từ miền Bắc Việt Nam",
+            "parentId": null,
+            "children": [
+              {
+                "id": 4,
+                "name": "Bánh Kẹo",
+                "slug": "banh-keo",
+                "description": "Các loại bánh kẹo truyền thống",
+                "parentId": 1,
+                "children": [],
+                "_count": {
+                  "products": 1
+                }
+              },
+              {
+                "id": 9,
+                "name": "Hà Nội",
+                "slug": "ha-noi",
+                "description": "Đặc sản từ thủ đô Hà Nội - Bánh chưng, bánh giầy, chả cá Lã Vọng",
+                "parentId": 1,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 10,
+                "name": "Hải Phòng",
+                "slug": "hai-phong",
+                "description": "Đặc sản từ thành phố cảng Hải Phòng - Bánh đa cua, nem cua bể",
+                "parentId": 1,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 11,
+                "name": "Quảng Ninh",
+                "slug": "quang-ninh",
+                "description": "Đặc sản từ Quảng Ninh - Ngọc trai, hải sản tươi sống",
+                "parentId": 1,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 12,
+                "name": "Lạng Sơn",
+                "slug": "lang-son",
+                "description": "Đặc sản từ Lạng Sơn - Bánh cuốn Lạng Sơn, măng khô",
+                "parentId": 1,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 13,
+                "name": "Cao Bằng",
+                "slug": "cao-bang",
+                "description": "Đặc sản từ Cao Bằng - Bánh khảo, thịt trâu gác bếp",
+                "parentId": 1,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 14,
+                "name": "Bắc Kạn",
+                "slug": "bac-kan",
+                "description": "Đặc sản từ Bắc Kạn - Cá suối, măng rừng",
+                "parentId": 1,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 15,
+                "name": "Thái Nguyên",
+                "slug": "thai-nguyen",
+                "description": "Đặc sản từ Thái Nguyên - Chè Thái Nguyên, cốm xanh",
+                "parentId": 1,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 16,
+                "name": "Lào Cai",
+                "slug": "lao-cai",
+                "description": "Đặc sản từ Lào Cai - Thịt trâu gác bếp, rượu cần",
+                "parentId": 1,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 17,
+                "name": "Yên Bái",
+                "slug": "yen-bai",
+                "description": "Đặc sản từ Yên Bái - Hồng không hạt, bánh chưng gù",
+                "parentId": 1,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 18,
+                "name": "Sơn La",
+                "slug": "son-la",
+                "description": "Đặc sản từ Sơn La - Mận Sơn La, cá suối nướng",
+                "parentId": 1,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 19,
+                "name": "Điện Biên",
+                "slug": "dien-bien",
+                "description": "Đặc sản từ Điện Biên - Thịt trâu gác bếp, rượu cần",
+                "parentId": 1,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 20,
+                "name": "Lai Châu",
+                "slug": "lai-chau",
+                "description": "Đặc sản từ Lai Châu - Chè Shan Tuyết, mật ong rừng",
+                "parentId": 1,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 21,
+                "name": "Hà Giang",
+                "slug": "ha-giang",
+                "description": "Đặc sản từ Hà Giang - Thịt trâu gác bếp, mật ong đá",
+                "parentId": 1,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 22,
+                "name": "Tuyên Quang",
+                "slug": "tuyen-quang",
+                "description": "Đặc sản từ Tuyên Quang - Bánh coóng phù, chè Tân Cương",
+                "parentId": 1,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 23,
+                "name": "Phú Thọ",
+                "slug": "phu-tho",
+                "description": "Đặc sản từ Phú Thọ - Bánh chưng Phú Thọ, chè Phú Thọ",
+                "parentId": 1,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 24,
+                "name": "Vĩnh Phúc",
+                "slug": "vinh-phuc",
+                "description": "Đặc sản từ Vĩnh Phúc - Bánh cuốn Thanh Trì, chả cá",
+                "parentId": 1,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 25,
+                "name": "Bắc Giang",
+                "slug": "bac-giang",
+                "description": "Đặc sản từ Bắc Giang - Vải thiều Lục Ngạn, bánh đậu xanh",
+                "parentId": 1,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 26,
+                "name": "Bắc Ninh",
+                "slug": "bac-ninh",
+                "description": "Đặc sản từ Bắc Ninh - Bánh phu thê, chả cá Bắc Ninh",
+                "parentId": 1,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 27,
+                "name": "Hải Dương",
+                "slug": "hai-duong",
+                "description": "Đặc sản từ Hải Dương - Bánh đậu xanh, nem Thanh Hà",
+                "parentId": 1,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 28,
+                "name": "Hưng Yên",
+                "slug": "hung-yen",
+                "description": "Đặc sản từ Hưng Yên - Longan Hưng Yên, bánh đậu xanh",
+                "parentId": 1,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 29,
+                "name": "Thái Bình",
+                "slug": "thai-binh",
+                "description": "Đặc sản từ Thái Bình - Bánh ít lá gai, nem chua",
+                "parentId": 1,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 30,
+                "name": "Hà Nam",
+                "slug": "ha-nam",
+                "description": "Đặc sản từ Hà Nam - Bánh cuốn Phủ Lý, chả cá",
+                "parentId": 1,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 31,
+                "name": "Nam Định",
+                "slug": "nam-dinh",
+                "description": "Đặc sản từ Nam Định - Bánh gai, nem Yên Mạc",
+                "parentId": 1,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 32,
+                "name": "Ninh Bình",
+                "slug": "ninh-binh",
+                "description": "Đặc sản từ Ninh Bình - Cơm cháy, thịt dê núi",
+                "parentId": 1,
+                "children": [],
+                "_count": {
+                  "products": 1
+                }
+              }
+            ],
+            "_count": {
+              "products": 2
+            }
+          },
+          "images": [
+            {
+              "url": "/assets/spring/uploads/products/5185ab6c-5761-4e43-a172-805c43eb0658.jpg",
+              "alt": "Bánh Chưng Truyền Thống Đốc",
+              "sortOrder": 0
+            },
+            {
+              "url": "/assets/spring/uploads/products/48caacf9-8669-408e-9687-347e6c38688c.jpg",
+              "alt": "Bánh Chưng Truyền Thống Đốc",
+              "sortOrder": 1
+            },
+            {
+              "url": "/assets/spring/uploads/products/784f4935-c89f-43c8-a526-f06ef5e76dad.jpg",
+              "alt": "Bánh Chưng Truyền Thống Đốc",
+              "sortOrder": 2
+            },
+            {
+              "url": "/assets/spring/uploads/products/5d4067d3-2216-41fd-a88c-3eea1cf6efcf.jpg",
+              "alt": "Bánh Chưng Truyền Thống Đốc",
+              "sortOrder": 3
+            }
+          ],
+          "variants": []
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Bánh Ít Lá Gai",
+      "slug": "banh-it-la-gai",
+      "shortDescription": "Bánh ít lá gai truyền thống miền Trung với nhân tôm thịt",
+      "description": "<p>Bánh ít lá gai truyền thống miền Trung với nhân tôm thịt</p>\n<p><strong>Xuất xứ:</strong> Huế<br /><strong>Khối lượng:</strong> 150g</p>\n<h3>Đánh giá từ khách hàng</h3><ul><li><strong>Nguyễn Nhật Thiên (5/5):</strong> Ngon a</li></ul>",
+      "sku": null,
+      "regularPrice": 35000,
+      "salePrice": null,
+      "stockQuantity": 73,
+      "featured": true,
+      "status": "ACTIVE",
+      "categoryId": 2,
+      "category": {
+        "id": 2,
+        "name": "Đặc Sản Miền Trung",
+        "slug": "dac-san-mien-trung",
+        "description": "Các sản phẩm đặc sản từ miền Trung Việt Nam",
+        "parentId": null,
+        "children": [
+          {
+            "id": 5,
+            "name": "Nem Chua",
+            "slug": "nem-chua",
+            "description": "Các loại nem chua đặc sản",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 1
+            }
+          },
+          {
+            "id": 33,
+            "name": "Thanh Hóa",
+            "slug": "thanh-hoa",
+            "description": "Đặc sản từ Thanh Hóa - Nem chua Thanh Hóa, bánh trôi tàu",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 34,
+            "name": "Nghệ An",
+            "slug": "nghe-an",
+            "description": "Đặc sản từ Nghệ An - Bánh mướt, nem chua Yên Thành",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 35,
+            "name": "Hà Tĩnh",
+            "slug": "ha-tinh",
+            "description": "Đặc sản từ Hà Tĩnh - Bánh khoái, nem nướng",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 36,
+            "name": "Quảng Bình",
+            "slug": "quang-binh",
+            "description": "Đặc sản từ Quảng Bình - Bánh ướt thịt nướng, tôm he",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 37,
+            "name": "Quảng Trị",
+            "slug": "quang-tri",
+            "description": "Đặc sản từ Quảng Trị - Bánh bèo, bánh nậm",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 38,
+            "name": "Thừa Thiên Huế",
+            "slug": "thua-thien-hue",
+            "description": "Đặc sản từ Huế - Bún bò Huế, bánh khoái, chè Huế",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 39,
+            "name": "Đà Nẵng",
+            "slug": "da-nang",
+            "description": "Đặc sản từ Đà Nẵng - Mì Quảng, bánh tráng cuốn thịt heo",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 40,
+            "name": "Quảng Nam",
+            "slug": "quang-nam",
+            "description": "Đặc sản từ Quảng Nam - Mì Quảng, bánh xèo, cao lầu",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 41,
+            "name": "Quảng Ngãi",
+            "slug": "quang-ngai",
+            "description": "Đặc sản từ Quảng Ngãi - Bánh xèo, bánh căn",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 42,
+            "name": "Bình Định",
+            "slug": "binh-dinh",
+            "description": "Đặc sản từ Bình Định - Bánh hỏi, bánh ít lá gai",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 43,
+            "name": "Phú Yên",
+            "slug": "phu-yen",
+            "description": "Đặc sản từ Phú Yên - Bánh căn, ốc hến",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 44,
+            "name": "Khánh Hòa",
+            "slug": "khanh-hoa",
+            "description": "Đặc sản từ Khánh Hòa - Bánh căn, nem nướng Nha Trang",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 45,
+            "name": "Ninh Thuận",
+            "slug": "ninh-thuan",
+            "description": "Đặc sản từ Ninh Thuận - Bánh căn, nho Ninh Thuận",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 46,
+            "name": "Bình Thuận",
+            "slug": "binh-thuan",
+            "description": "Đặc sản từ Bình Thuận - Bánh căn, nước mắm Phan Thiết",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 1
+            }
+          },
+          {
+            "id": 47,
+            "name": "Kon Tum",
+            "slug": "kon-tum",
+            "description": "Đặc sản từ Kon Tum - Rượu cần, thịt nướng lá chuối",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 48,
+            "name": "Gia Lai",
+            "slug": "gia-lai",
+            "description": "Đặc sản từ Gia Lai - Rượu cần, bánh tráng nướng",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 49,
+            "name": "Đắk Lắk",
+            "slug": "dak-lak",
+            "description": "Đặc sản từ Đắk Lắk - Cà phê Buôn Ma Thuột, bánh tráng nướng",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 50,
+            "name": "Đắk Nông",
+            "slug": "dak-nong",
+            "description": "Đặc sản từ Đắk Nông - Cà phê, hạt điều",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 51,
+            "name": "Lâm Đồng",
+            "slug": "lam-dong",
+            "description": "Đặc sản từ Lâm Đồng - Rau củ Đà Lạt, bánh tráng nướng",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          }
+        ],
+        "_count": {
+          "products": 3
+        }
+      },
+      "images": [
+        {
+          "url": "/assets/spring/uploads/products/15e1ac5e-17db-43f8-9c7d-0227a82791a9.jpg",
+          "alt": "Bánh Ít Lá Gai",
+          "sortOrder": 0
+        },
+        {
+          "url": "/assets/spring/uploads/products/56bdf8f4-a4d3-4c32-b0f6-ec781dce777c.jpg",
+          "alt": "Bánh Ít Lá Gai",
+          "sortOrder": 1
+        },
+        {
+          "url": "/assets/spring/uploads/products/9c1d9314-4a93-4cd4-b12c-d75a7378cbce.jpg",
+          "alt": "Bánh Ít Lá Gai",
+          "sortOrder": 2
+        },
+        {
+          "url": "/assets/spring/uploads/products/024b228e-cf0c-4a1d-8a86-f6bba77fde37.jpg",
+          "alt": "Bánh Ít Lá Gai",
+          "sortOrder": 4
+        }
+      ],
+      "variants": [],
+      "relatedProducts": [
+        {
+          "id": 3,
+          "name": "Bánh Tráng Nướng Đà Lạt",
+          "slug": "banh-trang-nuong-da-lat",
+          "shortDescription": "Bánh tráng nướng giòn rụm với các loại topping đa dạng",
+          "regularPrice": 45000,
+          "salePrice": null,
+          "featured": false,
+          "category": {
+            "id": 2,
+            "name": "Đặc Sản Miền Trung",
+            "slug": "dac-san-mien-trung",
+            "description": "Các sản phẩm đặc sản từ miền Trung Việt Nam",
+            "parentId": null,
+            "children": [
+              {
+                "id": 5,
+                "name": "Nem Chua",
+                "slug": "nem-chua",
+                "description": "Các loại nem chua đặc sản",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 1
+                }
+              },
+              {
+                "id": 33,
+                "name": "Thanh Hóa",
+                "slug": "thanh-hoa",
+                "description": "Đặc sản từ Thanh Hóa - Nem chua Thanh Hóa, bánh trôi tàu",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 34,
+                "name": "Nghệ An",
+                "slug": "nghe-an",
+                "description": "Đặc sản từ Nghệ An - Bánh mướt, nem chua Yên Thành",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 35,
+                "name": "Hà Tĩnh",
+                "slug": "ha-tinh",
+                "description": "Đặc sản từ Hà Tĩnh - Bánh khoái, nem nướng",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 36,
+                "name": "Quảng Bình",
+                "slug": "quang-binh",
+                "description": "Đặc sản từ Quảng Bình - Bánh ướt thịt nướng, tôm he",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 37,
+                "name": "Quảng Trị",
+                "slug": "quang-tri",
+                "description": "Đặc sản từ Quảng Trị - Bánh bèo, bánh nậm",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 38,
+                "name": "Thừa Thiên Huế",
+                "slug": "thua-thien-hue",
+                "description": "Đặc sản từ Huế - Bún bò Huế, bánh khoái, chè Huế",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 39,
+                "name": "Đà Nẵng",
+                "slug": "da-nang",
+                "description": "Đặc sản từ Đà Nẵng - Mì Quảng, bánh tráng cuốn thịt heo",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 40,
+                "name": "Quảng Nam",
+                "slug": "quang-nam",
+                "description": "Đặc sản từ Quảng Nam - Mì Quảng, bánh xèo, cao lầu",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 41,
+                "name": "Quảng Ngãi",
+                "slug": "quang-ngai",
+                "description": "Đặc sản từ Quảng Ngãi - Bánh xèo, bánh căn",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 42,
+                "name": "Bình Định",
+                "slug": "binh-dinh",
+                "description": "Đặc sản từ Bình Định - Bánh hỏi, bánh ít lá gai",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 43,
+                "name": "Phú Yên",
+                "slug": "phu-yen",
+                "description": "Đặc sản từ Phú Yên - Bánh căn, ốc hến",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 44,
+                "name": "Khánh Hòa",
+                "slug": "khanh-hoa",
+                "description": "Đặc sản từ Khánh Hòa - Bánh căn, nem nướng Nha Trang",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 45,
+                "name": "Ninh Thuận",
+                "slug": "ninh-thuan",
+                "description": "Đặc sản từ Ninh Thuận - Bánh căn, nho Ninh Thuận",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 46,
+                "name": "Bình Thuận",
+                "slug": "binh-thuan",
+                "description": "Đặc sản từ Bình Thuận - Bánh căn, nước mắm Phan Thiết",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 1
+                }
+              },
+              {
+                "id": 47,
+                "name": "Kon Tum",
+                "slug": "kon-tum",
+                "description": "Đặc sản từ Kon Tum - Rượu cần, thịt nướng lá chuối",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 48,
+                "name": "Gia Lai",
+                "slug": "gia-lai",
+                "description": "Đặc sản từ Gia Lai - Rượu cần, bánh tráng nướng",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 49,
+                "name": "Đắk Lắk",
+                "slug": "dak-lak",
+                "description": "Đặc sản từ Đắk Lắk - Cà phê Buôn Ma Thuột, bánh tráng nướng",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 50,
+                "name": "Đắk Nông",
+                "slug": "dak-nong",
+                "description": "Đặc sản từ Đắk Nông - Cà phê, hạt điều",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 51,
+                "name": "Lâm Đồng",
+                "slug": "lam-dong",
+                "description": "Đặc sản từ Lâm Đồng - Rau củ Đà Lạt, bánh tráng nướng",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              }
+            ],
+            "_count": {
+              "products": 3
+            }
+          },
+          "images": [
+            {
+              "url": "/assets/spring/uploads/products/73b72354-b7f0-40cb-b6ec-a94ccc466625.jpg",
+              "alt": "Bánh Tráng Nướng Đà Lạt",
+              "sortOrder": 0
+            },
+            {
+              "url": "/assets/spring/uploads/products/5df333d1-4889-429e-90d9-973b513629ab.jpg",
+              "alt": "Bánh Tráng Nướng Đà Lạt",
+              "sortOrder": 1
+            },
+            {
+              "url": "/assets/spring/uploads/products/abc70c35-3542-49eb-a220-d4aeb37dd3f5.jpeg",
+              "alt": "Bánh Tráng Nướng Đà Lạt",
+              "sortOrder": 2
+            },
+            {
+              "url": "/assets/spring/uploads/products/6e2b93ad-ad85-41b7-9b58-4487ba11d000.jpg",
+              "alt": "Bánh Tráng Nướng Đà Lạt",
+              "sortOrder": 3
+            },
+            {
+              "url": "/assets/spring/uploads/products/61ca661f-97e8-4b39-b301-0f42c467da50.jpg",
+              "alt": "Bánh Tráng Nướng Đà Lạt",
+              "sortOrder": 4
+            }
+          ],
+          "variants": []
+        },
+        {
+          "id": 7,
+          "name": "Mắm Ruốc Huế",
+          "slug": "mam-ruoc-hue",
+          "shortDescription": "Mắm ruốc đặc sản Huế với hương vị đậm đà",
+          "regularPrice": 120000,
+          "salePrice": null,
+          "featured": false,
+          "category": {
+            "id": 2,
+            "name": "Đặc Sản Miền Trung",
+            "slug": "dac-san-mien-trung",
+            "description": "Các sản phẩm đặc sản từ miền Trung Việt Nam",
+            "parentId": null,
+            "children": [
+              {
+                "id": 5,
+                "name": "Nem Chua",
+                "slug": "nem-chua",
+                "description": "Các loại nem chua đặc sản",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 1
+                }
+              },
+              {
+                "id": 33,
+                "name": "Thanh Hóa",
+                "slug": "thanh-hoa",
+                "description": "Đặc sản từ Thanh Hóa - Nem chua Thanh Hóa, bánh trôi tàu",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 34,
+                "name": "Nghệ An",
+                "slug": "nghe-an",
+                "description": "Đặc sản từ Nghệ An - Bánh mướt, nem chua Yên Thành",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 35,
+                "name": "Hà Tĩnh",
+                "slug": "ha-tinh",
+                "description": "Đặc sản từ Hà Tĩnh - Bánh khoái, nem nướng",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 36,
+                "name": "Quảng Bình",
+                "slug": "quang-binh",
+                "description": "Đặc sản từ Quảng Bình - Bánh ướt thịt nướng, tôm he",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 37,
+                "name": "Quảng Trị",
+                "slug": "quang-tri",
+                "description": "Đặc sản từ Quảng Trị - Bánh bèo, bánh nậm",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 38,
+                "name": "Thừa Thiên Huế",
+                "slug": "thua-thien-hue",
+                "description": "Đặc sản từ Huế - Bún bò Huế, bánh khoái, chè Huế",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 39,
+                "name": "Đà Nẵng",
+                "slug": "da-nang",
+                "description": "Đặc sản từ Đà Nẵng - Mì Quảng, bánh tráng cuốn thịt heo",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 40,
+                "name": "Quảng Nam",
+                "slug": "quang-nam",
+                "description": "Đặc sản từ Quảng Nam - Mì Quảng, bánh xèo, cao lầu",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 41,
+                "name": "Quảng Ngãi",
+                "slug": "quang-ngai",
+                "description": "Đặc sản từ Quảng Ngãi - Bánh xèo, bánh căn",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 42,
+                "name": "Bình Định",
+                "slug": "binh-dinh",
+                "description": "Đặc sản từ Bình Định - Bánh hỏi, bánh ít lá gai",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 43,
+                "name": "Phú Yên",
+                "slug": "phu-yen",
+                "description": "Đặc sản từ Phú Yên - Bánh căn, ốc hến",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 44,
+                "name": "Khánh Hòa",
+                "slug": "khanh-hoa",
+                "description": "Đặc sản từ Khánh Hòa - Bánh căn, nem nướng Nha Trang",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 45,
+                "name": "Ninh Thuận",
+                "slug": "ninh-thuan",
+                "description": "Đặc sản từ Ninh Thuận - Bánh căn, nho Ninh Thuận",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 46,
+                "name": "Bình Thuận",
+                "slug": "binh-thuan",
+                "description": "Đặc sản từ Bình Thuận - Bánh căn, nước mắm Phan Thiết",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 1
+                }
+              },
+              {
+                "id": 47,
+                "name": "Kon Tum",
+                "slug": "kon-tum",
+                "description": "Đặc sản từ Kon Tum - Rượu cần, thịt nướng lá chuối",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 48,
+                "name": "Gia Lai",
+                "slug": "gia-lai",
+                "description": "Đặc sản từ Gia Lai - Rượu cần, bánh tráng nướng",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 49,
+                "name": "Đắk Lắk",
+                "slug": "dak-lak",
+                "description": "Đặc sản từ Đắk Lắk - Cà phê Buôn Ma Thuột, bánh tráng nướng",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 50,
+                "name": "Đắk Nông",
+                "slug": "dak-nong",
+                "description": "Đặc sản từ Đắk Nông - Cà phê, hạt điều",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 51,
+                "name": "Lâm Đồng",
+                "slug": "lam-dong",
+                "description": "Đặc sản từ Lâm Đồng - Rau củ Đà Lạt, bánh tráng nướng",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              }
+            ],
+            "_count": {
+              "products": 3
+            }
+          },
+          "images": [
+            {
+              "url": "/assets/spring/uploads/products/product-1776953810557-909243859.jpg",
+              "alt": "Mắm Ruốc Huế",
+              "sortOrder": 0
+            },
+            {
+              "url": "/assets/spring/uploads/products/product-1776953810561-101638008.jpg",
+              "alt": "Mắm Ruốc Huế",
+              "sortOrder": 2
+            },
+            {
+              "url": "/assets/spring/uploads/products/product-1776953810565-524887378.jpg",
+              "alt": "Mắm Ruốc Huế",
+              "sortOrder": 3
+            },
+            {
+              "url": "/assets/spring/uploads/products/product-1776953810568-293002110.jpg",
+              "alt": "Mắm Ruốc Huế",
+              "sortOrder": 4
+            }
+          ],
+          "variants": []
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Mắm Ruốc Huế",
+      "slug": "mam-ruoc-hue",
+      "shortDescription": "Mắm ruốc đặc sản Huế với hương vị đậm đà",
+      "description": "<p>Mắm ruốc đặc sản Huế với hương vị đậm đà</p>\n<p><strong>Xuất xứ:</strong> Huế<br /><strong>Khối lượng:</strong> 200g</p>",
+      "sku": null,
+      "regularPrice": 120000,
+      "salePrice": null,
+      "stockQuantity": 59,
+      "featured": false,
+      "status": "ACTIVE",
+      "categoryId": 2,
+      "category": {
+        "id": 2,
+        "name": "Đặc Sản Miền Trung",
+        "slug": "dac-san-mien-trung",
+        "description": "Các sản phẩm đặc sản từ miền Trung Việt Nam",
+        "parentId": null,
+        "children": [
+          {
+            "id": 5,
+            "name": "Nem Chua",
+            "slug": "nem-chua",
+            "description": "Các loại nem chua đặc sản",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 1
+            }
+          },
+          {
+            "id": 33,
+            "name": "Thanh Hóa",
+            "slug": "thanh-hoa",
+            "description": "Đặc sản từ Thanh Hóa - Nem chua Thanh Hóa, bánh trôi tàu",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 34,
+            "name": "Nghệ An",
+            "slug": "nghe-an",
+            "description": "Đặc sản từ Nghệ An - Bánh mướt, nem chua Yên Thành",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 35,
+            "name": "Hà Tĩnh",
+            "slug": "ha-tinh",
+            "description": "Đặc sản từ Hà Tĩnh - Bánh khoái, nem nướng",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 36,
+            "name": "Quảng Bình",
+            "slug": "quang-binh",
+            "description": "Đặc sản từ Quảng Bình - Bánh ướt thịt nướng, tôm he",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 37,
+            "name": "Quảng Trị",
+            "slug": "quang-tri",
+            "description": "Đặc sản từ Quảng Trị - Bánh bèo, bánh nậm",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 38,
+            "name": "Thừa Thiên Huế",
+            "slug": "thua-thien-hue",
+            "description": "Đặc sản từ Huế - Bún bò Huế, bánh khoái, chè Huế",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 39,
+            "name": "Đà Nẵng",
+            "slug": "da-nang",
+            "description": "Đặc sản từ Đà Nẵng - Mì Quảng, bánh tráng cuốn thịt heo",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 40,
+            "name": "Quảng Nam",
+            "slug": "quang-nam",
+            "description": "Đặc sản từ Quảng Nam - Mì Quảng, bánh xèo, cao lầu",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 41,
+            "name": "Quảng Ngãi",
+            "slug": "quang-ngai",
+            "description": "Đặc sản từ Quảng Ngãi - Bánh xèo, bánh căn",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 42,
+            "name": "Bình Định",
+            "slug": "binh-dinh",
+            "description": "Đặc sản từ Bình Định - Bánh hỏi, bánh ít lá gai",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 43,
+            "name": "Phú Yên",
+            "slug": "phu-yen",
+            "description": "Đặc sản từ Phú Yên - Bánh căn, ốc hến",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 44,
+            "name": "Khánh Hòa",
+            "slug": "khanh-hoa",
+            "description": "Đặc sản từ Khánh Hòa - Bánh căn, nem nướng Nha Trang",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 45,
+            "name": "Ninh Thuận",
+            "slug": "ninh-thuan",
+            "description": "Đặc sản từ Ninh Thuận - Bánh căn, nho Ninh Thuận",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 46,
+            "name": "Bình Thuận",
+            "slug": "binh-thuan",
+            "description": "Đặc sản từ Bình Thuận - Bánh căn, nước mắm Phan Thiết",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 1
+            }
+          },
+          {
+            "id": 47,
+            "name": "Kon Tum",
+            "slug": "kon-tum",
+            "description": "Đặc sản từ Kon Tum - Rượu cần, thịt nướng lá chuối",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 48,
+            "name": "Gia Lai",
+            "slug": "gia-lai",
+            "description": "Đặc sản từ Gia Lai - Rượu cần, bánh tráng nướng",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 49,
+            "name": "Đắk Lắk",
+            "slug": "dak-lak",
+            "description": "Đặc sản từ Đắk Lắk - Cà phê Buôn Ma Thuột, bánh tráng nướng",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 50,
+            "name": "Đắk Nông",
+            "slug": "dak-nong",
+            "description": "Đặc sản từ Đắk Nông - Cà phê, hạt điều",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 51,
+            "name": "Lâm Đồng",
+            "slug": "lam-dong",
+            "description": "Đặc sản từ Lâm Đồng - Rau củ Đà Lạt, bánh tráng nướng",
+            "parentId": 2,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          }
+        ],
+        "_count": {
+          "products": 3
+        }
+      },
+      "images": [
+        {
+          "url": "/assets/spring/uploads/products/product-1776953810557-909243859.jpg",
+          "alt": "Mắm Ruốc Huế",
+          "sortOrder": 0
+        },
+        {
+          "url": "/assets/spring/uploads/products/product-1776953810561-101638008.jpg",
+          "alt": "Mắm Ruốc Huế",
+          "sortOrder": 2
+        },
+        {
+          "url": "/assets/spring/uploads/products/product-1776953810565-524887378.jpg",
+          "alt": "Mắm Ruốc Huế",
+          "sortOrder": 3
+        },
+        {
+          "url": "/assets/spring/uploads/products/product-1776953810568-293002110.jpg",
+          "alt": "Mắm Ruốc Huế",
+          "sortOrder": 4
+        }
+      ],
+      "variants": [],
+      "relatedProducts": [
+        {
+          "id": 3,
+          "name": "Bánh Tráng Nướng Đà Lạt",
+          "slug": "banh-trang-nuong-da-lat",
+          "shortDescription": "Bánh tráng nướng giòn rụm với các loại topping đa dạng",
+          "regularPrice": 45000,
+          "salePrice": null,
+          "featured": false,
+          "category": {
+            "id": 2,
+            "name": "Đặc Sản Miền Trung",
+            "slug": "dac-san-mien-trung",
+            "description": "Các sản phẩm đặc sản từ miền Trung Việt Nam",
+            "parentId": null,
+            "children": [
+              {
+                "id": 5,
+                "name": "Nem Chua",
+                "slug": "nem-chua",
+                "description": "Các loại nem chua đặc sản",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 1
+                }
+              },
+              {
+                "id": 33,
+                "name": "Thanh Hóa",
+                "slug": "thanh-hoa",
+                "description": "Đặc sản từ Thanh Hóa - Nem chua Thanh Hóa, bánh trôi tàu",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 34,
+                "name": "Nghệ An",
+                "slug": "nghe-an",
+                "description": "Đặc sản từ Nghệ An - Bánh mướt, nem chua Yên Thành",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 35,
+                "name": "Hà Tĩnh",
+                "slug": "ha-tinh",
+                "description": "Đặc sản từ Hà Tĩnh - Bánh khoái, nem nướng",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 36,
+                "name": "Quảng Bình",
+                "slug": "quang-binh",
+                "description": "Đặc sản từ Quảng Bình - Bánh ướt thịt nướng, tôm he",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 37,
+                "name": "Quảng Trị",
+                "slug": "quang-tri",
+                "description": "Đặc sản từ Quảng Trị - Bánh bèo, bánh nậm",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 38,
+                "name": "Thừa Thiên Huế",
+                "slug": "thua-thien-hue",
+                "description": "Đặc sản từ Huế - Bún bò Huế, bánh khoái, chè Huế",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 39,
+                "name": "Đà Nẵng",
+                "slug": "da-nang",
+                "description": "Đặc sản từ Đà Nẵng - Mì Quảng, bánh tráng cuốn thịt heo",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 40,
+                "name": "Quảng Nam",
+                "slug": "quang-nam",
+                "description": "Đặc sản từ Quảng Nam - Mì Quảng, bánh xèo, cao lầu",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 41,
+                "name": "Quảng Ngãi",
+                "slug": "quang-ngai",
+                "description": "Đặc sản từ Quảng Ngãi - Bánh xèo, bánh căn",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 42,
+                "name": "Bình Định",
+                "slug": "binh-dinh",
+                "description": "Đặc sản từ Bình Định - Bánh hỏi, bánh ít lá gai",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 43,
+                "name": "Phú Yên",
+                "slug": "phu-yen",
+                "description": "Đặc sản từ Phú Yên - Bánh căn, ốc hến",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 44,
+                "name": "Khánh Hòa",
+                "slug": "khanh-hoa",
+                "description": "Đặc sản từ Khánh Hòa - Bánh căn, nem nướng Nha Trang",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 45,
+                "name": "Ninh Thuận",
+                "slug": "ninh-thuan",
+                "description": "Đặc sản từ Ninh Thuận - Bánh căn, nho Ninh Thuận",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 46,
+                "name": "Bình Thuận",
+                "slug": "binh-thuan",
+                "description": "Đặc sản từ Bình Thuận - Bánh căn, nước mắm Phan Thiết",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 1
+                }
+              },
+              {
+                "id": 47,
+                "name": "Kon Tum",
+                "slug": "kon-tum",
+                "description": "Đặc sản từ Kon Tum - Rượu cần, thịt nướng lá chuối",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 48,
+                "name": "Gia Lai",
+                "slug": "gia-lai",
+                "description": "Đặc sản từ Gia Lai - Rượu cần, bánh tráng nướng",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 49,
+                "name": "Đắk Lắk",
+                "slug": "dak-lak",
+                "description": "Đặc sản từ Đắk Lắk - Cà phê Buôn Ma Thuột, bánh tráng nướng",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 50,
+                "name": "Đắk Nông",
+                "slug": "dak-nong",
+                "description": "Đặc sản từ Đắk Nông - Cà phê, hạt điều",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 51,
+                "name": "Lâm Đồng",
+                "slug": "lam-dong",
+                "description": "Đặc sản từ Lâm Đồng - Rau củ Đà Lạt, bánh tráng nướng",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              }
+            ],
+            "_count": {
+              "products": 3
+            }
+          },
+          "images": [
+            {
+              "url": "/assets/spring/uploads/products/73b72354-b7f0-40cb-b6ec-a94ccc466625.jpg",
+              "alt": "Bánh Tráng Nướng Đà Lạt",
+              "sortOrder": 0
+            },
+            {
+              "url": "/assets/spring/uploads/products/5df333d1-4889-429e-90d9-973b513629ab.jpg",
+              "alt": "Bánh Tráng Nướng Đà Lạt",
+              "sortOrder": 1
+            },
+            {
+              "url": "/assets/spring/uploads/products/abc70c35-3542-49eb-a220-d4aeb37dd3f5.jpeg",
+              "alt": "Bánh Tráng Nướng Đà Lạt",
+              "sortOrder": 2
+            },
+            {
+              "url": "/assets/spring/uploads/products/6e2b93ad-ad85-41b7-9b58-4487ba11d000.jpg",
+              "alt": "Bánh Tráng Nướng Đà Lạt",
+              "sortOrder": 3
+            },
+            {
+              "url": "/assets/spring/uploads/products/61ca661f-97e8-4b39-b301-0f42c467da50.jpg",
+              "alt": "Bánh Tráng Nướng Đà Lạt",
+              "sortOrder": 4
+            }
+          ],
+          "variants": []
+        },
+        {
+          "id": 6,
+          "name": "Bánh Ít Lá Gai",
+          "slug": "banh-it-la-gai",
+          "shortDescription": "Bánh ít lá gai truyền thống miền Trung với nhân tôm thịt",
+          "regularPrice": 35000,
+          "salePrice": null,
+          "featured": true,
+          "category": {
+            "id": 2,
+            "name": "Đặc Sản Miền Trung",
+            "slug": "dac-san-mien-trung",
+            "description": "Các sản phẩm đặc sản từ miền Trung Việt Nam",
+            "parentId": null,
+            "children": [
+              {
+                "id": 5,
+                "name": "Nem Chua",
+                "slug": "nem-chua",
+                "description": "Các loại nem chua đặc sản",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 1
+                }
+              },
+              {
+                "id": 33,
+                "name": "Thanh Hóa",
+                "slug": "thanh-hoa",
+                "description": "Đặc sản từ Thanh Hóa - Nem chua Thanh Hóa, bánh trôi tàu",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 34,
+                "name": "Nghệ An",
+                "slug": "nghe-an",
+                "description": "Đặc sản từ Nghệ An - Bánh mướt, nem chua Yên Thành",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 35,
+                "name": "Hà Tĩnh",
+                "slug": "ha-tinh",
+                "description": "Đặc sản từ Hà Tĩnh - Bánh khoái, nem nướng",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 36,
+                "name": "Quảng Bình",
+                "slug": "quang-binh",
+                "description": "Đặc sản từ Quảng Bình - Bánh ướt thịt nướng, tôm he",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 37,
+                "name": "Quảng Trị",
+                "slug": "quang-tri",
+                "description": "Đặc sản từ Quảng Trị - Bánh bèo, bánh nậm",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 38,
+                "name": "Thừa Thiên Huế",
+                "slug": "thua-thien-hue",
+                "description": "Đặc sản từ Huế - Bún bò Huế, bánh khoái, chè Huế",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 39,
+                "name": "Đà Nẵng",
+                "slug": "da-nang",
+                "description": "Đặc sản từ Đà Nẵng - Mì Quảng, bánh tráng cuốn thịt heo",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 40,
+                "name": "Quảng Nam",
+                "slug": "quang-nam",
+                "description": "Đặc sản từ Quảng Nam - Mì Quảng, bánh xèo, cao lầu",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 41,
+                "name": "Quảng Ngãi",
+                "slug": "quang-ngai",
+                "description": "Đặc sản từ Quảng Ngãi - Bánh xèo, bánh căn",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 42,
+                "name": "Bình Định",
+                "slug": "binh-dinh",
+                "description": "Đặc sản từ Bình Định - Bánh hỏi, bánh ít lá gai",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 43,
+                "name": "Phú Yên",
+                "slug": "phu-yen",
+                "description": "Đặc sản từ Phú Yên - Bánh căn, ốc hến",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 44,
+                "name": "Khánh Hòa",
+                "slug": "khanh-hoa",
+                "description": "Đặc sản từ Khánh Hòa - Bánh căn, nem nướng Nha Trang",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 45,
+                "name": "Ninh Thuận",
+                "slug": "ninh-thuan",
+                "description": "Đặc sản từ Ninh Thuận - Bánh căn, nho Ninh Thuận",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 46,
+                "name": "Bình Thuận",
+                "slug": "binh-thuan",
+                "description": "Đặc sản từ Bình Thuận - Bánh căn, nước mắm Phan Thiết",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 1
+                }
+              },
+              {
+                "id": 47,
+                "name": "Kon Tum",
+                "slug": "kon-tum",
+                "description": "Đặc sản từ Kon Tum - Rượu cần, thịt nướng lá chuối",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 48,
+                "name": "Gia Lai",
+                "slug": "gia-lai",
+                "description": "Đặc sản từ Gia Lai - Rượu cần, bánh tráng nướng",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 49,
+                "name": "Đắk Lắk",
+                "slug": "dak-lak",
+                "description": "Đặc sản từ Đắk Lắk - Cà phê Buôn Ma Thuột, bánh tráng nướng",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 50,
+                "name": "Đắk Nông",
+                "slug": "dak-nong",
+                "description": "Đặc sản từ Đắk Nông - Cà phê, hạt điều",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              },
+              {
+                "id": 51,
+                "name": "Lâm Đồng",
+                "slug": "lam-dong",
+                "description": "Đặc sản từ Lâm Đồng - Rau củ Đà Lạt, bánh tráng nướng",
+                "parentId": 2,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              }
+            ],
+            "_count": {
+              "products": 3
+            }
+          },
+          "images": [
+            {
+              "url": "/assets/spring/uploads/products/15e1ac5e-17db-43f8-9c7d-0227a82791a9.jpg",
+              "alt": "Bánh Ít Lá Gai",
+              "sortOrder": 0
+            },
+            {
+              "url": "/assets/spring/uploads/products/56bdf8f4-a4d3-4c32-b0f6-ec781dce777c.jpg",
+              "alt": "Bánh Ít Lá Gai",
+              "sortOrder": 1
+            },
+            {
+              "url": "/assets/spring/uploads/products/9c1d9314-4a93-4cd4-b12c-d75a7378cbce.jpg",
+              "alt": "Bánh Ít Lá Gai",
+              "sortOrder": 2
+            },
+            {
+              "url": "/assets/spring/uploads/products/024b228e-cf0c-4a1d-8a86-f6bba77fde37.jpg",
+              "alt": "Bánh Ít Lá Gai",
+              "sortOrder": 4
+            }
+          ],
+          "variants": []
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Bánh Căn Phan Thiết",
+      "slug": "banh-can-phan-thiet",
+      "shortDescription": "Bánh căn nướng giòn với nước chấm đặc biệt",
+      "description": "<p>Bánh căn nướng giòn với nước chấm đặc biệt</p>\n<p><strong>Xuất xứ:</strong> Phan Thiết<br /><strong>Khối lượng:</strong> 80g</p>\n<h3>Đánh giá từ khách hàng</h3><ul><li><strong>Nguyễn Nhật Thiên (3/5):</strong> Hihi</li><li><strong>Nguyễn Nhật Thiên (5/5):</strong> Ngon qua</li><li><strong>Nguyễn Nhật Thiên (5/5):</strong> Quá tuỵt</li><li><strong>Nguyễn Nhật Thiên (4/5):</strong> Ngon lắm á má</li></ul>",
+      "sku": null,
+      "regularPrice": 25000,
+      "salePrice": null,
+      "stockQuantity": 118,
+      "featured": false,
+      "status": "ACTIVE",
+      "categoryId": 3,
+      "category": {
+        "id": 3,
+        "name": "Đặc Sản Miền Nam",
+        "slug": "dac-san-mien-nam",
+        "description": "Các sản phẩm đặc sản từ miền Nam Việt Nam",
+        "parentId": null,
+        "children": [
+          {
+            "id": 6,
+            "name": "Các Loại Mắm",
+            "slug": "cac-loai-mam",
+            "description": "Các loại mắm đặc sản miền Tây vô cùng thơm ngon",
+            "parentId": 3,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 7,
+            "name": "Bến Tre",
+            "slug": "ben-tre",
+            "description": "Tỉnh Miền Tây",
+            "parentId": 3,
+            "children": [
+              {
+                "id": 8,
+                "name": "Kẹo dừa",
+                "slug": "keo-dua",
+                "description": null,
+                "parentId": 7,
+                "children": [],
+                "_count": {
+                  "products": 0
+                }
+              }
+            ],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 52,
+            "name": "TP. Hồ Chí Minh",
+            "slug": "tp-ho-chi-minh",
+            "description": "Đặc sản từ TP.HCM - Bánh mì, hủ tiếu, bánh xèo",
+            "parentId": 3,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 53,
+            "name": "Bà Rịa - Vũng Tàu",
+            "slug": "ba-ria-vung-tau",
+            "description": "Đặc sản từ Vũng Tàu - Bánh khọt, hải sản tươi sống",
+            "parentId": 3,
+            "children": [],
+            "_count": {
+              "products": 1
+            }
+          },
+          {
+            "id": 54,
+            "name": "Bình Dương",
+            "slug": "binh-duong",
+            "description": "Đặc sản từ Bình Dương - Bánh tráng nướng, chả cá",
+            "parentId": 3,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 55,
+            "name": "Bình Phước",
+            "slug": "binh-phuoc",
+            "description": "Đặc sản từ Bình Phước - Hạt điều, bánh tráng",
+            "parentId": 3,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 56,
+            "name": "Tây Ninh",
+            "slug": "tay-ninh",
+            "description": "Đặc sản từ Tây Ninh - Bánh tráng nướng, bánh căn",
+            "parentId": 3,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 57,
+            "name": "Đồng Nai",
+            "slug": "dong-nai",
+            "description": "Đặc sản từ Đồng Nai - Bánh tráng, nem nướng",
+            "parentId": 3,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 58,
+            "name": "Long An",
+            "slug": "long-an",
+            "description": "Đặc sản từ Long An - Bánh tráng, dưa hấu",
+            "parentId": 3,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 59,
+            "name": "Tiền Giang",
+            "slug": "tien-giang",
+            "description": "Đặc sản từ Tiền Giang - Bánh tráng, kẹo dừa",
+            "parentId": 3,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 60,
+            "name": "Trà Vinh",
+            "slug": "tra-vinh",
+            "description": "Đặc sản từ Trà Vinh - Bánh tét, bánh ít lá gai",
+            "parentId": 3,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 61,
+            "name": "Vĩnh Long",
+            "slug": "vinh-long",
+            "description": "Đặc sản từ Vĩnh Long - Bánh khọt, hủ tiếu",
+            "parentId": 3,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 62,
+            "name": "Đồng Tháp",
+            "slug": "dong-thap",
+            "description": "Đặc sản từ Đồng Tháp - Bánh xèo, cá linh",
+            "parentId": 3,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 63,
+            "name": "An Giang",
+            "slug": "an-giang",
+            "description": "Đặc sản từ An Giang - Bánh pía, bánh tét",
+            "parentId": 3,
+            "children": [],
+            "_count": {
+              "products": 1
+            }
+          },
+          {
+            "id": 64,
+            "name": "Kiên Giang",
+            "slug": "kien-giang",
+            "description": "Đặc sản từ Kiên Giang - Bánh tét, hải sản Phú Quốc",
+            "parentId": 3,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 65,
+            "name": "Cần Thơ",
+            "slug": "can-tho",
+            "description": "Đặc sản từ Cần Thơ - Bánh cống, bánh xèo",
+            "parentId": 3,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 66,
+            "name": "Hậu Giang",
+            "slug": "hau-giang",
+            "description": "Đặc sản từ Hậu Giang - Bánh tét, bánh ít",
+            "parentId": 3,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 67,
+            "name": "Sóc Trăng",
+            "slug": "soc-trang",
+            "description": "Đặc sản từ Sóc Trăng - Bánh pía, bánh tét",
+            "parentId": 3,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 68,
+            "name": "Bạc Liêu",
+            "slug": "bac-lieu",
+            "description": "Đặc sản từ Bạc Liêu - Bánh tét, tôm khô",
+            "parentId": 3,
+            "children": [],
+            "_count": {
+              "products": 0
+            }
+          },
+          {
+            "id": 69,
+            "name": "Cà Mau",
+            "slug": "ca-mau",
+            "description": "Đặc sản từ Cà Mau - U tôm, bánh tét",
+            "parentId": 3,
+            "children": [],
+            "_count": {
+              "products": 1
+            }
+          }
+        ],
+        "_count": {
+          "products": 1
+        }
+      },
+      "images": [
+        {
+          "url": "/assets/spring/uploads/products/142f1909-4bfa-4275-b0d1-cbddbf297da5.jpeg",
+          "alt": "Bánh Căn Phan Thiết",
+          "sortOrder": 0
+        },
+        {
+          "url": "/assets/spring/uploads/products/a716d6da-e549-4ad1-97c0-aa52f2e8a01f.jpg",
+          "alt": "Bánh Căn Phan Thiết",
+          "sortOrder": 1
+        },
+        {
+          "url": "/assets/spring/uploads/products/7c448c1d-88c0-4d1b-a345-fecd606b92ae.jpg",
+          "alt": "Bánh Căn Phan Thiết",
+          "sortOrder": 2
+        },
+        {
+          "url": "/assets/spring/uploads/products/8c1b9366-626b-4217-9efb-1c1cb778b76d.jpg",
+          "alt": "Bánh Căn Phan Thiết",
+          "sortOrder": 3
+        }
+      ],
+      "variants": [],
+      "relatedProducts": []
+    },
+    {
+      "id": 9,
+      "name": "Nước Mắm Phan Thiết",
+      "slug": "nuoc-mam-phan-thiet",
+      "shortDescription": "Nước mắm truyền thống Phan Thiết",
+      "description": "Nước mắm Phan Thiết ủ chượp truyền thống, độ đạm cao\n<p><strong>Xuất xứ:</strong> Bình Thuận<br /><strong>Khối lượng:</strong> 500g</p>\n<h3>Câu chuyện sản phẩm</h3><p>Nước mắm được ủ từ cá cơm tươi theo phương pháp truyền thống tại Phan Thiết.</p>",
+      "sku": null,
+      "regularPrice": 85000,
+      "salePrice": null,
+      "stockQuantity": 120,
+      "featured": true,
+      "status": "ACTIVE",
+      "categoryId": 46,
+      "category": {
+        "id": 46,
+        "name": "Bình Thuận",
+        "slug": "binh-thuan",
+        "description": "Đặc sản từ Bình Thuận - Bánh căn, nước mắm Phan Thiết",
+        "parentId": 2,
+        "children": [],
+        "_count": {
+          "products": 1
+        }
+      },
+      "images": [
+        {
+          "url": "/assets/spring/uploads/products/product-1776952426487-604498901.jpg",
+          "alt": "Nước Mắm Phan Thiết",
+          "sortOrder": 0
+        },
+        {
+          "url": "/assets/spring/uploads/products/product-1776952426488-342738595.jpg",
+          "alt": "Nước Mắm Phan Thiết",
+          "sortOrder": 2
+        },
+        {
+          "url": "/assets/spring/uploads/products/product-1776952426509-148087610.jpg",
+          "alt": "Nước Mắm Phan Thiết",
+          "sortOrder": 3
+        }
+      ],
+      "variants": [],
+      "relatedProducts": []
+    },
+    {
+      "id": 10,
+      "name": "Bánh Khọt Vũng Tàu",
+      "slug": "banh-khot-vung-tau",
+      "shortDescription": "Bánh khọt đặc sản Vũng Tàu",
+      "description": "Bánh khọt Vũng Tàu giòn rụm, ăn kèm rau sống\n<p><strong>Xuất xứ:</strong> Bà Rịa - Vũng Tàu<br /><strong>Khối lượng:</strong> 400g</p>\n<h3>Câu chuyện sản phẩm</h3><p>Bánh khọt là món ăn nổi tiếng của Vũng Tàu với lớp vỏ giòn và nhân tôm.</p>\n<h3>Đánh giá từ khách hàng</h3><ul><li><strong>Nguyễn Nhật Thiên (5/5):</strong> Ngon hihi</li></ul>",
+      "sku": null,
+      "regularPrice": 60000,
+      "salePrice": null,
+      "stockQuantity": 80,
+      "featured": false,
+      "status": "ACTIVE",
+      "categoryId": 53,
+      "category": {
+        "id": 53,
+        "name": "Bà Rịa - Vũng Tàu",
+        "slug": "ba-ria-vung-tau",
+        "description": "Đặc sản từ Vũng Tàu - Bánh khọt, hải sản tươi sống",
+        "parentId": 3,
+        "children": [],
+        "_count": {
+          "products": 1
+        }
+      },
+      "images": [
+        {
+          "url": "/assets/spring/uploads/products/product-1776952698574-446888141.jpg",
+          "alt": "Bánh Khọt Vũng Tàu",
+          "sortOrder": 0
+        },
+        {
+          "url": "/assets/spring/uploads/products/product-1776952698584-172962289.jpg",
+          "alt": "Bánh Khọt Vũng Tàu",
+          "sortOrder": 2
+        },
+        {
+          "url": "/assets/spring/uploads/products/product-1776952698597-816570706.jpg",
+          "alt": "Bánh Khọt Vũng Tàu",
+          "sortOrder": 3
+        }
+      ],
+      "variants": [],
+      "relatedProducts": []
+    },
+    {
+      "id": 11,
+      "name": "Cơm Cháy Ninh Bình",
+      "slug": "com-chay-ninh-binh",
+      "shortDescription": "Cơm cháy đặc sản Ninh Bình",
+      "description": "Cơm cháy Ninh Bình giòn rụm, sốt đậm đà\n<p><strong>Xuất xứ:</strong> Ninh Bình<br /><strong>Khối lượng:</strong> 300g</p>\n<h3>Câu chuyện sản phẩm</h3><p>Cơm cháy được chiên giòn và ăn kèm nước sốt đặc trưng của vùng Ninh Bình.</p>",
+      "sku": null,
+      "regularPrice": 70000,
+      "salePrice": null,
+      "stockQuantity": 100,
+      "featured": true,
+      "status": "ACTIVE",
+      "categoryId": 32,
+      "category": {
+        "id": 32,
+        "name": "Ninh Bình",
+        "slug": "ninh-binh",
+        "description": "Đặc sản từ Ninh Bình - Cơm cháy, thịt dê núi",
+        "parentId": 1,
+        "children": [],
+        "_count": {
+          "products": 1
+        }
+      },
+      "images": [
+        {
+          "url": "/assets/spring/uploads/products/com-chay-ninh-binh.jpg",
+          "alt": "Cơm Cháy Ninh Bình",
+          "sortOrder": 0
+        }
+      ],
+      "variants": [],
+      "relatedProducts": []
+    },
+    {
+      "id": 12,
+      "name": "Mắm Cá Linh An Giang",
+      "slug": "mam-ca-linh-an-giang",
+      "shortDescription": "Mắm cá linh miền Tây",
+      "description": "Mắm cá linh An Giang – đặc sản mùa nước nổi\n<p><strong>Xuất xứ:</strong> An Giang<br /><strong>Khối lượng:</strong> 500g</p>\n<h3>Câu chuyện sản phẩm</h3><p>Mắm cá linh được làm từ cá linh tươi trong mùa nước nổi An Giang.</p>\n<h3>Đánh giá từ khách hàng</h3><ul><li><strong>Nguyễn Nhật Thiên (5/5):</strong> Mắm hơi mặn</li></ul>",
+      "sku": null,
+      "regularPrice": 95000,
+      "salePrice": null,
+      "stockQuantity": 60,
+      "featured": false,
+      "status": "ACTIVE",
+      "categoryId": 63,
+      "category": {
+        "id": 63,
+        "name": "An Giang",
+        "slug": "an-giang",
+        "description": "Đặc sản từ An Giang - Bánh pía, bánh tét",
+        "parentId": 3,
+        "children": [],
+        "_count": {
+          "products": 1
+        }
+      },
+      "images": [
+        {
+          "url": "/assets/spring/uploads/products/mam-ca-linh-an-giang.jpg",
+          "alt": "Mắm Cá Linh An Giang",
+          "sortOrder": 0
+        },
+        {
+          "url": "/assets/spring/uploads/products/product-1776997112797-252700866.jpg",
+          "alt": "Mắm Cá Linh An Giang",
+          "sortOrder": 1
+        },
+        {
+          "url": "/assets/spring/uploads/products/product-1776997112822-687982997.jpg",
+          "alt": "Mắm Cá Linh An Giang",
+          "sortOrder": 2
+        }
+      ],
+      "variants": [],
+      "relatedProducts": []
+    },
+    {
+      "id": 13,
+      "name": "Hải Sản Khô Cà Mau",
+      "slug": "hai-san-kho-ca-mau",
+      "shortDescription": "Hải sản khô đặc sản Cà Mau",
+      "description": "Hải sản khô Cà Mau – tôm khô, cá khô tự nhiên\n<p><strong>Xuất xứ:</strong> Cà Mau<br /><strong>Khối lượng:</strong> 600g</p>\n<h3>Câu chuyện sản phẩm</h3><p>Hải sản được phơi khô tự nhiên tại vùng biển Cà Mau.</p>\n<h3>Đánh giá từ khách hàng</h3><ul><li><strong>Nguyễn Nhật Thiên (5/5):</strong> Ngon lắm béo</li></ul>",
+      "sku": null,
+      "regularPrice": 150000,
+      "salePrice": null,
+      "stockQuantity": 50,
+      "featured": true,
+      "status": "ACTIVE",
+      "categoryId": 69,
+      "category": {
+        "id": 69,
+        "name": "Cà Mau",
+        "slug": "ca-mau",
+        "description": "Đặc sản từ Cà Mau - U tôm, bánh tét",
+        "parentId": 3,
+        "children": [],
+        "_count": {
+          "products": 1
+        }
+      },
+      "images": [
+        {
+          "url": "/assets/spring/uploads/products/product-1776779084072-287461229.jpg",
+          "alt": "Hải Sản Khô Cà Mau",
+          "sortOrder": 0
+        },
+        {
+          "url": "/assets/spring/uploads/products/product-1777002930329-40930388.jpg",
+          "alt": "Hải Sản Khô Cà Mau",
+          "sortOrder": 1
+        }
+      ],
+      "variants": [],
+      "relatedProducts": []
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "type": "post",
+      "title": "Bí Quyết Làm Bánh Chưng Xanh Ngon Như Người Miền Bắc",
+      "slug": "bi-quyet-lam-banh-chung-xanh-ngon-nhu-nguoi-mien-bac",
+      "excerpt": "Bánh chưng là món ăn truyền thống không thể thiếu trong dịp Tết Nguyên Đán. Cùng khám phá bí quyết làm bánh chưng xanh thơm ngon, đậm đà hương vị truyền thống.",
+      "body": "<h2>Giới Thiệu Về bánh chưng</h2>\n<p>bánh chưng là một phần không thể thiếu trong nền ẩm thực Việt Nam. Với hương vị đặc trưng và cách chế biến truyền thống,\nbánh chưng đã trở thành món ăn được yêu thích bởi nhiều thế hệ người Việt.</p>\n\n<h2>Lịch Sử Và Nguồn Gốc</h2>\n<p>Theo các tài liệu lịch sử, bánh chưng có nguồn gốc từ Tết Nguyên Đán và đã được truyền lại qua nhiều thế hệ.\nMón ăn này không chỉ mang giá trị dinh dưỡng cao mà còn chứa đựng nhiều ý nghĩa văn hóa sâu sắc.</p>\n\n<h2>Nguyên Liệu Và Cách Chế Biến</h2>\n<p>Để có được một món bánh chưng ngon và đúng vị, việc lựa chọn nguyên liệu là vô cùng quan trọng.\nCác nguyên liệu chính bao gồm truyền thống và các gia vị truyền thống khác.</p>\n\n<h3>Quy Trình Chế Biến Chi Tiết</h3>\n<ol>\n    <li>Chuẩn bị nguyên liệu tươi ngon và sạch sẽ</li>\n    <li>Sơ chế nguyên liệu theo đúng quy trình truyền thống</li>\n    <li>Chế biến theo các bước được truyền lại từ đời này sang đời khác</li>\n    <li>Trang trí và thưởng thức khi còn nóng</li>\n</ol>\n\n<h2>Giá Trị Dinh Dưỡng</h2>\n<p>bánh chưng không chỉ ngon miệng mà còn cung cấp nhiều chất dinh dưỡng cần thiết cho cơ thể.\nMón ăn này giàu protein, vitamin và các khoáng chất quan trọng.</p>\n\n<h2>Mẹo Hay Khi Thưởng Thức</h2>\n<p>Để thưởng thức bánh chưng một cách trọn vẹn nhất, bạn nên ăn khi món ăn còn nóng và kết hợp với\ncác loại rau sống tươi ngon. Điều này sẽ giúp tăng hương vị và giá trị dinh dưỡng của món ăn.</p>\n\n<h2>Kết Luận</h2>\n<p>bánh chưng là một món ăn truyền thống tuyệt vời của người Việt. Việc gìn giữ và phát huy những\ngiá trị ẩm thực này không chỉ giúp chúng ta kết nối với văn hóa dân tộc mà còn góp phần\nquảng bá nền ẩm thực Việt Nam ra thế giới.</p>\n",
+      "imageUrl": "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?w=800&q=80",
+      "published": true,
+      "createdAt": "2025-12-07 18:24:06.700096"
+    },
+    {
+      "id": 2,
+      "type": "post",
+      "title": "Khám Phá Ẩm Thực Đường Phố Sài Gòn - Hương Vị Không Thể Quên",
+      "slug": "kham-pha-am-thuc-duong-pho-sai-gon-huong-vi-khong-the-quen",
+      "excerpt": "Sài Gòn nổi tiếng với nền ẩm thực đường phố phong phú và đa dạng. Từ bánh mì, phở, đến chè và các món ăn vặt, mỗi món đều mang một câu chuyện riêng.",
+      "body": "<h2>Giới Thiệu Về ẩm thực đường phố</h2>\n<p>ẩm thực đường phố là một phần không thể thiếu trong nền ẩm thực Việt Nam. Với hương vị đặc trưng và cách chế biến truyền thống,\nẩm thực đường phố đã trở thành món ăn được yêu thích bởi nhiều thế hệ người Việt.</p>\n\n<h2>Lịch Sử Và Nguồn Gốc</h2>\n<p>Theo các tài liệu lịch sử, ẩm thực đường phố có nguồn gốc từ Sài Gòn và đã được truyền lại qua nhiều thế hệ.\nMón ăn này không chỉ mang giá trị dinh dưỡng cao mà còn chứa đựng nhiều ý nghĩa văn hóa sâu sắc.</p>\n\n<h2>Nguyên Liệu Và Cách Chế Biến</h2>\n<p>Để có được một món ẩm thực đường phố ngon và đúng vị, việc lựa chọn nguyên liệu là vô cùng quan trọng.\nCác nguyên liệu chính bao gồm bánh mì phở và các gia vị truyền thống khác.</p>\n\n<h3>Quy Trình Chế Biến Chi Tiết</h3>\n<ol>\n    <li>Chuẩn bị nguyên liệu tươi ngon và sạch sẽ</li>\n    <li>Sơ chế nguyên liệu theo đúng quy trình truyền thống</li>\n    <li>Chế biến theo các bước được truyền lại từ đời này sang đời khác</li>\n    <li>Trang trí và thưởng thức khi còn nóng</li>\n</ol>\n\n<h2>Giá Trị Dinh Dưỡng</h2>\n<p>ẩm thực đường phố không chỉ ngon miệng mà còn cung cấp nhiều chất dinh dưỡng cần thiết cho cơ thể.\nMón ăn này giàu protein, vitamin và các khoáng chất quan trọng.</p>\n\n<h2>Mẹo Hay Khi Thưởng Thức</h2>\n<p>Để thưởng thức ẩm thực đường phố một cách trọn vẹn nhất, bạn nên ăn khi món ăn còn nóng và kết hợp với\ncác loại rau sống tươi ngon. Điều này sẽ giúp tăng hương vị và giá trị dinh dưỡng của món ăn.</p>\n\n<h2>Kết Luận</h2>\n<p>ẩm thực đường phố là một món ăn truyền thống tuyệt vời của người Việt. Việc gìn giữ và phát huy những\ngiá trị ẩm thực này không chỉ giúp chúng ta kết nối với văn hóa dân tộc mà còn góp phần\nquảng bá nền ẩm thực Việt Nam ra thế giới.</p>\n",
+      "imageUrl": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=800&q=80",
+      "published": true,
+      "createdAt": "2025-12-15 18:24:06.703705"
+    },
+    {
+      "id": 3,
+      "type": "post",
+      "title": "Cách Chọn và Bảo Quản Đặc Sản Miền Trung Tươi Ngon",
+      "slug": "cach-chon-va-bao-quan-dac-san-mien-trung-tuoi-ngon",
+      "excerpt": "Miền Trung Việt Nam có nhiều đặc sản nổi tiếng như bánh tráng, mắm ruốc, bánh bèo. Việc chọn lựa và bảo quản đúng cách sẽ giúp giữ được hương vị tươi ngon nhất.",
+      "body": "<h2>Giới Thiệu Về đặc sản miền Trung</h2>\n<p>đặc sản miền Trung là một phần không thể thiếu trong nền ẩm thực Việt Nam. Với hương vị đặc trưng và cách chế biến truyền thống,\nđặc sản miền Trung đã trở thành món ăn được yêu thích bởi nhiều thế hệ người Việt.</p>\n\n<h2>Lịch Sử Và Nguồn Gốc</h2>\n<p>Theo các tài liệu lịch sử, đặc sản miền Trung có nguồn gốc từ bảo quản và đã được truyền lại qua nhiều thế hệ.\nMón ăn này không chỉ mang giá trị dinh dưỡng cao mà còn chứa đựng nhiều ý nghĩa văn hóa sâu sắc.</p>\n\n<h2>Nguyên Liệu Và Cách Chế Biến</h2>\n<p>Để có được một món đặc sản miền Trung ngon và đúng vị, việc lựa chọn nguyên liệu là vô cùng quan trọng.\nCác nguyên liệu chính bao gồm bánh tráng và các gia vị truyền thống khác.</p>\n\n<h3>Quy Trình Chế Biến Chi Tiết</h3>\n<ol>\n    <li>Chuẩn bị nguyên liệu tươi ngon và sạch sẽ</li>\n    <li>Sơ chế nguyên liệu theo đúng quy trình truyền thống</li>\n    <li>Chế biến theo các bước được truyền lại từ đời này sang đời khác</li>\n    <li>Trang trí và thưởng thức khi còn nóng</li>\n</ol>\n\n<h2>Giá Trị Dinh Dưỡng</h2>\n<p>đặc sản miền Trung không chỉ ngon miệng mà còn cung cấp nhiều chất dinh dưỡng cần thiết cho cơ thể.\nMón ăn này giàu protein, vitamin và các khoáng chất quan trọng.</p>\n\n<h2>Mẹo Hay Khi Thưởng Thức</h2>\n<p>Để thưởng thức đặc sản miền Trung một cách trọn vẹn nhất, bạn nên ăn khi món ăn còn nóng và kết hợp với\ncác loại rau sống tươi ngon. Điều này sẽ giúp tăng hương vị và giá trị dinh dưỡng của món ăn.</p>\n\n<h2>Kết Luận</h2>\n<p>đặc sản miền Trung là một món ăn truyền thống tuyệt vời của người Việt. Việc gìn giữ và phát huy những\ngiá trị ẩm thực này không chỉ giúp chúng ta kết nối với văn hóa dân tộc mà còn góp phần\nquảng bá nền ẩm thực Việt Nam ra thế giới.</p>\n",
+      "imageUrl": "https://images.unsplash.com/photo-1559847844-d721426d6edc?w=800&q=80",
+      "published": true,
+      "createdAt": "2025-12-26 18:24:06.706499"
+    },
+    {
+      "id": 4,
+      "type": "post",
+      "title": "Lịch Sử Và Nguồn Gốc Của Phở Việt Nam",
+      "slug": "lich-su-va-nguon-goc-cua-pho-viet-nam",
+      "excerpt": "Phở là món ăn đại diện cho nền ẩm thực Việt Nam. Tìm hiểu về lịch sử hình thành và phát triển của món phở từ những ngày đầu đến nay.",
+      "body": "<h2>Giới Thiệu Về phở Việt Nam</h2>\n<p>phở Việt Nam là một phần không thể thiếu trong nền ẩm thực Việt Nam. Với hương vị đặc trưng và cách chế biến truyền thống,\nphở Việt Nam đã trở thành món ăn được yêu thích bởi nhiều thế hệ người Việt.</p>\n\n<h2>Lịch Sử Và Nguồn Gốc</h2>\n<p>Theo các tài liệu lịch sử, phở Việt Nam có nguồn gốc từ lịch sử và đã được truyền lại qua nhiều thế hệ.\nMón ăn này không chỉ mang giá trị dinh dưỡng cao mà còn chứa đựng nhiều ý nghĩa văn hóa sâu sắc.</p>\n\n<h2>Nguyên Liệu Và Cách Chế Biến</h2>\n<p>Để có được một món phở Việt Nam ngon và đúng vị, việc lựa chọn nguyên liệu là vô cùng quan trọng.\nCác nguyên liệu chính bao gồm ẩm thực và các gia vị truyền thống khác.</p>\n\n<h3>Quy Trình Chế Biến Chi Tiết</h3>\n<ol>\n    <li>Chuẩn bị nguyên liệu tươi ngon và sạch sẽ</li>\n    <li>Sơ chế nguyên liệu theo đúng quy trình truyền thống</li>\n    <li>Chế biến theo các bước được truyền lại từ đời này sang đời khác</li>\n    <li>Trang trí và thưởng thức khi còn nóng</li>\n</ol>\n\n<h2>Giá Trị Dinh Dưỡng</h2>\n<p>phở Việt Nam không chỉ ngon miệng mà còn cung cấp nhiều chất dinh dưỡng cần thiết cho cơ thể.\nMón ăn này giàu protein, vitamin và các khoáng chất quan trọng.</p>\n\n<h2>Mẹo Hay Khi Thưởng Thức</h2>\n<p>Để thưởng thức phở Việt Nam một cách trọn vẹn nhất, bạn nên ăn khi món ăn còn nóng và kết hợp với\ncác loại rau sống tươi ngon. Điều này sẽ giúp tăng hương vị và giá trị dinh dưỡng của món ăn.</p>\n\n<h2>Kết Luận</h2>\n<p>phở Việt Nam là một món ăn truyền thống tuyệt vời của người Việt. Việc gìn giữ và phát huy những\ngiá trị ẩm thực này không chỉ giúp chúng ta kết nối với văn hóa dân tộc mà còn góp phần\nquảng bá nền ẩm thực Việt Nam ra thế giới.</p>\n",
+      "imageUrl": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=800&q=80",
+      "published": true,
+      "createdAt": "2025-12-31 18:24:06.709615"
+    },
+    {
+      "id": 5,
+      "type": "post",
+      "title": "Top 10 Đặc Sản Miền Bắc Phải Thử Một Lần Trong Đời",
+      "slug": "top-10-dac-san-mien-bac-phai-thu-mot-lan-trong-doi",
+      "excerpt": "Miền Bắc Việt Nam có rất nhiều đặc sản ngon và nổi tiếng. Cùng khám phá top 10 món ăn đặc sản miền Bắc mà bạn không thể bỏ qua.",
+      "body": "<h2>Giới Thiệu Về đặc sản miền Bắc</h2>\n<p>đặc sản miền Bắc là một phần không thể thiếu trong nền ẩm thực Việt Nam. Với hương vị đặc trưng và cách chế biến truyền thống,\nđặc sản miền Bắc đã trở thành món ăn được yêu thích bởi nhiều thế hệ người Việt.</p>\n\n<h2>Lịch Sử Và Nguồn Gốc</h2>\n<p>Theo các tài liệu lịch sử, đặc sản miền Bắc có nguồn gốc từ top 10 và đã được truyền lại qua nhiều thế hệ.\nMón ăn này không chỉ mang giá trị dinh dưỡng cao mà còn chứa đựng nhiều ý nghĩa văn hóa sâu sắc.</p>\n\n<h2>Nguyên Liệu Và Cách Chế Biến</h2>\n<p>Để có được một món đặc sản miền Bắc ngon và đúng vị, việc lựa chọn nguyên liệu là vô cùng quan trọng.\nCác nguyên liệu chính bao gồm món ngon và các gia vị truyền thống khác.</p>\n\n<h3>Quy Trình Chế Biến Chi Tiết</h3>\n<ol>\n    <li>Chuẩn bị nguyên liệu tươi ngon và sạch sẽ</li>\n    <li>Sơ chế nguyên liệu theo đúng quy trình truyền thống</li>\n    <li>Chế biến theo các bước được truyền lại từ đời này sang đời khác</li>\n    <li>Trang trí và thưởng thức khi còn nóng</li>\n</ol>\n\n<h2>Giá Trị Dinh Dưỡng</h2>\n<p>đặc sản miền Bắc không chỉ ngon miệng mà còn cung cấp nhiều chất dinh dưỡng cần thiết cho cơ thể.\nMón ăn này giàu protein, vitamin và các khoáng chất quan trọng.</p>\n\n<h2>Mẹo Hay Khi Thưởng Thức</h2>\n<p>Để thưởng thức đặc sản miền Bắc một cách trọn vẹn nhất, bạn nên ăn khi món ăn còn nóng và kết hợp với\ncác loại rau sống tươi ngon. Điều này sẽ giúp tăng hương vị và giá trị dinh dưỡng của món ăn.</p>\n\n<h2>Kết Luận</h2>\n<p>đặc sản miền Bắc là một món ăn truyền thống tuyệt vời của người Việt. Việc gìn giữ và phát huy những\ngiá trị ẩm thực này không chỉ giúp chúng ta kết nối với văn hóa dân tộc mà còn góp phần\nquảng bá nền ẩm thực Việt Nam ra thế giới.</p>\n",
+      "imageUrl": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
+      "published": true,
+      "createdAt": "2025-12-12 18:24:06.712400"
+    },
+    {
+      "id": 6,
+      "type": "post",
+      "title": "Mùa Durian Đến Rồi - Cách Chọn Sầu Riêng Ngon Và An Toàn",
+      "slug": "mua-durian-den-roi-cach-chon-sau-rieng-ngon-va-an-toan",
+      "excerpt": "Sầu riêng là vua của các loại trái cây nhiệt đới. Trong mùa sầu riêng, việc biết cách chọn quả ngon và an toàn là rất quan trọng.",
+      "body": "<h2>Giới Thiệu Về sầu riêng</h2>\n<p>sầu riêng là một phần không thể thiếu trong nền ẩm thực Việt Nam. Với hương vị đặc trưng và cách chế biến truyền thống,\nsầu riêng đã trở thành món ăn được yêu thích bởi nhiều thế hệ người Việt.</p>\n\n<h2>Lịch Sử Và Nguồn Gốc</h2>\n<p>Theo các tài liệu lịch sử, sầu riêng có nguồn gốc từ cách chọn và đã được truyền lại qua nhiều thế hệ.\nMón ăn này không chỉ mang giá trị dinh dưỡng cao mà còn chứa đựng nhiều ý nghĩa văn hóa sâu sắc.</p>\n\n<h2>Nguyên Liệu Và Cách Chế Biến</h2>\n<p>Để có được một món sầu riêng ngon và đúng vị, việc lựa chọn nguyên liệu là vô cùng quan trọng.\nCác nguyên liệu chính bao gồm trái cây và các gia vị truyền thống khác.</p>\n\n<h3>Quy Trình Chế Biến Chi Tiết</h3>\n<ol>\n    <li>Chuẩn bị nguyên liệu tươi ngon và sạch sẽ</li>\n    <li>Sơ chế nguyên liệu theo đúng quy trình truyền thống</li>\n    <li>Chế biến theo các bước được truyền lại từ đời này sang đời khác</li>\n    <li>Trang trí và thưởng thức khi còn nóng</li>\n</ol>\n\n<h2>Giá Trị Dinh Dưỡng</h2>\n<p>sầu riêng không chỉ ngon miệng mà còn cung cấp nhiều chất dinh dưỡng cần thiết cho cơ thể.\nMón ăn này giàu protein, vitamin và các khoáng chất quan trọng.</p>\n\n<h2>Mẹo Hay Khi Thưởng Thức</h2>\n<p>Để thưởng thức sầu riêng một cách trọn vẹn nhất, bạn nên ăn khi món ăn còn nóng và kết hợp với\ncác loại rau sống tươi ngon. Điều này sẽ giúp tăng hương vị và giá trị dinh dưỡng của món ăn.</p>\n\n<h2>Kết Luận</h2>\n<p>sầu riêng là một món ăn truyền thống tuyệt vời của người Việt. Việc gìn giữ và phát huy những\ngiá trị ẩm thực này không chỉ giúp chúng ta kết nối với văn hóa dân tộc mà còn góp phần\nquảng bá nền ẩm thực Việt Nam ra thế giới.</p>\n",
+      "imageUrl": "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=800&q=80",
+      "published": true,
+      "createdAt": "2025-12-06 18:24:06.714983"
+    },
+    {
+      "id": 7,
+      "type": "post",
+      "title": "Chương Trình Khuyến Mãi Đặc Biệt Tháng 1/2025",
+      "slug": "chuong-trinh-khuyen-mai-dac-biet-thang-12025",
+      "excerpt": "Chào mừng năm mới 2025, chúng tôi triển khai chương trình khuyến mãi đặc biệt với nhiều ưu đãi hấp dẫn cho tất cả khách hàng.",
+      "body": "<h2>Chương Trình Khuyến Mãi Đặc Biệt</h2>\n<p>Nhân dịp chào mừng năm mới 2025, chúng tôi triển khai chương trình khuyến mãi đặc biệt\nvới nhiều ưu đãi hấp dẫn dành cho tất cả khách hàng yêu mến đặc sản Việt Nam.</p>\n\n<h3>Các Ưu Đãi Nổi Bật</h3>\n<ul>\n    <li><strong>Giảm giá 25%</strong> cho tất cả sản phẩm đặc sản Tết</li>\n    <li><strong>Miễn phí vận chuyển</strong> cho đơn hàng từ 500.000đ</li>\n    <li><strong>Tặng quà</strong> cho 100 khách hàng đầu tiên</li>\n    <li><strong>Combo đặc biệt</strong> với giá ưu đãi chỉ 299.000đ</li>\n</ul>\n\n<h3>Thời Gian Áp Dụng</h3>\n<p>Chương trình diễn ra từ ngày 1/1/2025 đến hết ngày 31/1/2025.\nSố lượng có hạn, áp dụng theo nguyên tắc \"ai trước người đó\".</p>\n\n<h3>Điều Kiện Tham Gia</h3>\n<p>Chương trình áp dụng cho tất cả khách hàng, không giới hạn số lần mua.\nKhông áp dụng đồng thời với các chương trình khuyến mãi khác.</p>\n",
+      "imageUrl": "https://images.unsplash.com/photo-1607083206869-4c7672e72a8a?w=800&q=80",
+      "published": true,
+      "createdAt": "2025-12-11 18:24:06.719361"
+    },
+    {
+      "id": 8,
+      "type": "post",
+      "title": "Festival Ẩm Thực Việt Nam 2025 - Sự Kiện Không Thể Bỏ Lỡ",
+      "slug": "festival-am-thuc-viet-nam-2025-su-kien-khong-the-bo-lo",
+      "excerpt": "Festival Ẩm Thực Việt Nam 2025 sẽ diễn ra vào tháng 3 tại Hà Nội, quy tụ các đầu bếp nổi tiếng và những món ăn đặc sắc từ khắp ba miền.",
+      "body": "<h2>Festival Ẩm Thực Việt Nam 2025</h2>\n<p>Festival Ẩm Thực Việt Nam 2025 là sự kiện ẩm thực lớn nhất trong năm,\nquy tụ các đầu bếp nổi tiếng và những món ăn đặc sắc từ khắp ba miền Bắc - Trung - Nam.</p>\n\n<h3>Thông Tin Sự Kiện</h3>\n<ul>\n    <li><strong>Thời gian:</strong> 15-17/3/2025</li>\n    <li><strong>Địa điểm:</strong> Trung tâm Hội nghị Quốc gia, Hà Nội</li>\n    <li><strong>Quy mô:</strong> Hơn 200 gian hàng từ 63 tỉnh thành</li>\n    <li><strong>Khách mời:</strong> 50+ đầu bếp nổi tiếng trong nước và quốc tế</li>\n</ul>\n\n<h3>Hoạt Động Nổi Bật</h3>\n<ul>\n    <li>Trình diễn nấu ăn từ các đầu bếp nổi tiếng</li>\n    <li>Thi đấu ẩm thực giữa các vùng miền</li>\n    <li>Triển lãm ảnh về ẩm thực Việt Nam</li>\n    <li>Hội thảo về xu hướng ẩm thực hiện đại</li>\n    <li>Khu vực thưởng thức và mua sắm đặc sản</li>\n</ul>\n\n<h3>Đăng Ký Tham Gia</h3>\n<p>Sự kiện miễn phí cho tất cả du khách. Đăng ký trước để nhận được những ưu đãi đặc biệt\nvà tránh tình trạng quá tải.</p>\n",
+      "imageUrl": "https://images.unsplash.com/photo-1565299507177-b0ac66763828?w=800&q=80",
+      "published": true,
+      "createdAt": "2025-12-14 18:24:06.723874"
+    },
+    {
+      "id": 9,
+      "type": "post",
+      "title": "Xu Hướng Ẩm Thực Healthy 2025 - Ăn Ngon Mà Vẫn Khỏe",
+      "slug": "xu-huong-am-thuc-healthy-2025-an-ngon-ma-van-khoe",
+      "excerpt": "Năm 2025 đánh dấu sự phát triển mạnh mẽ của xu hướng ẩm thực healthy. Cùng tìm hiểu cách kết hợp đặc sản truyền thống với lối sống lành mạnh.",
+      "body": "<h2>Xu Hướng Ẩm Thực Healthy 2025</h2>\n<p>Năm 2025 đánh dấu sự phát triển mạnh mẽ của xu hướng ẩm thực healthy.\nNgười tiêu dùng ngày càng quan tâm đến việc ăn uống lành mạnh mà vẫn giữ được hương vị truyền thống.</p>\n\n<h3>Các Xu Hướng Nổi Bật</h3>\n<ul>\n    <li><strong>Plant-based:</strong> Tăng cường thực phẩm từ thực vật</li>\n    <li><strong>Organic:</strong> Ưu tiên nguyên liệu hữu cơ, sạch</li>\n    <li><strong>Low-carb:</strong> Giảm tinh bột, tăng protein và chất xơ</li>\n    <li><strong>Fermented foods:</strong> Thực phẩm lên men tốt cho tiêu hóa</li>\n</ul>\n\n<h3>Kết Hợp Đặc Sản Truyền Thống</h3>\n<p>Các đầu bếp hiện đại đang tìm cách kết hợp đặc sản truyền thống với xu hướng healthy,\ntạo ra những món ăn vừa ngon vừa bổ dưỡng.</p>\n\n<h3>Lời Khuyên Cho Người Tiêu Dùng</h3>\n<ul>\n    <li>Chọn nguyên liệu tươi ngon, có nguồn gốc rõ ràng</li>\n    <li>Cân bằng dinh dưỡng trong mỗi bữa ăn</li>\n    <li>Hạn chế đường và muối</li>\n    <li>Tăng cường rau xanh và trái cây</li>\n</ul>\n",
+      "imageUrl": "https://images.unsplash.com/photo-1563379091339-03246963d96c?w=800&q=80",
+      "published": true,
+      "createdAt": "2025-12-22 18:24:06.726655"
+    },
+    {
+      "id": 11,
+      "type": "post",
+      "title": "Khám Phá Đặc Sản Tết Nguyên Đán 2025 - Hương Vị Truyền Thống Không Thể Thiếu",
+      "slug": "kham-pha-dac-san-tet-nguyen-dan-2025",
+      "excerpt": "Tết Nguyên Đán đang đến gần, cùng khám phá những món đặc sản truyền thống không thể thiếu trong mâm cơm ngày Tết. Từ bánh chưng miền Bắc đến bánh tét miền Nam, mỗi món ăn đều mang trong mình câu chuyện văn hóa độc đáo của dân tộc Việt Nam.",
+      "body": "<h2>Bánh Chưng - Linh Hồn Của Tết Miền Bắc</h2><p>Bánh chưng không chỉ là món ăn mà còn là biểu tượng văn hóa của người Việt. Được làm từ gạo nếp, đậu xanh và thịt heo, gói trong lá dong xanh, bánh chưng thể hiện sự sum vầy, đoàn tụ của gia đình trong dịp Tết.</p><h2>Bánh Tét - Nét Đẹp Miền Nam</h2><p>Khác với bánh chưng hình vuông, bánh tét miền Nam có hình tròn dài, được gói bằng lá chuối. Hương vị ngọt ngào của bánh tét pha lẫn mùi thơm của lá chuối tạo nên một trải nghiệm ẩm thực khó quên.</p>",
+      "imageUrl": "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?w=800&q=80",
+      "published": true,
+      "createdAt": "2025-12-21 18:24:06.783045"
+    },
+    {
+      "id": 12,
+      "type": "post",
+      "title": "Bí Quyết Làm Nem Chua Thanh Hóa Chuẩn Vị",
+      "slug": "bi-quyet-lam-nem-chua-thanh-hoa-chuan-vi",
+      "excerpt": "Nem chua Thanh Hóa nổi tiếng với hương vị chua ngọt đặc trưng. Cùng tìm hiểu bí quyết làm nem chua thơm ngon như người địa phương.",
+      "body": "<h2>Nguyên Liệu Cần Chuẩn Bị</h2><p>Để làm nem chua Thanh Hóa ngon, bạn cần chuẩn bị: thịt heo ba chỉ tươi, tỏi, ớt, muối, đường, nước mắm và lá chuối non.</p><h2>Quy Trình Làm Nem</h2><p>Thịt heo được thái nhỏ, trộn đều với gia vị rồi ủ trong thời gian nhất định để tạo độ chua tự nhiên. Sau đó gói trong lá chuối và để trong môi trường ấm áp.</p>",
+      "imageUrl": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=800&q=80",
+      "published": true,
+      "createdAt": "2025-12-11 18:24:06.784858"
+    },
+    {
+      "id": 13,
+      "type": "post",
+      "title": "Chương Trình Khuyến Mãi Tháng 12 - Giảm Giá Lên Đến 30%",
+      "slug": "chuong-trinh-khuyen-mai-thang-12",
+      "excerpt": "Nhân dịp cuối năm, chúng tôi triển khai chương trình khuyến mãi lớn với mức giảm giá hấp dẫn cho tất cả sản phẩm đặc sản.",
+      "body": "<h2>Ưu Đãi Đặc Biệt</h2><p>Từ ngày 1/12 đến 31/12, tất cả sản phẩm đặc sản được giảm giá từ 10% đến 30%. Đặc biệt, các sản phẩm Tết được ưu đãi lên đến 25%.</p><h2>Điều Kiện Áp Dụng</h2><p>Chương trình áp dụng cho tất cả khách hàng, không giới hạn số lượng mua. Miễn phí vận chuyển cho đơn hàng từ 500.000đ.</p>",
+      "imageUrl": "https://images.unsplash.com/photo-1607083206869-4c7672e72a8a?w=800&q=80",
+      "published": true,
+      "createdAt": "2025-12-12 18:24:06.786601"
+    },
+    {
+      "id": 14,
+      "type": "post",
+      "title": "Lễ Hội Ẩm Thực Huế 2025 - Tôn Vinh Văn Hóa Ẩm Thực Cung Đình",
+      "slug": "le-hoi-am-thuc-hue-2025",
+      "excerpt": "Lễ hội ẩm thực Huế 2025 sẽ diễn ra vào tháng 3, mang đến cơ hội thưởng thức những món ăn cung đình tinh tế và đặc sắc.",
+      "body": "<h2>Chương Trình Lễ Hội</h2><p>Lễ hội sẽ có các hoạt động trình diễn nấu ăn, triển lãm ẩm thực và không gian thưởng thức các món ăn truyền thống Huế.</p><h2>Đặc Sản Nổi Bật</h2><p>Du khách sẽ được thưởng thức bún bò Huế, bánh bèo, bánh nậm và nhiều món ăn cung đình khác.</p>",
+      "imageUrl": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=800&q=80",
+      "published": true,
+      "createdAt": "2025-12-05 18:24:06.788227"
+    },
+    {
+      "id": 15,
+      "type": "post",
+      "title": "Khai Trương Cửa Hàng Đặc Sản Việt Chi Nhánh Mới",
+      "slug": "khai-truong-cua-hang-dac-san-viet-chi-nhanh-moi",
+      "excerpt": "Chúng tôi vui mừng thông báo khai trương chi nhánh mới tại quận 7, mang đến cho khách hàng nhiều lựa chọn đặc sản hơn.",
+      "body": "<h2>Địa Chỉ Mới</h2><p>Chi nhánh mới tại 123 Nguyễn Thị Thập, Quận 7, TP.HCM với không gian rộng rãi và đa dạng sản phẩm.</p><h2>Ưu Đãi Khai Trương</h2><p>Giảm 20% cho tất cả sản phẩm trong tuần đầu khai trương. Tặng quà cho 100 khách hàng đầu tiên.</p>",
+      "imageUrl": "/assets/spring/uploads/news/20c5fd34-b1f6-461b-880e-a639eb547a2b.png",
+      "published": true,
+      "createdAt": "2025-12-31 18:24:06.790455"
+    }
+  ]
+}

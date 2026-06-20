@@ -17,6 +17,12 @@ import AdminLogin from './admin/AdminLogin.jsx';
 import AdminDashboard from './admin/AdminDashboard.jsx';
 import AdminProducts from './admin/AdminProducts.jsx';
 import AdminOrders from './admin/AdminOrders.jsx';
+import AdminCategories from './admin/AdminCategories.jsx';
+import AdminCustomers from './admin/AdminCustomers.jsx';
+import AdminPromotions from './admin/AdminPromotions.jsx';
+import AdminNews from './admin/AdminNews.jsx';
+import AdminReports from './admin/AdminReports.jsx';
+import AdminSettings from './admin/AdminSettings.jsx';
 import './styles.css';
 
 createRoot(document.getElementById('root')).render(
@@ -39,8 +45,14 @@ createRoot(document.getElementById('root')).render(
           <Route path="/admin/login" element={<AdminLogin />} />
           <Route path="/admin" element={<AdminLayout />}>
             <Route index element={<AdminDashboard />} />
-            <Route path="products" element={<AdminProducts />} />
             <Route path="orders" element={<AdminOrders />} />
+            <Route path="products" element={<AdminProducts />} />
+            <Route path="categories" element={<AdminCategories />} />
+            <Route path="customers" element={<AdminCustomers />} />
+            <Route path="promotions" element={<AdminPromotions />} />
+            <Route path="news" element={<AdminNews />} />
+            <Route path="reports" element={<AdminReports />} />
+            <Route path="settings" element={<AdminSettings />} />
           </Route>
         </Routes>
       </CartProvider>

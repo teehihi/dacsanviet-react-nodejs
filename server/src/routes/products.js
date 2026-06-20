@@ -1,5 +1,6 @@
 import { Router } from 'express';
 import { prisma } from '../db.js';
+import { getFallbackProduct, isDatabaseConnectionError, listFallbackProducts } from '../fallback-store.js';
 
 export const productRouter = Router();
 
@@ -47,6 +48,10 @@ productRouter.get('/', async (req, res, next) => {
     ]);
     res.json({ items, total, page, limit });
   } catch (err) {
+    if (isDatabaseConnectionError(err)) {
+      const fallback = listFallbackProducts(req.query);
+      if (fallback) return res.json(fallback);
+    }
     next(err);
   }
 });
@@ -58,8 +63,20 @@ productRouter.get('/:slug', async (req, res, next) => {
       include: includeProduct,
     });
     if (!product || product.status !== 'ACTIVE') return res.status(404).json({ message: 'Product not found' });
-    res.json(product);
+    const relatedProducts = product.categoryId
+      ? await prisma.product.findMany({
+          where: { status: 'ACTIVE', categoryId: product.categoryId, id: { not: product.id } },
+          include: includeProduct,
+          orderBy: { createdAt: 'desc' },
+          take: 3,
+        })
+      : [];
+    res.json({ ...product, relatedProducts });
   } catch (err) {
+    if (isDatabaseConnectionError(err)) {
+      const fallback = getFallbackProduct(req.params.slug);
+      if (fallback) return res.json(fallback);
+    }
     next(err);
   }
 });

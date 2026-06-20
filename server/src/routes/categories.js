@@ -1,5 +1,6 @@
 import { Router } from 'express';
 import { prisma } from '../db.js';
+import { isDatabaseConnectionError, listFallbackCategories } from '../fallback-store.js';
 
 export const categoryRouter = Router();
 
@@ -11,6 +12,10 @@ categoryRouter.get('/', async (_req, res, next) => {
     });
     res.json(categories);
   } catch (err) {
+    if (isDatabaseConnectionError(err)) {
+      const fallback = listFallbackCategories();
+      if (fallback) return res.json(fallback);
+    }
     next(err);
   }
 });

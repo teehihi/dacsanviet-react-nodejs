@@ -63,10 +63,12 @@ export default function NewsPage() {
 
       <section
         className="wp-news-hero"
-        style={{ backgroundImage: "linear-gradient(rgba(0,0,0,.42), rgba(0,0,0,.42)), url('/assets/uploads/2025/09/mtay.jpg')" }}
+        style={{ backgroundImage: "linear-gradient(rgba(0,0,0,.26), rgba(0,0,0,.26)), url('/assets/uploads/2025/09/news-hero-coconut-crop.png')" }}
       >
-        <h1>TIN TỨC & SỰ KIỆN</h1>
-        <p>Những câu chuyện ý nghĩa đằng sau các loại đặc sản, mẹo sử dụng và tin tức khuyến mãi hằng tuần.</p>
+        <div className="wp-news-hero-content">
+          <h1>TIN TỨC & SỰ KIỆN</h1>
+          <p>Những câu chuyện ý nghĩa đằng sau các loại đặc sản, mẹo sử dụng và tin tức khuyến mãi hằng tuần.</p>
+        </div>
       </section>
 
       <section className="container wp-news-section">
@@ -96,7 +98,7 @@ export default function NewsPage() {
 
       <section
         className="wp-news-cta"
-        style={{ backgroundImage: "linear-gradient(rgba(60,33,18,.34), rgba(60,33,18,.34)), url('/assets/uploads/2025/09/banner-e1758789204196.png')" }}
+        style={{ '--cta-bg': "url('/assets/uploads/2025/09/news-cta-vinhomes.jpg')" }}
       >
         <div>
           <h2>ƯU ĐÃI ĐỘC QUYỀN: KHÁM PHÁ CỬA HÀNG CỦA CHÚNG TÔI!</h2>
