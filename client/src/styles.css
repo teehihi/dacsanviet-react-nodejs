@@ -160,7 +160,7 @@
   .wp-news-cta h2 { @apply m-0 text-2xl font-black uppercase; }
   .wp-news-cta p { @apply m-0 max-w-4xl text-sm font-semibold; }
   .wp-news-cta .btn { @apply mt-1 rounded-full px-5 py-2 text-xs; }
-  .wp-news-listing { @apply grid grid-cols-2 gap-6 pt-8; }
+  .wp-news-listing { @apply grid grid-cols-1 gap-6 pt-8; }
   .wp-news-row { @apply grid grid-cols-[180px_1fr] overflow-hidden rounded-lg bg-white shadow-[0_4px_16px_rgba(0,0,0,.1)] transition hover:-translate-y-1; }
   .wp-news-row img { @apply h-full min-h-40 w-full object-cover; }
   .wp-news-row div { @apply p-5; }
@@ -457,7 +457,7 @@
   @media (max-width: 900px) {
     .header-inner { @apply h-auto flex-wrap py-3; }
     .main-nav { @apply order-3 w-full overflow-x-auto; }
-    .service-strip, .product-grid, .post-grid, .footer-grid, .metric-grid, .news-contact, .about-hero, .about-story, .value-grid, .news-page-grid, .wp-news-grid, .wp-feature-news, .wp-news-listing, .contact-layout, .wp-about-intro, .wp-about-main, .wp-about-values, .wp-about-gallery, .wp-brand-story, .wp-about-bottom, .wp-contact-content { @apply grid-cols-2; }
+    .service-strip, .product-grid, .post-grid, .footer-grid, .metric-grid, .news-contact, .about-hero, .about-story, .value-grid, .news-page-grid, .wp-news-grid, .wp-feature-news, .contact-layout, .wp-about-intro, .wp-about-main, .wp-about-values, .wp-about-gallery, .wp-brand-story, .wp-about-bottom, .wp-contact-content { @apply grid-cols-2; }
     .product-detail, .related-grid, .customer-reviews > div, .why-dsv > div, .cart-layout, .checkout-layout, .admin-shell { @apply grid-cols-1; }
     .news-item { @apply grid-cols-[180px_1fr]; }
     .admin-form, .admin-row, .admin-order { @apply grid-cols-1; }

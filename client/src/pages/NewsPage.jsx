@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { api } from '../api.js';
 
@@ -44,6 +44,9 @@ function normalizePost(post, index) {
 
 export default function NewsPage() {
   const [posts, setPosts] = useState([]);
+  const [currentPage, setCurrentPage] = useState(1);
+  const postsPerPage = 5;
+  const listingRef = useRef(null);
 
   useEffect(() => {
     api('/posts').then(setPosts).catch(() => setPosts([]));
@@ -56,6 +59,19 @@ export default function NewsPage() {
 
   const latest = news.slice(0, 3);
   const foodPosts = news.slice(0, 2);
+
+  // Pagination calculations
+  const indexOfLastPost = currentPage * postsPerPage;
+  const indexOfFirstPost = indexOfLastPost - postsPerPage;
+  const currentPosts = news.slice(indexOfFirstPost, indexOfLastPost);
+  const totalPages = Math.ceil(news.length / postsPerPage);
+
+  const handlePageChange = (pageNumber) => {
+    setCurrentPage(pageNumber);
+    setTimeout(() => {
+      listingRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }, 50);
+  };
 
   return (
     <section className="wp-news-page">
@@ -107,17 +123,52 @@ export default function NewsPage() {
         </div>
       </section>
 
-      <section className="container wp-news-section wp-news-listing">
-        {(foodPosts.length ? foodPosts : fallbackNews).map((post, index) => (
-          <Link to={`/${post.slug}`} className="wp-news-row" key={`${post.slug}-${index}`}>
-            <img src={readableImage(post.imageUrl, index + 3)} alt={post.title} />
-            <div>
-              <h3>{post.title}</h3>
-              <p>{post.excerpt}</p>
-              <strong>Tìm hiểu thêm »</strong>
-            </div>
-          </Link>
-        ))}
+      <section className="container wp-news-section" ref={listingRef}>
+        <div className="wp-news-heading"><span>TẤT CẢ BÀI VIẾT</span></div>
+        <div className="wp-news-listing">
+          {currentPosts.map((post, index) => (
+            <Link to={`/${post.slug}`} className="wp-news-row" key={`${post.slug}-${index}`}>
+              <img src={post.imageUrl} alt={post.title} />
+              <div>
+                <h3>{post.title}</h3>
+                <p>{post.excerpt}</p>
+                <strong>Tìm hiểu thêm »</strong>
+              </div>
+            </Link>
+          ))}
+        </div>
+
+        {/* Phân trang */}
+        {totalPages > 1 && (
+          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '8px', marginTop: '36px' }}>
+            <button
+              onClick={() => handlePageChange(Math.max(currentPage - 1, 1))}
+              disabled={currentPage === 1}
+              className="admin-secondary"
+              style={{ cursor: currentPage === 1 ? 'not-allowed' : 'pointer', padding: '8px 16px', fontSize: '14px', borderRadius: '6px' }}
+            >
+              « Trước
+            </button>
+            {Array.from({ length: totalPages }, (_, i) => i + 1).map((pageNumber) => (
+              <button
+                key={pageNumber}
+                onClick={() => handlePageChange(pageNumber)}
+                className={currentPage === pageNumber ? 'admin-primary' : 'admin-secondary'}
+                style={{ cursor: 'pointer', padding: '8px 16px', fontSize: '14px', borderRadius: '6px', fontWeight: currentPage === pageNumber ? 'bold' : 'normal' }}
+              >
+                {pageNumber}
+              </button>
+            ))}
+            <button
+              onClick={() => handlePageChange(Math.min(currentPage + 1, totalPages))}
+              disabled={currentPage === totalPages}
+              className="admin-secondary"
+              style={{ cursor: currentPage === totalPages ? 'not-allowed' : 'pointer', padding: '8px 16px', fontSize: '14px', borderRadius: '6px' }}
+            >
+              Sau »
+            </button>
+          </div>
+        )}
       </section>
     </section>
   );
