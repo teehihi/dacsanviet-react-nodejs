@@ -161,12 +161,12 @@
   .wp-news-cta p { @apply m-0 max-w-4xl text-sm font-semibold; }
   .wp-news-cta .btn { @apply mt-1 rounded-full px-5 py-2 text-xs; }
   .wp-news-listing { @apply grid grid-cols-1 gap-6 pt-8; }
-  .wp-news-row { @apply grid grid-cols-[180px_1fr] overflow-hidden rounded-lg bg-white shadow-[0_4px_16px_rgba(0,0,0,.1)] transition hover:-translate-y-1; }
-  .wp-news-row img { @apply h-full min-h-40 w-full object-cover; }
-  .wp-news-row div { @apply p-5; }
-  .wp-news-row h3 { @apply m-0 text-lg font-black text-[#62c8b7]; }
-  .wp-news-row p { @apply text-sm leading-6 text-slate-600; }
-  .wp-news-row strong { @apply text-xs font-black uppercase text-[#62c8b7]; }
+  .wp-news-row { @apply flex gap-6 rounded-2xl border border-[#e5e9ef] bg-white p-4 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-md; }
+  .wp-news-row img { @apply h-40 w-60 shrink-0 rounded-xl object-cover; }
+  .wp-news-row div { @apply flex flex-col justify-center py-1; }
+  .wp-news-row h3 { @apply m-0 text-xl font-black text-[#62c8b7] transition hover:text-[#c9824e]; }
+  .wp-news-row p { @apply mt-3 text-sm leading-relaxed text-slate-500; }
+  .wp-news-row strong { @apply mt-4 text-xs font-black uppercase tracking-wider text-[#62c8b7] hover:underline; }
 
   .contact-page { @apply bg-[#fbfbf8] pb-14; }
   .contact-layout { @apply grid grid-cols-[1fr_1fr_.9fr] gap-6; }
@@ -469,8 +469,8 @@
     .wp-brand-story img { @apply h-72; }
     .wp-news-hero { @apply min-h-[260px]; }
     .wp-news-image, .wp-news-card-featured .wp-news-image { @apply h-56; }
-    .wp-news-row { @apply grid-cols-1; }
-    .wp-news-row img { @apply h-52; }
+    .wp-news-row { @apply flex-col gap-4; }
+    .wp-news-row img { @apply w-full h-48; }
     .shop-header, .filters { @apply flex-col items-stretch; }
     .detail-thumbs { @apply grid-cols-3; }
     .detail-tabs { @apply gap-4 overflow-x-auto; }

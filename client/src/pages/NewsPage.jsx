@@ -128,7 +128,7 @@ export default function NewsPage() {
         <div className="wp-news-listing">
           {currentPosts.map((post, index) => (
             <Link to={`/${post.slug}`} className="wp-news-row" key={`${post.slug}-${index}`}>
-              <img src={post.imageUrl} alt={post.title} />
+              <img src={post.imageUrl} alt={post.title} onError={(e) => { e.target.src = '/assets/dacsanvietLogo.png'; }} />
               <div>
                 <h3>{post.title}</h3>
                 <p>{post.excerpt}</p>
@@ -180,7 +180,7 @@ function NewsCard({ post, image, featured = false }) {
   return (
     <Link to={`/${card.slug}`} className={featured ? 'wp-news-card wp-news-card-featured' : 'wp-news-card'}>
       <div className="wp-news-image">
-        <img src={image || card.imageUrl} alt={card.title} />
+        <img src={image || card.imageUrl} alt={card.title} onError={(e) => { e.target.src = '/assets/dacsanvietLogo.png'; }} />
         <span>{card.category}</span>
       </div>
       <div className="wp-news-body">
