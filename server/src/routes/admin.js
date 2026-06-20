@@ -1,11 +1,43 @@
 import { Router } from 'express';
 import slugify from 'slugify';
 import { z } from 'zod';
+import multer from 'multer';
+import path from 'node:path';
+import fs from 'node:fs';
+import { fileURLToPath } from 'node:url';
 import { prisma } from '../db.js';
 import { requireAdmin, requireAuth } from '../middleware/auth.js';
 
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const uploadDir = path.resolve(__dirname, '../../../client/public/assets/uploads');
+
+if (!fs.existsSync(uploadDir)) {
+  fs.mkdirSync(uploadDir, { recursive: true });
+}
+
+const storage = multer.diskStorage({
+  destination: (req, file, cb) => {
+    cb(null, uploadDir);
+  },
+  filename: (req, file, cb) => {
+    const uniqueSuffix = Date.now() + '-' + Math.round(Math.random() * 1e9);
+    const ext = path.extname(file.originalname);
+    cb(null, file.fieldname + '-' + uniqueSuffix + ext);
+  }
+});
+
+const upload = multer({ storage });
+
 export const adminRouter = Router();
 adminRouter.use(requireAuth, requireAdmin);
+
+adminRouter.post('/upload', upload.single('image'), (req, res) => {
+  if (!req.file) {
+    return res.status(400).json({ message: 'No file uploaded' });
+  }
+  const fileUrl = `/assets/uploads/${req.file.filename}`;
+  res.json({ url: fileUrl });
+});
 
 const productSchema = z.object({
   name: z.string().min(2),

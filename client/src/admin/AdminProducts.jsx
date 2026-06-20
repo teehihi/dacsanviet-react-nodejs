@@ -26,6 +26,26 @@ export default function AdminProducts() {
   const [category, setCategory] = useState('');
   const [status, setStatus] = useState('');
   const [showForm, setShowForm] = useState(false);
+  const [uploading, setUploading] = useState(false);
+
+  async function handleUpload(e) {
+    const file = e.target.files[0];
+    if (!file) return;
+    setUploading(true);
+    const formData = new FormData();
+    formData.append('image', file);
+    try {
+      const data = await api('/admin/upload', {
+        method: 'POST',
+        body: formData,
+      });
+      setForm((prev) => ({ ...prev, imageUrl: data.url }));
+    } catch (err) {
+      alert(`Lỗi upload ảnh: ${err.message}`);
+    } finally {
+      setUploading(false);
+    }
+  }
 
   async function load() {
     const [productData, categoryData] = await Promise.all([api('/admin/products'), api('/admin/categories')]);
@@ -155,7 +175,16 @@ export default function AdminProducts() {
               <label>Giá (VNĐ) *<input type="number" value={form.regularPrice} onChange={(e) => setForm({ ...form, regularPrice: e.target.value })} required /></label>
               <label>Giá giảm<input type="number" value={form.salePrice} onChange={(e) => setForm({ ...form, salePrice: e.target.value })} /></label>
               <label>Số lượng kho<input type="number" value={form.stockQuantity} onChange={(e) => setForm({ ...form, stockQuantity: e.target.value })} /></label>
-              <label>URL hình chính<input value={form.imageUrl} onChange={(e) => setForm({ ...form, imageUrl: e.target.value })} placeholder="/assets/..." /></label>
+              <label>
+                URL hình chính
+                <div style={{ display: 'flex', gap: '8px', alignItems: 'center' }}>
+                  <input value={form.imageUrl} onChange={(e) => setForm({ ...form, imageUrl: e.target.value })} placeholder="/assets/..." style={{ flex: 1 }} />
+                  <input type="file" accept="image/*" onChange={handleUpload} style={{ display: 'none' }} id="product-file-upload" />
+                  <label htmlFor="product-file-upload" className="admin-secondary" style={{ margin: 0, cursor: 'pointer' }}>
+                    {uploading ? 'Đang tải...' : 'Tải lên'}
+                  </label>
+                </div>
+              </label>
               <label className="span-2">Mô tả ngắn<textarea value={form.shortDescription} onChange={(e) => setForm({ ...form, shortDescription: e.target.value })} /></label>
               <label className="span-2">Mô tả sản phẩm<textarea rows="7" value={form.description} onChange={(e) => setForm({ ...form, description: e.target.value })} /></label>
             </div>

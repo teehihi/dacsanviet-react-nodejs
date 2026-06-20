@@ -2,13 +2,16 @@ const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3000/api';
 
 export async function api(path, options = {}) {
   const token = localStorage.getItem('dsv_admin_token');
+  const headers = {
+    ...(token ? { Authorization: `Bearer ${token}` } : {}),
+    ...options.headers,
+  };
+  if (!(options.body instanceof FormData) && !headers['Content-Type'] && !headers['content-type']) {
+    headers['Content-Type'] = 'application/json';
+  }
   const res = await fetch(`${API_URL}${path}`, {
     ...options,
-    headers: {
-      'Content-Type': 'application/json',
-      ...(token ? { Authorization: `Bearer ${token}` } : {}),
-      ...options.headers,
-    },
+    headers,
   });
   if (!res.ok) {
     const body = await res.json().catch(() => ({}));

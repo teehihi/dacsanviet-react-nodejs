@@ -11,6 +11,26 @@ export default function AdminNews() {
   const [status, setStatus] = useState('');
   const [form, setForm] = useState(empty);
   const [editing, setEditing] = useState(null);
+  const [uploading, setUploading] = useState(false);
+
+  async function handleUpload(e) {
+    const file = e.target.files[0];
+    if (!file) return;
+    setUploading(true);
+    const formData = new FormData();
+    formData.append('image', file);
+    try {
+      const data = await api('/admin/upload', {
+        method: 'POST',
+        body: formData,
+      });
+      setForm((prev) => ({ ...prev, imageUrl: data.url }));
+    } catch (err) {
+      alert(`Lỗi upload ảnh: ${err.message}`);
+    } finally {
+      setUploading(false);
+    }
+  }
 
   async function load() {
     setPosts(await api('/admin/posts'));
@@ -92,7 +112,16 @@ export default function AdminNews() {
               <label>URL Slug<input value={form.slug} onChange={(e) => setForm({ ...form, slug: e.target.value })} placeholder="url-slug-bai-viet" /></label>
               <label>Trạng thái<select value={String(form.published)} onChange={(e) => setForm({ ...form, published: e.target.value === 'true' })}><option value="true">Xuất bản</option><option value="false">Bản nháp</option></select></label>
               <label className="span-2">Tóm tắt<textarea value={form.excerpt} onChange={(e) => setForm({ ...form, excerpt: e.target.value })} /></label>
-              <label className="span-2">URL hình đại diện<input value={form.imageUrl} onChange={(e) => setForm({ ...form, imageUrl: e.target.value })} /></label>
+              <label className="span-2">
+                URL hình đại diện
+                <div style={{ display: 'flex', gap: '8px', alignItems: 'center', marginTop: '4px' }}>
+                  <input value={form.imageUrl} onChange={(e) => setForm({ ...form, imageUrl: e.target.value })} placeholder="/assets/..." style={{ flex: 1 }} />
+                  <input type="file" accept="image/*" onChange={handleUpload} style={{ display: 'none' }} id="news-file-upload" />
+                  <label htmlFor="news-file-upload" className="admin-secondary" style={{ margin: 0, cursor: 'pointer' }}>
+                    {uploading ? 'Đang tải...' : 'Tải lên'}
+                  </label>
+                </div>
+              </label>
               <label className="span-2">Nội dung bài viết<textarea rows="10" value={form.body} onChange={(e) => setForm({ ...form, body: e.target.value })} /></label>
             </div>
             <footer><button type="button" className="admin-secondary" onClick={() => setEditing(null)}>Hủy</button><button className="admin-primary">Lưu bài viết</button></footer>
